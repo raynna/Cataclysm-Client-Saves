@@ -1,0 +1,45 @@
+VER 3 0000000000000007 "Carl" "134175"
+/target [@Annyar] 
+/cast Regrowth
+END
+VER 3 0000000000000004 "Mouse Nourish" "236162"
+#showtooltip
+/cast [@mouseover, help, nodead] Nourish
+END
+VER 3 0000000000000006 "Mouse Regrowth" "136085"
+#showtooltip
+/cast [@mouseover, help, nodead] Regrowth
+END
+VER 3 0000000000000001 "Mouse Reju" "136081"
+#showtooltip
+/cast [@mouseover, help, nodead] Rejuvenation
+END
+VER 3 000000000000000A "Reload UI" "133015"
+/console reloadui
+END
+VER 3 0000000000000003 "Self Nourish" "236162"
+#showtooltip
+/cast [@Raynna] Nourish
+END
+VER 3 0000000000000005 "Self Regrowth" "136085"
+#showtooltip
+/cast [@Raynna] Regrowth
+END
+VER 3 0000000000000002 "Self Reju" "136081"
+#showtooltip
+/cast [@Raynna] Rejuvenation
+END
+VER 3 0000000000000008 "SetTank" "132747"
+/run for i=1,5 do local role=UnitGroupRolesAssigned("party"..i) if role=="TANK" then local name=GetUnitName("party"..i, true) local str="#showtooltip Target Tank\n/target [@"..name.."]\n/cast Regrowth" EditMacro("TargetTank",nil,nil,str,1,1) end end
+END
+VER 3 000000000000000C "TargetEnemy" "413579"
+/cleartarget
+/targetenemy [noexists][dead]
+END
+VER 3 0000000000000009 "TargetTank" "461857"
+#showtooltip Target Tank
+/target [@Annyar]
+/cast Regrowth
+END
+VER 3 000000000000000B "test" "134400"
+END

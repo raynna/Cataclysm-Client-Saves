@@ -1,0 +1,4 @@
+
+ActionBarSimplifierDB = {
+	["absSetting"] = "default",
+}
