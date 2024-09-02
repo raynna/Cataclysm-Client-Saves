@@ -5,7 +5,7 @@ MinimapButtonButtonOptions = {
 	["blacklist"] = {
 	},
 	["buttonScale"] = 1,
-	["buttonsShown"] = false,
+	["buttonsShown"] = true,
 	["version"] = 5,
 	["position"] = {
 		"TOPRIGHT", -- [1]

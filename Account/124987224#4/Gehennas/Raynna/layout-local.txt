@@ -13,6 +13,13 @@ X: -207
 Y: -37
 W: 610
 H: 463
+Frame: HealBot_Options
+FrameLevel: 1
+Anchor: RIGHT
+X: -70
+Y: 10
+W: 860
+H: 750
 Frame: scanner_button
 FrameLevel: 200
 Anchor: BOTTOMRIGHT
@@ -27,10 +34,3 @@ X: -100
 Y: -30
 W: 550
 H: 520
-Frame: HealBot_Options
-FrameLevel: 1
-Anchor: RIGHT
-X: -81
-Y: 22
-W: 860
-H: 750

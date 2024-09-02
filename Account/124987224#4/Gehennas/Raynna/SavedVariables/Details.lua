@@ -15,15 +15,14 @@ _detalhes_database = {
 							["totalabsorbed"] = 0.006268,
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
+							["aID"] = "4476-05973846",
 							["total_without_pet"] = 447.006268,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
 							["total"] = 447.006268,
 							["spec"] = 102,
 							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["total_extra"] = 0,
 							["serial"] = "Player-4476-05973846",
 							["damage_from"] = {
@@ -38,7 +37,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1725126956,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Raynna",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -46,7 +46,7 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["b_amt"] = 1,
 										["g_amt"] = 0,
-										["b_dmg"] = 44,
+										["n_max"] = 68,
 										["targets"] = {
 											["Riverpaw Basher"] = 169,
 										},
@@ -67,14 +67,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 3,
-										["n_max"] = 68,
+										["b_dmg"] = 44,
 										["r_amt"] = 0,
 									}, -- [1]
 									[8921] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["b_dmg"] = 0,
+										["n_max"] = 35,
 										["targets"] = {
 											["Riverpaw Shaman"] = 278,
 										},
@@ -95,14 +95,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 8,
-										["n_max"] = 35,
+										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["aID"] = "4476-05973846",
+							["classe"] = "DRUID",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1725126951,
@@ -118,7 +118,7 @@ _detalhes_database = {
 							["classe"] = "UNKNOW",
 							["total_without_pet"] = 552.006768,
 							["last_dps_realtime"] = 0,
-							["monster"] = true,
+							["dps_started"] = false,
 							["total"] = 552.006768,
 							["friendlyfire"] = {
 							},
@@ -145,7 +145,7 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["b_dmg"] = 0,
+										["n_max"] = 110,
 										["targets"] = {
 											["Raynna"] = 552,
 										},
@@ -166,14 +166,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 6,
-										["n_max"] = 110,
+										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									}, -- [1]
 									[86814] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["b_dmg"] = 0,
+										["n_max"] = 0,
 										["targets"] = {
 										},
 										["n_total"] = 0,
@@ -192,13 +192,13 @@ _detalhes_database = {
 										["successful_casted"] = 1,
 										["c_total"] = 0,
 										["n_amt"] = 0,
-										["n_max"] = 0,
+										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["dps_started"] = false,
+							["monster"] = true,
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1725126952,
@@ -214,7 +214,7 @@ _detalhes_database = {
 							["classe"] = "UNKNOW",
 							["total_without_pet"] = 168.003409,
 							["last_dps_realtime"] = 0,
-							["monster"] = true,
+							["dps_started"] = false,
 							["total"] = 168.003409,
 							["friendlyfire"] = {
 							},
@@ -241,7 +241,7 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["b_dmg"] = 0,
+										["n_max"] = 63,
 										["targets"] = {
 											["Raynna"] = 168,
 										},
@@ -261,13 +261,13 @@ _detalhes_database = {
 										["successful_casted"] = 3,
 										["c_total"] = 0,
 										["n_amt"] = 3,
-										["n_max"] = 63,
+										["b_dmg"] = 0,
 										["r_amt"] = 3,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["dps_started"] = false,
+							["monster"] = true,
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1725126946,
@@ -284,7 +284,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
+							["healing_from"] = {
+								["Raynna"] = true,
 							},
 							["pets"] = {
 							},
@@ -293,8 +294,7 @@ _detalhes_database = {
 							["totalover"] = 0.00823,
 							["total_without_pet"] = 270.00823,
 							["total"] = 270.00823,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 102,
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 1,
@@ -329,12 +329,12 @@ _detalhes_database = {
 										["counter"] = 2,
 										["overheal"] = 0,
 										["total"] = 270,
-										["spellschool"] = 8,
+										["c_max"] = 180,
 										["id"] = 774,
 										["targets_absorbs"] = {
 										},
 										["c_min"] = 180,
-										["c_max"] = 180,
+										["spellschool"] = 8,
 										["c_total"] = 180,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
@@ -344,15 +344,15 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["healing_from"] = {
-								["Raynna"] = true,
+							["targets_overheal"] = {
 							},
 							["start_time"] = 1725126950,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.00823,
 							["delay"] = 0,
-							["spec"] = 102,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -395,8 +395,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-							},
+							["buff_uptime"] = 37,
 							["classe"] = "DRUID",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -449,23 +448,23 @@ _detalhes_database = {
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 31,
-							["debuff_uptime_targets"] = {
-							},
+							["nome"] = "Raynna",
 							["spec"] = 102,
 							["grupo"] = true,
-							["buff_uptime"] = 37,
+							["pets"] = {
+							},
 							["aID"] = "4476-05973846",
 							["tipo"] = 4,
-							["last_event"] = 1725126953,
-							["nome"] = "Raynna",
-							["serial"] = "Player-4476-05973846",
+							["debuff_uptime_targets"] = {
+							},
 							["buff_uptime_targets"] = {
 							},
+							["serial"] = "Player-4476-05973846",
+							["last_event"] = 1725126953,
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
+							["buff_uptime"] = 0,
 							["buff_uptime_targets"] = {
 							},
 							["aID"] = "4440-04AAD9B8",
@@ -488,7 +487,8 @@ _detalhes_database = {
 							},
 							["nome"] = "Bangdasul-Everlook",
 							["grupo"] = true,
-							["buff_uptime"] = 0,
+							["pets"] = {
+							},
 							["tipo"] = 4,
 							["classe"] = "MAGE",
 							["serial"] = "Player-4440-04AAD9B8",
@@ -498,27 +498,27 @@ _detalhes_database = {
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["monster"] = true,
-							["nome"] = "Riverpaw Shaman",
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["tipo"] = 4,
-							["serial"] = "Creature-0-4448-34-7800-46252-00025357E2",
 							["aID"] = "46252",
+							["fight_component"] = true,
+							["nome"] = "Riverpaw Shaman",
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-4448-34-7800-46252-00025357E2",
+							["tipo"] = 4,
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["monster"] = true,
-							["nome"] = "Riverpaw Basher",
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["tipo"] = 4,
-							["serial"] = "Creature-0-4448-34-7800-46248-00005357E3",
 							["aID"] = "46248",
+							["fight_component"] = true,
+							["nome"] = "Riverpaw Basher",
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-4448-34-7800-46248-00005357E3",
+							["tipo"] = 4,
 						}, -- [4]
 					},
 				}, -- [4]
@@ -528,7 +528,9 @@ _detalhes_database = {
 					["_ActorTable"] = {
 					},
 				}, -- [5]
-				["boss_hp"] = 1,
+				["raid_roster"] = {
+					["Raynna"] = "Player-4476-05973846",
+				},
 				["CombatStartedAt"] = 20086.732,
 				["tempo_start"] = 1725126938,
 				["last_events_tables"] = {
@@ -537,9 +539,7 @@ _detalhes_database = {
 				},
 				["bossTimers"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["combat_counter"] = 1200,
 				["playerTalents"] = {
 					["Raynna"] = {
 						{
@@ -1215,12 +1215,12 @@ _detalhes_database = {
 						}, -- [1]
 					},
 				},
-				["raid_roster"] = {
-					["Raynna"] = "Player-4476-05973846",
-				},
+				["boss_hp"] = 1,
 				["start_time"] = 20068.693,
 				["contra"] = "Riverpaw Shaman",
-				["combat_counter"] = 1200,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 			}, -- [1]
 			{
 				{
@@ -1232,14 +1232,15 @@ _detalhes_database = {
 							["totalabsorbed"] = 0.007736,
 							["pets"] = {
 							},
-							["aID"] = "4476-05973846",
+							["classe"] = "DRUID",
 							["total_without_pet"] = 2024.007736,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
 							["total"] = 2024.007736,
 							["spec"] = 105,
 							["colocacao"] = 1,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["total_extra"] = 0,
 							["serial"] = "Player-4476-05973846",
 							["damage_from"] = {
@@ -1252,8 +1253,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1725123349,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Raynna",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1261,7 +1261,7 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 138,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Captain Peake"] = 1092,
 										},
@@ -1282,14 +1282,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 8,
-										["b_dmg"] = 0,
+										["n_max"] = 138,
 										["r_amt"] = 0,
 									},
 									[5570] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 21,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Captain Peake"] = 374,
 										},
@@ -1311,14 +1311,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 31,
 										["n_amt"] = 17,
-										["b_dmg"] = 0,
+										["n_max"] = 21,
 										["r_amt"] = 0,
 									},
 									[2912] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 206,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Captain Peake"] = 206,
 										},
@@ -1339,14 +1339,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
+										["n_max"] = 206,
 										["r_amt"] = 0,
 									},
 									[8921] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 33,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Captain Peake"] = 352,
 										},
@@ -1367,14 +1367,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 14,
-										["b_dmg"] = 0,
+										["n_max"] = 33,
 										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["classe"] = "DRUID",
+							["aID"] = "4476-05973846",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1725123348,
@@ -1390,7 +1390,7 @@ _detalhes_database = {
 							["classe"] = "UNKNOW",
 							["total_without_pet"] = 768.008444,
 							["last_dps_realtime"] = 0,
-							["dps_started"] = false,
+							["monster"] = true,
 							["total"] = 768.008444,
 							["friendlyfire"] = {
 							},
@@ -1417,7 +1417,7 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 51,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Raynna"] = 636,
 										},
@@ -1438,14 +1438,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 14,
-										["b_dmg"] = 0,
+										["n_max"] = 51,
 										["r_amt"] = 0,
 									}, -- [1]
 									[32971] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 48,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Raynna"] = 132,
 										},
@@ -1465,14 +1465,14 @@ _detalhes_database = {
 										["successful_casted"] = 1,
 										["c_total"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
+										["n_max"] = 48,
 										["r_amt"] = 3,
 									},
 									[42972] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 0,
+										["b_dmg"] = 0,
 										["targets"] = {
 										},
 										["n_total"] = 0,
@@ -1491,13 +1491,13 @@ _detalhes_database = {
 										["successful_casted"] = 1,
 										["c_total"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
+										["n_max"] = 0,
 										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["monster"] = true,
+							["dps_started"] = false,
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1725123347,
@@ -1514,7 +1514,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Raynna"] = 262,
 							},
 							["pets"] = {
 							},
@@ -1523,7 +1524,8 @@ _detalhes_database = {
 							["totalover"] = 262.005438,
 							["total_without_pet"] = 786.005438,
 							["total"] = 786.005438,
-							["spec"] = 66,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 1,
@@ -1559,12 +1561,12 @@ _detalhes_database = {
 										["counter"] = 3,
 										["overheal"] = 262,
 										["total"] = 786,
-										["c_max"] = 0,
+										["spellschool"] = 2,
 										["id"] = 635,
 										["targets_absorbs"] = {
 										},
 										["c_min"] = 0,
-										["spellschool"] = 2,
+										["c_max"] = 0,
 										["c_total"] = 0,
 										["totaldenied"] = 0,
 										["n_amt"] = 3,
@@ -1574,21 +1576,18 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["targets_overheal"] = {
-								["Raynna"] = 262,
+							["healing_from"] = {
 							},
 							["start_time"] = 1725123339,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.005438,
 							["delay"] = 0,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 66,
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Annyar"] = true,
+							["targets_overheal"] = {
 							},
 							["pets"] = {
 							},
@@ -1597,7 +1596,8 @@ _detalhes_database = {
 							["totalover"] = 0.00658,
 							["total_without_pet"] = 0.00658,
 							["total"] = 0.00658,
-							["spec"] = 105,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 2,
@@ -1621,15 +1621,15 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["targets_overheal"] = {
+							["healing_from"] = {
+								["Annyar"] = true,
 							},
 							["start_time"] = 1725123349,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.00658,
 							["delay"] = 0,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 105,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -1649,17 +1649,6 @@ _detalhes_database = {
 							["aID"] = "4476-059741C0",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
-									[465] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 39,
-										["id"] = 465,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									[20154] = {
 										["appliedamt"] = 1,
 										["targets"] = {
@@ -1671,13 +1660,13 @@ _detalhes_database = {
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[25780] = {
+									[465] = {
 										["appliedamt"] = 1,
 										["targets"] = {
 										},
 										["activedamt"] = 1,
 										["uptime"] = 39,
-										["id"] = 25780,
+										["id"] = 465,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -1694,19 +1683,30 @@ _detalhes_database = {
 										["actived"] = true,
 										["counter"] = 0,
 									},
+									[25780] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 39,
+										["id"] = 25780,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
 								},
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
+							["pets"] = {
+							},
 							["nome"] = "Annyar",
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 66,
 							["grupo"] = true,
 							["last_event"] = 1725123349,
-							["pets"] = {
-							},
+							["tipo"] = 4,
 							["serial"] = "Player-4476-059741C0",
 							["classe"] = "PALADIN",
 						}, -- [1]
@@ -1741,16 +1741,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
+							["aID"] = "4476-05973846",
 							["fight_component"] = true,
 							["debuff_uptime"] = 59,
-							["debuff_uptime_targets"] = {
-							},
+							["nome"] = "Raynna",
 							["spec"] = 105,
 							["grupo"] = true,
-							["nome"] = "Raynna",
+							["debuff_uptime_targets"] = {
+							},
 							["last_event"] = 1725123348,
-							["aID"] = "4476-05973846",
+							["classe"] = "DRUID",
 							["serial"] = "Player-4476-05973846",
 							["tipo"] = 4,
 						}, -- [2]
@@ -1759,13 +1759,13 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "UNKNOW",
-							["fight_component"] = true,
-							["nome"] = "Captain Peake",
 							["monster"] = true,
-							["tipo"] = 4,
-							["aID"] = "37157",
-							["serial"] = "Creature-0-4469-1-102-37157-0000534A49",
+							["nome"] = "Captain Peake",
+							["fight_component"] = true,
 							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-4469-1-102-37157-0000534A49",
+							["aID"] = "37157",
 						}, -- [3]
 					},
 				}, -- [4]
@@ -1775,9 +1775,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 					},
 				}, -- [5]
-				["raid_roster"] = {
-					["Raynna"] = "Player-4476-05973846",
-				},
+				["boss_hp"] = 1,
 				["tempo_start"] = 1725123310,
 				["last_events_tables"] = {
 				},
@@ -1785,7 +1783,9 @@ _detalhes_database = {
 				},
 				["bossTimers"] = {
 				},
-				["combat_counter"] = 1176,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playerTalents"] = {
 					["Raynna"] = {
 						{
@@ -2392,8 +2392,8 @@ _detalhes_database = {
 						["Deadly Poison"] = 1,
 					},
 					["Raynna"] = {
-						["Moonfire"] = 3,
 						["Starfire"] = 1,
+						["Moonfire"] = 3,
 						["Wrath"] = 8,
 						["Insect Swarm"] = 4,
 					},
@@ -2446,7 +2446,9 @@ _detalhes_database = {
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["boss_hp"] = 1,
+				["raid_roster"] = {
+					["Raynna"] = "Player-4476-05973846",
+				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -2470,9 +2472,7 @@ _detalhes_database = {
 				},
 				["start_time"] = 16441.395,
 				["contra"] = "Captain Peake",
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["combat_counter"] = 1176,
 			}, -- [2]
 			{
 				{
@@ -2484,14 +2484,15 @@ _detalhes_database = {
 							["totalabsorbed"] = 0.007069,
 							["pets"] = {
 							},
-							["aID"] = "4476-059741C0",
+							["classe"] = "PALADIN",
 							["total_without_pet"] = 2739.007069,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
 							["total"] = 2739.007069,
 							["spec"] = 66,
 							["colocacao"] = 1,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["total_extra"] = 0,
 							["serial"] = "Player-4476-059741C0",
 							["damage_from"] = {
@@ -2504,8 +2505,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1725123285,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Annyar",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2513,7 +2513,7 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["b_amt"] = 1,
 										["g_amt"] = 0,
-										["n_max"] = 81,
+										["b_dmg"] = 56,
 										["targets"] = {
 											["Tower Warden"] = 217,
 										},
@@ -2522,12 +2522,12 @@ _detalhes_database = {
 										["g_dmg"] = 0,
 										["counter"] = 7,
 										["a_amt"] = 0,
-										["total"] = 217,
-										["c_max"] = 0,
+										["r_amt"] = 0,
+										["spellschool"] = 1,
 										["DODGE"] = 3,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
+										["c_max"] = 0,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
@@ -2536,14 +2536,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 56,
-										["r_amt"] = 0,
+										["n_max"] = 81,
+										["total"] = 217,
 									}, -- [1]
 									[31935] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 297,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Tower Warden"] = 1380,
 										},
@@ -2564,14 +2564,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 589,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
+										["n_max"] = 297,
 										["r_amt"] = 0,
 									},
 									[53595] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 25,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Tower Warden"] = 46,
 										},
@@ -2593,14 +2593,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
+										["n_max"] = 25,
 										["r_amt"] = 0,
 									},
 									[25742] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 17,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Tower Warden"] = 61,
 										},
@@ -2621,14 +2621,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 4,
-										["b_dmg"] = 0,
+										["n_max"] = 17,
 										["r_amt"] = 0,
 									},
 									[88263] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 117,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Tower Warden"] = 443,
 										},
@@ -2649,42 +2649,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[20187] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 104,
-										["targets"] = {
-											["Tower Warden"] = 288,
-										},
-										["n_total"] = 288,
-										["n_min"] = 86,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 288,
-										["c_max"] = 0,
-										["id"] = 20187,
-										["r_dmg"] = 0,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["c_total"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
+										["n_max"] = 117,
 										["r_amt"] = 0,
 									},
 									[81297] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 18,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Tower Warden"] = 304,
 										},
@@ -2705,14 +2677,42 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 18,
+										["n_max"] = 18,
+										["r_amt"] = 0,
+									},
+									[20187] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["g_amt"] = 0,
 										["b_dmg"] = 0,
+										["targets"] = {
+											["Tower Warden"] = 288,
+										},
+										["n_total"] = 288,
+										["n_min"] = 86,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 288,
+										["c_max"] = 0,
+										["id"] = 20187,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["c_total"] = 0,
+										["n_amt"] = 3,
+										["n_max"] = 104,
 										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["classe"] = "PALADIN",
+							["aID"] = "4476-059741C0",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1725123283,
@@ -2726,14 +2726,15 @@ _detalhes_database = {
 							["totalabsorbed"] = 0.008492,
 							["pets"] = {
 							},
-							["aID"] = "4476-05973846",
+							["classe"] = "DRUID",
 							["total_without_pet"] = 816.0084919999999,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
 							["total"] = 816.0084919999999,
 							["spec"] = 105,
 							["colocacao"] = 2,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["total_extra"] = 0,
 							["serial"] = "Player-4476-05973846",
 							["damage_from"] = {
@@ -2746,8 +2747,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1725123285,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Raynna",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2755,7 +2755,7 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 138,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Tower Warden"] = 273,
 										},
@@ -2776,14 +2776,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
+										["n_max"] = 138,
 										["r_amt"] = 0,
 									},
 									[5570] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 21,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Tower Warden"] = 101,
 										},
@@ -2804,14 +2804,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 5,
-										["b_dmg"] = 0,
+										["n_max"] = 21,
 										["r_amt"] = 0,
 									},
 									[2912] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 0,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Tower Warden"] = 296,
 										},
@@ -2832,14 +2832,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 296,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
+										["n_max"] = 0,
 										["r_amt"] = 0,
 									},
 									[467] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 49,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Tower Warden"] = 146,
 										},
@@ -2860,14 +2860,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
+										["n_max"] = 49,
 										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["classe"] = "DRUID",
+							["aID"] = "4476-05973846",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1725123283,
@@ -2883,7 +2883,7 @@ _detalhes_database = {
 							["classe"] = "UNKNOW",
 							["total_without_pet"] = 1011.008172,
 							["last_dps_realtime"] = 0,
-							["dps_started"] = false,
+							["monster"] = true,
 							["total"] = 1011.008172,
 							["friendlyfire"] = {
 							},
@@ -2909,23 +2909,23 @@ _detalhes_database = {
 							["spells"] = {
 								["_ActorTable"] = {
 									{
-										["c_amt"] = 1,
+										["DODGE"] = 2,
 										["b_amt"] = 2,
 										["g_amt"] = 0,
-										["n_max"] = 59,
+										["b_dmg"] = 58,
 										["targets"] = {
 											["Annyar"] = 344,
 											["Raynna"] = 667,
 										},
 										["n_total"] = 906,
-										["MISS"] = 2,
-										["n_min"] = 28,
 										["g_dmg"] = 0,
+										["n_min"] = 28,
+										["MISS"] = 2,
 										["counter"] = 25,
 										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["total"] = 1011,
 										["c_max"] = 105,
-										["DODGE"] = 2,
+										["c_amt"] = 1,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
@@ -2937,14 +2937,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 105,
 										["n_amt"] = 19,
-										["b_dmg"] = 58,
-										["total"] = 1011,
+										["r_amt"] = 0,
+										["n_max"] = 59,
 									}, -- [1]
 									[32064] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 0,
+										["b_dmg"] = 0,
 										["targets"] = {
 										},
 										["n_total"] = 0,
@@ -2963,13 +2963,13 @@ _detalhes_database = {
 										["successful_casted"] = 2,
 										["c_total"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
+										["n_max"] = 0,
 										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["monster"] = true,
+							["dps_started"] = false,
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1725123282,
@@ -2986,8 +2986,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Raynna"] = true,
+							["targets_overheal"] = {
+								["Raynna"] = 45,
 							},
 							["pets"] = {
 							},
@@ -2996,7 +2996,8 @@ _detalhes_database = {
 							["totalover"] = 45.004756,
 							["total_without_pet"] = 455.004756,
 							["total"] = 455.004756,
-							["spec"] = 105,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 1,
@@ -3032,12 +3033,12 @@ _detalhes_database = {
 										["counter"] = 4,
 										["overheal"] = 45,
 										["total"] = 455,
-										["c_max"] = 0,
+										["spellschool"] = 8,
 										["id"] = 774,
 										["targets_absorbs"] = {
 										},
 										["c_min"] = 0,
-										["spellschool"] = 8,
+										["c_max"] = 0,
 										["c_total"] = 0,
 										["totaldenied"] = 0,
 										["n_amt"] = 4,
@@ -3047,21 +3048,19 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["targets_overheal"] = {
-								["Raynna"] = 45,
+							["healing_from"] = {
+								["Raynna"] = true,
 							},
 							["start_time"] = 1725123275,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.004756,
 							["delay"] = 1725123274,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 105,
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
-								["Annyar"] = true,
+							["targets_overheal"] = {
 							},
 							["pets"] = {
 							},
@@ -3070,7 +3069,8 @@ _detalhes_database = {
 							["totalover"] = 0.006525,
 							["total_without_pet"] = 182.006525,
 							["total"] = 182.006525,
-							["spec"] = 66,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 2,
@@ -3105,12 +3105,12 @@ _detalhes_database = {
 										["counter"] = 6,
 										["overheal"] = 0,
 										["total"] = 182,
-										["c_max"] = 0,
+										["spellschool"] = 1,
 										["id"] = 59913,
 										["targets_absorbs"] = {
 										},
 										["c_min"] = 0,
-										["spellschool"] = 1,
+										["c_max"] = 0,
 										["c_total"] = 0,
 										["totaldenied"] = 0,
 										["n_amt"] = 6,
@@ -3120,15 +3120,15 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["targets_overheal"] = {
+							["healing_from"] = {
+								["Annyar"] = true,
 							},
 							["start_time"] = 1725123275,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.006525,
 							["delay"] = 0,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 66,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -3141,8 +3141,8 @@ _detalhes_database = {
 							["resource"] = 2.004186,
 							["pets"] = {
 							},
-							["aID"] = "4476-059741C0",
-							["passiveover"] = 0.004186,
+							["classe"] = "PALADIN",
+							["totalover"] = 0.004186,
 							["total"] = 448.004186,
 							["spec"] = 66,
 							["serial"] = "Player-4476-059741C0",
@@ -3158,8 +3158,8 @@ _detalhes_database = {
 								["_ActorTable"] = {
 									[31930] = {
 										["total"] = 448,
-										["id"] = 31930,
 										["totalover"] = 0,
+										["id"] = 31930,
 										["targets"] = {
 											["Annyar"] = 448,
 										},
@@ -3169,8 +3169,8 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["classe"] = "PALADIN",
-							["totalover"] = 0.004186,
+							["aID"] = "4476-059741C0",
+							["passiveover"] = 0.004186,
 							["tipo"] = 3,
 							["fight_component"] = true,
 							["resource_type"] = 9,
@@ -3183,8 +3183,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
+							["buff_uptime"] = 87,
 							["cc_done_spells"] = {
 								["_ActorTable"] = {
 									[31935] = {
@@ -3197,7 +3196,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["classe"] = "PALADIN",
+							["aID"] = "4476-059741C0",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[465] = {
@@ -3233,17 +3232,6 @@ _detalhes_database = {
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[76691] = {
-										["appliedamt"] = 0,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = 76691,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									[25780] = {
 										["appliedamt"] = 1,
 										["targets"] = {
@@ -3251,6 +3239,17 @@ _detalhes_database = {
 										["activedamt"] = 1,
 										["uptime"] = 29,
 										["id"] = 25780,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[76691] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 76691,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -3278,9 +3277,10 @@ _detalhes_database = {
 							["cc_done_targets"] = {
 								["Tower Warden"] = 4,
 							},
-							["buff_uptime"] = 87,
+							["pets"] = {
+							},
 							["tipo"] = 4,
-							["aID"] = "4476-059741C0",
+							["classe"] = "PALADIN",
 							["buff_uptime_targets"] = {
 							},
 							["serial"] = "Player-4476-059741C0",
@@ -3291,13 +3291,13 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "UNKNOW",
-							["fight_component"] = true,
-							["nome"] = "Tower Warden",
 							["monster"] = true,
-							["tipo"] = 4,
-							["aID"] = "37160",
-							["serial"] = "Creature-0-4469-1-102-37160-0000534A7F",
+							["nome"] = "Tower Warden",
+							["fight_component"] = true,
 							["last_event"] = 0,
+							["tipo"] = 4,
+							["serial"] = "Creature-0-4469-1-102-37160-0000534A7F",
+							["aID"] = "37160",
 						}, -- [2]
 						{
 							["flag_original"] = 1297,
@@ -3317,8 +3317,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-							},
+							["buff_uptime"] = 23,
 							["classe"] = "DRUID",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -3349,18 +3348,19 @@ _detalhes_database = {
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 10,
-							["nome"] = "Raynna",
-							["spec"] = 105,
-							["grupo"] = true,
-							["buff_uptime"] = 23,
-							["aID"] = "4476-05973846",
-							["last_event"] = 1725123285,
-							["debuff_uptime_targets"] = {
-							},
 							["buff_uptime_targets"] = {
 							},
-							["serial"] = "Player-4476-05973846",
+							["spec"] = 105,
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["aID"] = "4476-05973846",
 							["tipo"] = 4,
+							["last_event"] = 1725123285,
+							["nome"] = "Raynna",
+							["serial"] = "Player-4476-05973846",
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [3]
 					},
 				}, -- [4]
@@ -3370,9 +3370,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 					},
 				}, -- [5]
-				["raid_roster"] = {
-					["Raynna"] = "Player-4476-05973846",
-				},
+				["boss_hp"] = 1,
 				["CombatStartedAt"] = 16441.264,
 				["tempo_start"] = 1725123256,
 				["last_events_tables"] = {
@@ -3381,7 +3379,9 @@ _detalhes_database = {
 				},
 				["bossTimers"] = {
 				},
-				["combat_counter"] = 1175,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playerTalents"] = {
 					["Annyar"] = {
 						{
@@ -4548,12 +4548,12 @@ _detalhes_database = {
 						}, -- [1]
 					},
 				},
-				["boss_hp"] = 1,
+				["raid_roster"] = {
+					["Raynna"] = "Player-4476-05973846",
+				},
 				["start_time"] = 16386.662,
 				["contra"] = "Tower Warden",
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["combat_counter"] = 1175,
 			}, -- [3]
 			{
 				{
@@ -4565,14 +4565,15 @@ _detalhes_database = {
 							["totalabsorbed"] = 0.005923,
 							["pets"] = {
 							},
-							["aID"] = "4476-059741C0",
+							["classe"] = "PALADIN",
 							["total_without_pet"] = 195.005923,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
 							["total"] = 195.005923,
 							["spec"] = 66,
 							["colocacao"] = 1,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["total_extra"] = 0,
 							["serial"] = "Player-4476-059741C0",
 							["damage_from"] = {
@@ -4584,8 +4585,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1725123150,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Annyar",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4593,7 +4593,7 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 67,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Tower Warden"] = 67,
 										},
@@ -4614,14 +4614,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
+										["n_max"] = 67,
 										["r_amt"] = 0,
 									}, -- [1]
 									[25742] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 14,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Tower Warden"] = 14,
 										},
@@ -4642,14 +4642,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
+										["n_max"] = 14,
 										["r_amt"] = 0,
 									},
 									[35395] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 114,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Tower Warden"] = 114,
 										},
@@ -4670,14 +4670,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
+										["n_max"] = 114,
 										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["classe"] = "PALADIN",
+							["aID"] = "4476-059741C0",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1725123149,
@@ -4693,7 +4693,7 @@ _detalhes_database = {
 							["classe"] = "UNKNOW",
 							["total_without_pet"] = 0.008415,
 							["last_dps_realtime"] = 0,
-							["dps_started"] = false,
+							["monster"] = true,
 							["total"] = 0.008415,
 							["friendlyfire"] = {
 							},
@@ -4718,7 +4718,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["monster"] = true,
+							["dps_started"] = false,
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 0,
@@ -4735,8 +4735,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1298,
-							["healing_from"] = {
-								["Annyar"] = true,
+							["targets_overheal"] = {
 							},
 							["pets"] = {
 							},
@@ -4745,7 +4744,8 @@ _detalhes_database = {
 							["totalover"] = 0.002612,
 							["total_without_pet"] = 61.002612,
 							["total"] = 61.002612,
-							["spec"] = 66,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 1,
@@ -4780,12 +4780,12 @@ _detalhes_database = {
 										["counter"] = 2,
 										["overheal"] = 0,
 										["total"] = 61,
-										["c_max"] = 0,
+										["spellschool"] = 1,
 										["id"] = 59913,
 										["targets_absorbs"] = {
 										},
 										["c_min"] = 0,
-										["spellschool"] = 1,
+										["c_max"] = 0,
 										["c_total"] = 0,
 										["totaldenied"] = 0,
 										["n_amt"] = 2,
@@ -4795,15 +4795,15 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["targets_overheal"] = {
+							["healing_from"] = {
+								["Annyar"] = true,
 							},
 							["start_time"] = 1725123149,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["totaldenied"] = 0.002612,
 							["delay"] = 0,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 66,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -4816,8 +4816,8 @@ _detalhes_database = {
 							["resource"] = 0.005522,
 							["pets"] = {
 							},
-							["aID"] = "4476-059741C0",
-							["passiveover"] = 0.005522,
+							["classe"] = "PALADIN",
+							["totalover"] = 0.005522,
 							["total"] = 20.005522,
 							["spec"] = 66,
 							["serial"] = "Player-4476-059741C0",
@@ -4832,8 +4832,8 @@ _detalhes_database = {
 								["_ActorTable"] = {
 									[31930] = {
 										["total"] = 20,
-										["id"] = 31930,
 										["totalover"] = 0,
+										["id"] = 31930,
 										["targets"] = {
 											["Annyar"] = 20,
 										},
@@ -4843,8 +4843,8 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["totalover"] = 0.005522,
-							["classe"] = "PALADIN",
+							["passiveover"] = 0.005522,
+							["aID"] = "4476-059741C0",
 							["tipo"] = 3,
 							["fight_component"] = true,
 							["last_event"] = 1725123150,
@@ -4884,7 +4884,8 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime"] = 5,
+							["pets"] = {
+							},
 							["classe"] = "PALADIN",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -4948,19 +4949,18 @@ _detalhes_database = {
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 2,
-							["nome"] = "Annyar",
-							["spec"] = 66,
-							["grupo"] = true,
-							["pets"] = {
-							},
-							["aID"] = "4476-059741C0",
-							["last_event"] = 1725123150,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
-							["serial"] = "Player-4476-059741C0",
+							["spec"] = 66,
+							["grupo"] = true,
+							["buff_uptime"] = 5,
+							["aID"] = "4476-059741C0",
 							["tipo"] = 4,
+							["last_event"] = 1725123150,
+							["nome"] = "Annyar",
+							["serial"] = "Player-4476-059741C0",
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 1047,
@@ -4984,11 +4984,11 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["buff_uptime"] = 1,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Raynna",
 							["spec"] = 105,
 							["grupo"] = true,
-							["nome"] = "Raynna",
+							["buff_uptime_targets"] = {
+							},
 							["last_event"] = 1725123150,
 							["classe"] = "DRUID",
 							["serial"] = "Player-4476-05973846",
@@ -5002,9 +5002,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 					},
 				}, -- [5]
-				["raid_roster"] = {
-					["Raynna"] = "Player-4476-05973846",
-				},
+				["boss_hp"] = 1,
 				["CombatStartedAt"] = 16384.552,
 				["tempo_start"] = 1725123149,
 				["last_events_tables"] = {
@@ -5013,9 +5011,7 @@ _detalhes_database = {
 				},
 				["bossTimers"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["combat_counter"] = 1174,
 				["playerTalents"] = {
 					["Annyar"] = {
 						{
@@ -5547,7 +5543,8 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Tower Warden"] = 1,
 				},
 				["PhaseData"] = {
 					{
@@ -5569,7 +5566,9 @@ _detalhes_database = {
 						}, -- [1]
 					},
 				},
-				["boss_hp"] = 1,
+				["raid_roster"] = {
+					["Raynna"] = "Player-4476-05973846",
+				},
 				["totals_grupo"] = {
 					195, -- [1]
 					61, -- [2]
@@ -5591,11 +5590,12 @@ _detalhes_database = {
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["combat_counter"] = 1174,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["start_time"] = 16279.729,
 				["contra"] = "Tower Warden",
-				["frags"] = {
-					["Tower Warden"] = 1,
+				["spells_cast_timeline"] = {
 				},
 			}, -- [4]
 			{
@@ -5608,14 +5608,15 @@ _detalhes_database = {
 							["totalabsorbed"] = 0.003379,
 							["pets"] = {
 							},
-							["aID"] = "4476-059741C0",
+							["classe"] = "PALADIN",
 							["total_without_pet"] = 341.003379,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
 							["total"] = 341.003379,
 							["spec"] = 66,
 							["colocacao"] = 1,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["total_extra"] = 0,
 							["serial"] = "Player-4476-059741C0",
 							["damage_from"] = {
@@ -5628,8 +5629,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1725123149,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Annyar",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5637,7 +5637,7 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 78,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Tower Warden"] = 78,
 										},
@@ -5658,14 +5658,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
+										["n_max"] = 78,
 										["r_amt"] = 0,
 									}, -- [1]
 									[31935] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 249,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Tower Warden"] = 249,
 										},
@@ -5686,14 +5686,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
+										["n_max"] = 249,
 										["r_amt"] = 0,
 									},
 									[25742] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 14,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Tower Warden"] = 14,
 										},
@@ -5714,14 +5714,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
+										["n_max"] = 14,
 										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["classe"] = "PALADIN",
+							["aID"] = "4476-059741C0",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1725123148,
@@ -5737,7 +5737,7 @@ _detalhes_database = {
 							["classe"] = "UNKNOW",
 							["total_without_pet"] = 38.00363,
 							["last_dps_realtime"] = 0,
-							["dps_started"] = false,
+							["monster"] = true,
 							["total"] = 38.00363,
 							["friendlyfire"] = {
 							},
@@ -5765,7 +5765,7 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 38,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Annyar"] = 38,
 										},
@@ -5786,13 +5786,13 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
+										["n_max"] = 38,
 										["r_amt"] = 0,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
-							["monster"] = true,
+							["dps_started"] = false,
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1725123148,
@@ -5818,9 +5818,9 @@ _detalhes_database = {
 							["resource"] = 1.007873,
 							["pets"] = {
 							},
-							["aID"] = "4476-059741C0",
-							["passiveover"] = 0.007873,
-							["total"] = 40.007873,
+							["classe"] = "PALADIN",
+							["totalover"] = 0.007873,
+							["resource_type"] = 9,
 							["spec"] = 66,
 							["serial"] = "Player-4476-059741C0",
 							["received"] = 40.007873,
@@ -5834,8 +5834,8 @@ _detalhes_database = {
 								["_ActorTable"] = {
 									[31930] = {
 										["total"] = 40,
-										["id"] = 31930,
 										["totalover"] = 0,
+										["id"] = 31930,
 										["targets"] = {
 											["Annyar"] = 40,
 										},
@@ -5845,10 +5845,10 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["totalover"] = 0.007873,
-							["classe"] = "PALADIN",
+							["passiveover"] = 0.007873,
+							["aID"] = "4476-059741C0",
 							["last_event"] = 1725123149,
-							["resource_type"] = 9,
+							["total"] = 40.007873,
 							["tipo"] = 3,
 						}, -- [1]
 					},
@@ -5886,7 +5886,8 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime"] = 5,
+							["pets"] = {
+							},
 							["classe"] = "PALADIN",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -5956,10 +5957,9 @@ _detalhes_database = {
 							},
 							["spec"] = 66,
 							["grupo"] = true,
-							["last_event"] = 1725123149,
 							["tipo"] = 4,
-							["pets"] = {
-							},
+							["last_event"] = 1725123149,
+							["buff_uptime"] = 5,
 							["serial"] = "Player-4476-059741C0",
 							["aID"] = "4476-059741C0",
 						}, -- [1]
@@ -5985,11 +5985,11 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["buff_uptime"] = 1,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Raynna",
 							["spec"] = 105,
 							["grupo"] = true,
-							["nome"] = "Raynna",
+							["buff_uptime_targets"] = {
+							},
 							["last_event"] = 1725123149,
 							["classe"] = "DRUID",
 							["serial"] = "Player-4476-05973846",
@@ -6003,9 +6003,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 					},
 				}, -- [5]
-				["raid_roster"] = {
-					["Raynna"] = "Player-4476-05973846",
-				},
+				["boss_hp"] = 1,
 				["tempo_start"] = 1725123148,
 				["last_events_tables"] = {
 				},
@@ -6013,9 +6011,7 @@ _detalhes_database = {
 				},
 				["bossTimers"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["combat_counter"] = 1173,
 				["playerTalents"] = {
 					["Annyar"] = {
 						{
@@ -6544,8 +6540,10 @@ _detalhes_database = {
 				["mapId"] = 1,
 				["combat_id"] = 1059,
 				["overall_added"] = true,
-				["boss_hp"] = 1,
-				["spells_cast_timeline"] = {
+				["raid_roster"] = {
+					["Raynna"] = "Player-4476-05973846",
+				},
+				["frags"] = {
 				},
 				["TimeData"] = {
 				},
@@ -6570,7 +6568,9 @@ _detalhes_database = {
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["combat_counter"] = 1173,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -6592,7 +6592,7 @@ _detalhes_database = {
 				},
 				["start_time"] = 16278.259,
 				["contra"] = "Tower Warden",
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 			}, -- [5]
 			{
@@ -6605,14 +6605,15 @@ _detalhes_database = {
 							["totalabsorbed"] = 0.008792,
 							["pets"] = {
 							},
-							["aID"] = "4476-059741C0",
+							["classe"] = "PALADIN",
 							["total_without_pet"] = 213.008792,
 							["last_dps_realtime"] = 0,
 							["dps_started"] = false,
 							["total"] = 213.008792,
 							["spec"] = 66,
 							["colocacao"] = 1,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["total_extra"] = 0,
 							["serial"] = "Player-4476-059741C0",
 							["damage_from"] = {
@@ -6625,8 +6626,7 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["end_time"] = 1725123147,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["nome"] = "Annyar",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6634,7 +6634,7 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 79,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Tower Warden"] = 79,
 										},
@@ -6655,14 +6655,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
+										["n_max"] = 79,
 										["r_amt"] = 0,
 									}, -- [1]
 									[25742] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 15,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Tower Warden"] = 29,
 										},
@@ -6683,14 +6683,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
+										["n_max"] = 15,
 										["r_amt"] = 0,
 									},
 									[35395] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 105,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Tower Warden"] = 105,
 										},
@@ -6711,14 +6711,14 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
+										["n_max"] = 105,
 										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["classe"] = "PALADIN",
+							["aID"] = "4476-059741C0",
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1725123146,
@@ -6734,7 +6734,7 @@ _detalhes_database = {
 							["classe"] = "UNKNOW",
 							["total_without_pet"] = 35.004674,
 							["last_dps_realtime"] = 0,
-							["dps_started"] = false,
+							["monster"] = true,
 							["total"] = 35.004674,
 							["friendlyfire"] = {
 							},
@@ -6761,7 +6761,7 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 35,
+										["b_dmg"] = 0,
 										["targets"] = {
 											["Annyar"] = 35,
 										},
@@ -6782,13 +6782,13 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["c_total"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
+										["n_max"] = 35,
 										["r_amt"] = 0,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
-							["monster"] = true,
+							["dps_started"] = false,
 							["tipo"] = 1,
 							["custom"] = 0,
 							["last_event"] = 1725123146,
@@ -6814,9 +6814,9 @@ _detalhes_database = {
 							["resource"] = 1.002258,
 							["pets"] = {
 							},
-							["aID"] = "4476-059741C0",
-							["passiveover"] = 0.002258,
-							["total"] = 42.002258,
+							["classe"] = "PALADIN",
+							["totalover"] = 0.002258,
+							["resource_type"] = 9,
 							["spec"] = 66,
 							["serial"] = "Player-4476-059741C0",
 							["received"] = 42.002258,
@@ -6830,8 +6830,8 @@ _detalhes_database = {
 								["_ActorTable"] = {
 									[31930] = {
 										["total"] = 42,
-										["id"] = 31930,
 										["totalover"] = 0,
+										["id"] = 31930,
 										["targets"] = {
 											["Annyar"] = 42,
 										},
@@ -6841,10 +6841,10 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["totalover"] = 0.002258,
-							["classe"] = "PALADIN",
+							["passiveover"] = 0.002258,
+							["aID"] = "4476-059741C0",
 							["last_event"] = 1725123147,
-							["resource_type"] = 9,
+							["total"] = 42.002258,
 							["tipo"] = 3,
 						}, -- [1]
 					},
@@ -6871,7 +6871,8 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime"] = 5,
+							["pets"] = {
+							},
 							["classe"] = "PALADIN",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -6941,10 +6942,9 @@ _detalhes_database = {
 							},
 							["spec"] = 66,
 							["grupo"] = true,
-							["last_event"] = 1725123147,
 							["tipo"] = 4,
-							["pets"] = {
-							},
+							["last_event"] = 1725123147,
+							["buff_uptime"] = 5,
 							["serial"] = "Player-4476-059741C0",
 							["aID"] = "4476-059741C0",
 						}, -- [1]
@@ -6970,11 +6970,11 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["buff_uptime"] = 1,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Raynna",
 							["spec"] = 105,
 							["grupo"] = true,
-							["nome"] = "Raynna",
+							["buff_uptime_targets"] = {
+							},
 							["last_event"] = 1725123147,
 							["classe"] = "DRUID",
 							["serial"] = "Player-4476-05973846",
@@ -6988,9 +6988,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 					},
 				}, -- [5]
-				["raid_roster"] = {
-					["Raynna"] = "Player-4476-05973846",
-				},
+				["boss_hp"] = 1,
 				["tempo_start"] = 1725123146,
 				["last_events_tables"] = {
 				},
@@ -6998,9 +6996,7 @@ _detalhes_database = {
 				},
 				["bossTimers"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["combat_counter"] = 1172,
 				["playerTalents"] = {
 					["Annyar"] = {
 						{
@@ -7532,8 +7528,10 @@ _detalhes_database = {
 				["mapId"] = 1,
 				["combat_id"] = 1058,
 				["overall_added"] = true,
-				["boss_hp"] = 1,
-				["spells_cast_timeline"] = {
+				["raid_roster"] = {
+					["Raynna"] = "Player-4476-05973846",
+				},
+				["frags"] = {
 				},
 				["TimeData"] = {
 				},
@@ -7558,7 +7556,9 @@ _detalhes_database = {
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["combat_counter"] = 1172,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -7580,18 +7580,18 @@ _detalhes_database = {
 				},
 				["start_time"] = 16276.34,
 				["contra"] = "Tower Warden",
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 			}, -- [6]
 		},
 	},
 	["ocd_tracker"] = {
-		["show_title"] = true,
+		["enabled"] = false,
 		["current_cooldowns"] = {
 		},
 		["lines_per_column"] = 12,
 		["group_frames"] = true,
-		["show_options"] = false,
+		["width"] = 120,
 		["frames"] = {
 			["defensive-raid"] = {
 			},
@@ -7606,7 +7606,7 @@ _detalhes_database = {
 			["defensive-personal"] = {
 			},
 		},
-		["width"] = 120,
+		["show_options"] = false,
 		["ignored_cooldowns"] = {
 		},
 		["cooldowns"] = {
@@ -7624,7 +7624,7 @@ _detalhes_database = {
 			["only_inside_instance"] = true,
 			["only_in_group"] = true,
 		},
-		["enabled"] = false,
+		["show_title"] = true,
 		["filters"] = {
 			["itemutil"] = false,
 			["itempower"] = false,
@@ -7722,6989 +7722,6 @@ _detalhes_database = {
 		}, -- [2]
 	},
 	["cached_talents"] = {
-		["Player-4467-04A7248B"] = {
-			{
-				132109, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				259, -- [6]
-				3, -- [7]
-			}, -- [1]
-			{
-				132122, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				259, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				132292, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				259, -- [6]
-				3, -- [7]
-			}, -- [3]
-			{
-				132090, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				259, -- [6]
-				3, -- [7]
-			}, -- [4]
-			{
-				132354, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				1, -- [5]
-				259, -- [6]
-				2, -- [7]
-			}, -- [5]
-			{
-				135988, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				259, -- [6]
-				1, -- [7]
-			}, -- [6]
-			{
-				132205, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				259, -- [6]
-				1, -- [7]
-			}, -- [7]
-			{
-				236281, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				259, -- [6]
-				2, -- [7]
-			}, -- [8]
-			{
-				132293, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				259, -- [6]
-				3, -- [7]
-			}, -- [9]
-			{
-				132108, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				259, -- [6]
-				1, -- [7]
-			}, -- [10]
-			{
-				132301, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				259, -- [6]
-				2, -- [7]
-			}, -- [11]
-			{
-				236270, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				259, -- [6]
-				2, -- [7]
-			}, -- [12]
-			{
-				236269, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				1, -- [5]
-				259, -- [6]
-				3, -- [7]
-			}, -- [13]
-			{
-				458726, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				259, -- [6]
-				1, -- [7]
-			}, -- [14]
-			{
-				458727, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				259, -- [6]
-				2, -- [7]
-			}, -- [15]
-			{
-				458797, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				259, -- [6]
-				2, -- [7]
-			}, -- [16]
-			{
-				136147, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				259, -- [6]
-				2, -- [7]
-			}, -- [17]
-			{
-				458736, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				259, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				132286, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				259, -- [6]
-				3, -- [7]
-			}, -- [19]
-			{
-				132222, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				260, -- [6]
-				3, -- [7]
-			}, -- [20]
-			{
-				136047, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				260, -- [6]
-				3, -- [7]
-			}, -- [21]
-			{
-				136189, -- [1]
-				3, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				260, -- [6]
-				3, -- [7]
-			}, -- [22]
-			{
-				132155, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [23]
-			{
-				136206, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				260, -- [6]
-				1, -- [7]
-			}, -- [24]
-			{
-				132219, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [25]
-			{
-				132307, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [26]
-			{
-				132275, -- [1]
-				2, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				260, -- [6]
-				3, -- [7]
-			}, -- [27]
-			{
-				132283, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [28]
-			{
-				135673, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				260, -- [6]
-				3, -- [7]
-			}, -- [29]
-			{
-				132306, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [30]
-			{
-				236282, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [31]
-			{
-				132100, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [32]
-			{
-				236277, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				260, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				457635, -- [1]
-				2, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [34]
-			{
-				458730, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [35]
-			{
-				458731, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [36]
-			{
-				135407, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				260, -- [6]
-				1, -- [7]
-			}, -- [37]
-			{
-				236278, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				260, -- [6]
-				3, -- [7]
-			}, -- [38]
-			{
-				132320, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				261, -- [6]
-				2, -- [7]
-			}, -- [39]
-			{
-				136159, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				261, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				135994, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				261, -- [6]
-				2, -- [7]
-			}, -- [41]
-			{
-				236268, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				261, -- [6]
-				3, -- [7]
-			}, -- [42]
-			{
-				132282, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				261, -- [6]
-				3, -- [7]
-			}, -- [43]
-			{
-				460693, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				261, -- [6]
-				1, -- [7]
-			}, -- [44]
-			{
-				136183, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				261, -- [6]
-				1, -- [7]
-			}, -- [45]
-			{
-				136168, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				261, -- [6]
-				1, -- [7]
-			}, -- [46]
-			{
-				135315, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				261, -- [6]
-				2, -- [7]
-			}, -- [47]
-			{
-				132285, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				261, -- [6]
-				3, -- [7]
-			}, -- [48]
-			{
-				236286, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				261, -- [6]
-				2, -- [7]
-			}, -- [49]
-			{
-				236275, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				261, -- [6]
-				3, -- [7]
-			}, -- [50]
-			{
-				236280, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				3, -- [5]
-				261, -- [6]
-				3, -- [7]
-			}, -- [51]
-			{
-				236279, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				261, -- [6]
-				1, -- [7]
-			}, -- [52]
-			{
-				132340, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				261, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				132295, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				261, -- [6]
-				2, -- [7]
-			}, -- [54]
-			{
-				457636, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				261, -- [6]
-				2, -- [7]
-			}, -- [55]
-			{
-				132291, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				261, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				458734, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				261, -- [6]
-				3, -- [7]
-			}, -- [57]
-		},
-		["Player-4476-05974417"] = {
-			{
-				132090, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [1]
-			{
-				236397, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [2]
-			{
-				132175, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				132306, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [4]
-			{
-				132364, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [5]
-			{
-				132335, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [6]
-			{
-				132346, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [7]
-			{
-				236303, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [8]
-			{
-				132334, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [9]
-			{
-				458970, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [10]
-			{
-				236317, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [11]
-			{
-				236276, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [12]
-			{
-				458973, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [13]
-			{
-				132312, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				133675, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [15]
-			{
-				133542, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				298660, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [17]
-			{
-				136031, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				132316, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [19]
-			{
-				132340, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [20]
-			{
-				133074, -- [1]
-				3, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [21]
-			{
-				132292, -- [1]
-				2, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				136218, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [23]
-			{
-				136224, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [24]
-			{
-				136147, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [25]
-			{
-				136075, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [26]
-			{
-				136146, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [27]
-			{
-				236308, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [28]
-			{
-				132152, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [29]
-			{
-				460959, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [30]
-			{
-				135358, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [31]
-			{
-				460958, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [32]
-			{
-				132352, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				236306, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [34]
-			{
-				236316, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [35]
-			{
-				458974, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [36]
-			{
-				458971, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [37]
-			{
-				458975, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [38]
-			{
-				132215, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [39]
-			{
-				135396, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				132339, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [41]
-			{
-				236309, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [42]
-			{
-				134952, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [43]
-			{
-				132453, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [44]
-			{
-				132353, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				132359, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [46]
-			{
-				135892, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [47]
-			{
-				132325, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [48]
-			{
-				460957, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [49]
-			{
-				135871, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [50]
-			{
-				134947, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [51]
-			{
-				135291, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [52]
-			{
-				458976, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [53]
-			{
-				236311, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [54]
-			{
-				236318, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [55]
-			{
-				236319, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [56]
-			{
-				236315, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [57]
-			{
-				236312, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [58]
-			{
-				132110, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [59]
-			{
-				236351, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [60]
-			{
-				132342, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [61]
-		},
-		["Player-4441-04A7AFA5"] = {
-			{
-				136071, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [1]
-			{
-				136170, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				135856, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				135737, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [4]
-			{
-				135736, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [5]
-			{
-				136031, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [6]
-			{
-				135752, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				135732, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [8]
-			{
-				136048, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [9]
-			{
-				236219, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [10]
-			{
-				236223, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [11]
-			{
-				134104, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [12]
-			{
-				136091, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [13]
-			{
-				236221, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				236222, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [15]
-			{
-				135754, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				429382, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [17]
-			{
-				136096, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				429383, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [19]
-			{
-				135735, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [20]
-			{
-				136116, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [21]
-			{
-				135807, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				135818, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [23]
-			{
-				429590, -- [1]
-				3, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [24]
-			{
-				135821, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [25]
-			{
-				136115, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [26]
-			{
-				135806, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [27]
-			{
-				135820, -- [1]
-				2, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [28]
-			{
-				135827, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [29]
-			{
-				135903, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [30]
-			{
-				135788, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [31]
-			{
-				135789, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [32]
-			{
-				135824, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				135822, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [34]
-			{
-				134153, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [35]
-			{
-				236218, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [36]
-			{
-				236220, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [37]
-			{
-				135826, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [38]
-			{
-				236216, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [39]
-			{
-				252268, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				135817, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [41]
-			{
-				236218, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [42]
-			{
-				135854, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [43]
-			{
-				135864, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [44]
-			{
-				135838, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [45]
-			{
-				429385, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [46]
-			{
-				135837, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [47]
-			{
-				135865, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [48]
-			{
-				236227, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [49]
-			{
-				236209, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [50]
-			{
-				135988, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [51]
-			{
-				236206, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [52]
-			{
-				135833, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				236214, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [54]
-			{
-				429386, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [55]
-			{
-				135845, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				135849, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [57]
-			{
-				430840, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [58]
-			{
-				135852, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [59]
-			{
-				135861, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [60]
-			{
-				135859, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [61]
-		},
-		["Player-4476-0590F420"] = {
-			{
-				132109, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				259, -- [6]
-				3, -- [7]
-			}, -- [1]
-			{
-				132122, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				259, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				132292, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				259, -- [6]
-				3, -- [7]
-			}, -- [3]
-			{
-				132090, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				259, -- [6]
-				3, -- [7]
-			}, -- [4]
-			{
-				132354, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				1, -- [5]
-				259, -- [6]
-				2, -- [7]
-			}, -- [5]
-			{
-				135988, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				259, -- [6]
-				1, -- [7]
-			}, -- [6]
-			{
-				132205, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				259, -- [6]
-				1, -- [7]
-			}, -- [7]
-			{
-				236281, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				259, -- [6]
-				2, -- [7]
-			}, -- [8]
-			{
-				132293, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				259, -- [6]
-				3, -- [7]
-			}, -- [9]
-			{
-				132108, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				259, -- [6]
-				1, -- [7]
-			}, -- [10]
-			{
-				132301, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				259, -- [6]
-				2, -- [7]
-			}, -- [11]
-			{
-				236270, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				259, -- [6]
-				2, -- [7]
-			}, -- [12]
-			{
-				236269, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				1, -- [5]
-				259, -- [6]
-				3, -- [7]
-			}, -- [13]
-			{
-				458726, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				259, -- [6]
-				1, -- [7]
-			}, -- [14]
-			{
-				458727, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				259, -- [6]
-				2, -- [7]
-			}, -- [15]
-			{
-				458797, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				259, -- [6]
-				2, -- [7]
-			}, -- [16]
-			{
-				136147, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				259, -- [6]
-				2, -- [7]
-			}, -- [17]
-			{
-				458736, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				259, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				132286, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				259, -- [6]
-				3, -- [7]
-			}, -- [19]
-			{
-				132222, -- [1]
-				2, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				260, -- [6]
-				3, -- [7]
-			}, -- [20]
-			{
-				136047, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				260, -- [6]
-				3, -- [7]
-			}, -- [21]
-			{
-				136189, -- [1]
-				3, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				260, -- [6]
-				3, -- [7]
-			}, -- [22]
-			{
-				132155, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [23]
-			{
-				136206, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				260, -- [6]
-				1, -- [7]
-			}, -- [24]
-			{
-				132219, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [25]
-			{
-				132307, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [26]
-			{
-				132275, -- [1]
-				3, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				260, -- [6]
-				3, -- [7]
-			}, -- [27]
-			{
-				132283, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [28]
-			{
-				135673, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				260, -- [6]
-				3, -- [7]
-			}, -- [29]
-			{
-				132306, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [30]
-			{
-				236282, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [31]
-			{
-				132100, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [32]
-			{
-				236277, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				260, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				457635, -- [1]
-				2, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [34]
-			{
-				458730, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [35]
-			{
-				458731, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				260, -- [6]
-				2, -- [7]
-			}, -- [36]
-			{
-				135407, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				260, -- [6]
-				1, -- [7]
-			}, -- [37]
-			{
-				236278, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				260, -- [6]
-				3, -- [7]
-			}, -- [38]
-			{
-				132320, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				261, -- [6]
-				2, -- [7]
-			}, -- [39]
-			{
-				136159, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				261, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				135994, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				261, -- [6]
-				2, -- [7]
-			}, -- [41]
-			{
-				236268, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				261, -- [6]
-				3, -- [7]
-			}, -- [42]
-			{
-				132282, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				261, -- [6]
-				3, -- [7]
-			}, -- [43]
-			{
-				460693, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				261, -- [6]
-				1, -- [7]
-			}, -- [44]
-			{
-				136183, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				261, -- [6]
-				1, -- [7]
-			}, -- [45]
-			{
-				136168, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				261, -- [6]
-				1, -- [7]
-			}, -- [46]
-			{
-				135315, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				261, -- [6]
-				2, -- [7]
-			}, -- [47]
-			{
-				132285, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				261, -- [6]
-				3, -- [7]
-			}, -- [48]
-			{
-				236286, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				261, -- [6]
-				2, -- [7]
-			}, -- [49]
-			{
-				236275, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				261, -- [6]
-				3, -- [7]
-			}, -- [50]
-			{
-				236280, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				3, -- [5]
-				261, -- [6]
-				3, -- [7]
-			}, -- [51]
-			{
-				236279, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				261, -- [6]
-				1, -- [7]
-			}, -- [52]
-			{
-				132340, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				261, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				132295, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				261, -- [6]
-				2, -- [7]
-			}, -- [54]
-			{
-				457636, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				261, -- [6]
-				2, -- [7]
-			}, -- [55]
-			{
-				132291, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				261, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				458734, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				261, -- [6]
-				3, -- [7]
-			}, -- [57]
-		},
-		["Player-4465-04AAB41A"] = {
-			{
-				136071, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [1]
-			{
-				136170, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				135856, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				135737, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [4]
-			{
-				135736, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [5]
-			{
-				136031, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [6]
-			{
-				135752, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				135732, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [8]
-			{
-				136048, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [9]
-			{
-				236219, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [10]
-			{
-				236223, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [11]
-			{
-				134104, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [12]
-			{
-				136091, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [13]
-			{
-				236221, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				236222, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [15]
-			{
-				135754, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				429382, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [17]
-			{
-				136096, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				429383, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [19]
-			{
-				135735, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [20]
-			{
-				136116, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [21]
-			{
-				135807, -- [1]
-				2, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				135818, -- [1]
-				1, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [23]
-			{
-				429590, -- [1]
-				3, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [24]
-			{
-				135821, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [25]
-			{
-				136115, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [26]
-			{
-				135806, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [27]
-			{
-				135820, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [28]
-			{
-				135827, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [29]
-			{
-				135903, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [30]
-			{
-				135788, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [31]
-			{
-				135789, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [32]
-			{
-				135824, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				135822, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [34]
-			{
-				134153, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [35]
-			{
-				236218, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [36]
-			{
-				236220, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [37]
-			{
-				135826, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [38]
-			{
-				236216, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [39]
-			{
-				252268, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				135817, -- [1]
-				3, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [41]
-			{
-				236218, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [42]
-			{
-				135854, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [43]
-			{
-				135864, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [44]
-			{
-				135838, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [45]
-			{
-				429385, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [46]
-			{
-				135837, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [47]
-			{
-				135865, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [48]
-			{
-				236227, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [49]
-			{
-				236209, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [50]
-			{
-				135988, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [51]
-			{
-				236206, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [52]
-			{
-				135833, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				236214, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [54]
-			{
-				429386, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [55]
-			{
-				135845, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				135849, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [57]
-			{
-				430840, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [58]
-			{
-				135852, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [59]
-			{
-				135861, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [60]
-			{
-				135859, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [61]
-		},
-		["Player-4477-05968FAE"] = {
-			{
-				135817, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [1]
-			{
-				135807, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				262, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				459025, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				136115, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				1, -- [7]
-			}, -- [4]
-			{
-				136170, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				1, -- [7]
-			}, -- [5]
-			{
-				135850, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [6]
-			{
-				136094, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				136099, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [8]
-			{
-				136028, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				262, -- [6]
-				3, -- [7]
-			}, -- [9]
-			{
-				451165, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				1, -- [7]
-			}, -- [10]
-			{
-				237576, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [11]
-			{
-				237583, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				262, -- [6]
-				3, -- [7]
-			}, -- [12]
-			{
-				135829, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				1, -- [5]
-				262, -- [6]
-				1, -- [7]
-			}, -- [13]
-			{
-				451169, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				136011, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				262, -- [6]
-				3, -- [7]
-			}, -- [15]
-			{
-				252174, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				3, -- [7]
-			}, -- [16]
-			{
-				136014, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [17]
-			{
-				136100, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				136111, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				262, -- [6]
-				1, -- [7]
-			}, -- [19]
-			{
-				132152, -- [1]
-				3, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [20]
-			{
-				348567, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [21]
-			{
-				136051, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [22]
-			{
-				135814, -- [1]
-				2, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [23]
-			{
-				135892, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [24]
-			{
-				132314, -- [1]
-				1, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				1, -- [7]
-			}, -- [25]
-			{
-				136110, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [26]
-			{
-				136088, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				1, -- [7]
-			}, -- [27]
-			{
-				237587, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [28]
-			{
-				136024, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [29]
-			{
-				237584, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [30]
-			{
-				237577, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				1, -- [7]
-			}, -- [31]
-			{
-				135825, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [32]
-			{
-				451166, -- [1]
-				3, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [33]
-			{
-				451168, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [34]
-			{
-				135791, -- [1]
-				2, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [35]
-			{
-				135776, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [36]
-			{
-				136008, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [37]
-			{
-				136027, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [38]
-			{
-				136109, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [39]
-			{
-				132315, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				136037, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [41]
-			{
-				135861, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				1, -- [7]
-			}, -- [42]
-			{
-				136076, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				1, -- [7]
-			}, -- [43]
-			{
-				135859, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [44]
-			{
-				136057, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				136059, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [46]
-			{
-				136060, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [47]
-			{
-				237573, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [48]
-			{
-				237571, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [49]
-			{
-				237590, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [50]
-			{
-				252995, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				1, -- [7]
-			}, -- [51]
-			{
-				236288, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				264, -- [6]
-				1, -- [7]
-			}, -- [52]
-			{
-				462651, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				252271, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [54]
-			{
-				135990, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [55]
-			{
-				237556, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				136079, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [57]
-			{
-				237586, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				3, -- [5]
-				264, -- [6]
-				1, -- [7]
-			}, -- [58]
-		},
-		["Player-4476-0597290A"] = {
-			{
-				135817, -- [1]
-				1, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [1]
-			{
-				135807, -- [1]
-				3, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				262, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				459025, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				136115, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				1, -- [7]
-			}, -- [4]
-			{
-				136170, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				1, -- [7]
-			}, -- [5]
-			{
-				135850, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [6]
-			{
-				136094, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				136099, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [8]
-			{
-				136028, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				262, -- [6]
-				3, -- [7]
-			}, -- [9]
-			{
-				451165, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				1, -- [7]
-			}, -- [10]
-			{
-				237576, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [11]
-			{
-				237583, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				262, -- [6]
-				3, -- [7]
-			}, -- [12]
-			{
-				135829, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				1, -- [5]
-				262, -- [6]
-				1, -- [7]
-			}, -- [13]
-			{
-				451169, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				136011, -- [1]
-				2, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				262, -- [6]
-				3, -- [7]
-			}, -- [15]
-			{
-				252174, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				3, -- [7]
-			}, -- [16]
-			{
-				136014, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [17]
-			{
-				136100, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				136111, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				262, -- [6]
-				1, -- [7]
-			}, -- [19]
-			{
-				132152, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [20]
-			{
-				348567, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [21]
-			{
-				136051, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [22]
-			{
-				135814, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [23]
-			{
-				135892, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [24]
-			{
-				132314, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				1, -- [7]
-			}, -- [25]
-			{
-				136110, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [26]
-			{
-				136088, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				1, -- [7]
-			}, -- [27]
-			{
-				237587, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [28]
-			{
-				136024, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [29]
-			{
-				237584, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [30]
-			{
-				237577, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				1, -- [7]
-			}, -- [31]
-			{
-				135825, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [32]
-			{
-				451166, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [33]
-			{
-				451168, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [34]
-			{
-				135791, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [35]
-			{
-				135776, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [36]
-			{
-				136008, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [37]
-			{
-				136027, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [38]
-			{
-				136109, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [39]
-			{
-				132315, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				136037, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [41]
-			{
-				135861, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				1, -- [7]
-			}, -- [42]
-			{
-				136076, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				1, -- [7]
-			}, -- [43]
-			{
-				135859, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [44]
-			{
-				136057, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				136059, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [46]
-			{
-				136060, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [47]
-			{
-				237573, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [48]
-			{
-				237571, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [49]
-			{
-				237590, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [50]
-			{
-				252995, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				1, -- [7]
-			}, -- [51]
-			{
-				236288, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				264, -- [6]
-				1, -- [7]
-			}, -- [52]
-			{
-				462651, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				252271, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [54]
-			{
-				135990, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [55]
-			{
-				237556, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				136079, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [57]
-			{
-				237586, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				3, -- [5]
-				264, -- [6]
-				1, -- [7]
-			}, -- [58]
-		},
-		["Player-4441-04AABDFA"] = {
-			{
-				461117, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [1]
-			{
-				461112, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				132210, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				461118, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [4]
-			{
-				132160, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [5]
-			{
-				132179, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [6]
-			{
-				134296, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				132121, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [8]
-			{
-				132173, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [9]
-			{
-				461846, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [10]
-			{
-				236184, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [11]
-			{
-				132127, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [12]
-			{
-				236357, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [13]
-			{
-				236177, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [14]
-			{
-				236186, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [15]
-			{
-				132166, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				236202, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [17]
-			{
-				236175, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [18]
-			{
-				236190, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [19]
-			{
-				132205, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [20]
-			{
-				236179, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				3, -- [7]
-			}, -- [21]
-			{
-				132174, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				461121, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [23]
-			{
-				132217, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [24]
-			{
-				236182, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				3, -- [7]
-			}, -- [25]
-			{
-				132206, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-				254, -- [6]
-				1, -- [7]
-			}, -- [26]
-			{
-				461115, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [27]
-			{
-				132222, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [28]
-			{
-				132329, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				1, -- [7]
-			}, -- [29]
-			{
-				132345, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [30]
-			{
-				132177, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				3, -- [7]
-			}, -- [31]
-			{
-				461120, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [32]
-			{
-				236201, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [33]
-			{
-				132323, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				1, -- [7]
-			}, -- [34]
-			{
-				461119, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [35]
-			{
-				236173, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [36]
-			{
-				236176, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				1, -- [7]
-			}, -- [37]
-			{
-				236198, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				3, -- [7]
-			}, -- [38]
-			{
-				236183, -- [1]
-				3, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [39]
-			{
-				136100, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				236180, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [41]
-			{
-				132293, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [42]
-			{
-				132336, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				1, -- [7]
-			}, -- [43]
-			{
-				132204, -- [1]
-				2, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [44]
-			{
-				236185, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				132207, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [46]
-			{
-				133713, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [47]
-			{
-				132378, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [48]
-			{
-				135125, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				1, -- [7]
-			}, -- [49]
-			{
-				236199, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [50]
-			{
-				236200, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [51]
-			{
-				236181, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				3, -- [5]
-				255, -- [6]
-				1, -- [7]
-			}, -- [52]
-			{
-				236187, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				136181, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				1, -- [7]
-			}, -- [54]
-			{
-				304583, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [55]
-			{
-				132216, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				132149, -- [1]
-				1, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [57]
-			{
-				132209, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [58]
-		},
-		["Player-4465-04AAC9E7"] = {
-			{
-				132090, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [1]
-			{
-				236397, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [2]
-			{
-				132175, -- [1]
-				1, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				132306, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [4]
-			{
-				132364, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [5]
-			{
-				132335, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [6]
-			{
-				132346, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [7]
-			{
-				236303, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [8]
-			{
-				132334, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [9]
-			{
-				458970, -- [1]
-				2, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [10]
-			{
-				236317, -- [1]
-				2, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [11]
-			{
-				236276, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [12]
-			{
-				458973, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [13]
-			{
-				132312, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				133675, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [15]
-			{
-				133542, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				298660, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [17]
-			{
-				136031, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				132316, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [19]
-			{
-				132340, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [20]
-			{
-				133074, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [21]
-			{
-				132292, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				136218, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [23]
-			{
-				136224, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [24]
-			{
-				136147, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [25]
-			{
-				136075, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [26]
-			{
-				136146, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [27]
-			{
-				236308, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [28]
-			{
-				132152, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [29]
-			{
-				460959, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [30]
-			{
-				135358, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [31]
-			{
-				460958, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [32]
-			{
-				132352, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				236306, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [34]
-			{
-				236316, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [35]
-			{
-				458974, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [36]
-			{
-				458971, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [37]
-			{
-				458975, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [38]
-			{
-				132215, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [39]
-			{
-				135396, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				132339, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [41]
-			{
-				236309, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [42]
-			{
-				134952, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [43]
-			{
-				132453, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [44]
-			{
-				132353, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				132359, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [46]
-			{
-				135892, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [47]
-			{
-				132325, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [48]
-			{
-				460957, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [49]
-			{
-				135871, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [50]
-			{
-				134947, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [51]
-			{
-				135291, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [52]
-			{
-				458976, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [53]
-			{
-				236311, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [54]
-			{
-				236318, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [55]
-			{
-				236319, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [56]
-			{
-				236315, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [57]
-			{
-				236312, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [58]
-			{
-				132110, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [59]
-			{
-				236351, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [60]
-			{
-				132342, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [61]
-		},
-		["Player-4465-04A95917"] = {
-			{
-				461117, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [1]
-			{
-				461112, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				132210, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				461118, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [4]
-			{
-				132160, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [5]
-			{
-				132179, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [6]
-			{
-				134296, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				132121, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [8]
-			{
-				132173, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [9]
-			{
-				461846, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [10]
-			{
-				236184, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [11]
-			{
-				132127, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [12]
-			{
-				236357, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [13]
-			{
-				236177, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [14]
-			{
-				236186, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [15]
-			{
-				132166, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				236202, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [17]
-			{
-				236175, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [18]
-			{
-				236190, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [19]
-			{
-				132205, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [20]
-			{
-				236179, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				3, -- [7]
-			}, -- [21]
-			{
-				132174, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				461121, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [23]
-			{
-				132217, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [24]
-			{
-				236182, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				3, -- [7]
-			}, -- [25]
-			{
-				132206, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-				254, -- [6]
-				1, -- [7]
-			}, -- [26]
-			{
-				461115, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [27]
-			{
-				132222, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [28]
-			{
-				132329, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				1, -- [7]
-			}, -- [29]
-			{
-				132345, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [30]
-			{
-				132177, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				3, -- [7]
-			}, -- [31]
-			{
-				461120, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [32]
-			{
-				236201, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [33]
-			{
-				132323, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				1, -- [7]
-			}, -- [34]
-			{
-				461119, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [35]
-			{
-				236173, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [36]
-			{
-				236176, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				1, -- [7]
-			}, -- [37]
-			{
-				236198, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				3, -- [7]
-			}, -- [38]
-			{
-				236183, -- [1]
-				3, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [39]
-			{
-				136100, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				236180, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [41]
-			{
-				132293, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [42]
-			{
-				132336, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				1, -- [7]
-			}, -- [43]
-			{
-				132204, -- [1]
-				2, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [44]
-			{
-				236185, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				132207, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [46]
-			{
-				133713, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [47]
-			{
-				132378, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [48]
-			{
-				135125, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				1, -- [7]
-			}, -- [49]
-			{
-				236199, -- [1]
-				2, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [50]
-			{
-				236200, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [51]
-			{
-				236181, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				3, -- [5]
-				255, -- [6]
-				1, -- [7]
-			}, -- [52]
-			{
-				236187, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				136181, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				1, -- [7]
-			}, -- [54]
-			{
-				304583, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [55]
-			{
-				132216, -- [1]
-				1, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				132149, -- [1]
-				3, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [57]
-			{
-				132209, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [58]
-		},
-		["Player-4476-04F3D80B"] = {
-			{
-				136071, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [1]
-			{
-				136170, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				135856, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				135737, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [4]
-			{
-				135736, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [5]
-			{
-				136031, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [6]
-			{
-				135752, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				135732, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [8]
-			{
-				136048, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [9]
-			{
-				236219, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [10]
-			{
-				236223, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [11]
-			{
-				134104, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [12]
-			{
-				136091, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [13]
-			{
-				236221, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				236222, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [15]
-			{
-				135754, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				429382, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [17]
-			{
-				136096, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				429383, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [19]
-			{
-				135735, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [20]
-			{
-				136116, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [21]
-			{
-				135807, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				135818, -- [1]
-				3, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [23]
-			{
-				429590, -- [1]
-				3, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [24]
-			{
-				135821, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [25]
-			{
-				136115, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [26]
-			{
-				135806, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [27]
-			{
-				135820, -- [1]
-				2, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [28]
-			{
-				135827, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [29]
-			{
-				135903, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [30]
-			{
-				135788, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [31]
-			{
-				135789, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [32]
-			{
-				135824, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				135822, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [34]
-			{
-				134153, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [35]
-			{
-				236218, -- [1]
-				1, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [36]
-			{
-				236220, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [37]
-			{
-				135826, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [38]
-			{
-				236216, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [39]
-			{
-				252268, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				135817, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [41]
-			{
-				236218, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [42]
-			{
-				135854, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [43]
-			{
-				135864, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [44]
-			{
-				135838, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [45]
-			{
-				429385, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [46]
-			{
-				135837, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [47]
-			{
-				135865, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [48]
-			{
-				236227, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [49]
-			{
-				236209, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [50]
-			{
-				135988, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [51]
-			{
-				236206, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [52]
-			{
-				135833, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				236214, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [54]
-			{
-				429386, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [55]
-			{
-				135845, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				135849, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [57]
-			{
-				430840, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [58]
-			{
-				135852, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [59]
-			{
-				135861, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [60]
-			{
-				135859, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [61]
-		},
-		["Player-4476-0597277A"] = {
-			{
-				136071, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [1]
-			{
-				136170, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				135856, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				135737, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [4]
-			{
-				135736, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [5]
-			{
-				136031, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [6]
-			{
-				135752, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				135732, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [8]
-			{
-				136048, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [9]
-			{
-				236219, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [10]
-			{
-				236223, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [11]
-			{
-				134104, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [12]
-			{
-				136091, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [13]
-			{
-				236221, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				236222, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [15]
-			{
-				135754, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				429382, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [17]
-			{
-				136096, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				429383, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [19]
-			{
-				135735, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [20]
-			{
-				136116, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [21]
-			{
-				135807, -- [1]
-				2, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				135818, -- [1]
-				1, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [23]
-			{
-				429590, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [24]
-			{
-				135821, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [25]
-			{
-				136115, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [26]
-			{
-				135806, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [27]
-			{
-				135820, -- [1]
-				2, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [28]
-			{
-				135827, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [29]
-			{
-				135903, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [30]
-			{
-				135788, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [31]
-			{
-				135789, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [32]
-			{
-				135824, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				135822, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [34]
-			{
-				134153, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [35]
-			{
-				236218, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [36]
-			{
-				236220, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [37]
-			{
-				135826, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [38]
-			{
-				236216, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [39]
-			{
-				252268, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				135817, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [41]
-			{
-				236218, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [42]
-			{
-				135854, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [43]
-			{
-				135864, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [44]
-			{
-				135838, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [45]
-			{
-				429385, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [46]
-			{
-				135837, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [47]
-			{
-				135865, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [48]
-			{
-				236227, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [49]
-			{
-				236209, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [50]
-			{
-				135988, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [51]
-			{
-				236206, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [52]
-			{
-				135833, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				236214, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [54]
-			{
-				429386, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [55]
-			{
-				135845, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				135849, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [57]
-			{
-				430840, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [58]
-			{
-				135852, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [59]
-			{
-				135861, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [60]
-			{
-				135859, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [61]
-		},
-		["Player-4476-037E0C8B"] = {
-			{
-				136071, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [1]
-			{
-				136170, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				135856, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				135737, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [4]
-			{
-				135736, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [5]
-			{
-				136031, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [6]
-			{
-				135752, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				135732, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [8]
-			{
-				136048, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [9]
-			{
-				236219, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [10]
-			{
-				236223, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [11]
-			{
-				134104, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [12]
-			{
-				136091, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [13]
-			{
-				236221, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				236222, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [15]
-			{
-				135754, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				429382, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [17]
-			{
-				136096, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				429383, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [19]
-			{
-				135735, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [20]
-			{
-				136116, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [21]
-			{
-				135807, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				135818, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [23]
-			{
-				429590, -- [1]
-				3, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [24]
-			{
-				135821, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [25]
-			{
-				136115, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [26]
-			{
-				135806, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [27]
-			{
-				135820, -- [1]
-				2, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [28]
-			{
-				135827, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [29]
-			{
-				135903, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [30]
-			{
-				135788, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [31]
-			{
-				135789, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [32]
-			{
-				135824, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				135822, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [34]
-			{
-				134153, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [35]
-			{
-				236218, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [36]
-			{
-				236220, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [37]
-			{
-				135826, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [38]
-			{
-				236216, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [39]
-			{
-				252268, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				135817, -- [1]
-				3, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [41]
-			{
-				236218, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [42]
-			{
-				135854, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [43]
-			{
-				135864, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [44]
-			{
-				135838, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [45]
-			{
-				429385, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [46]
-			{
-				135837, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [47]
-			{
-				135865, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [48]
-			{
-				236227, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [49]
-			{
-				236209, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [50]
-			{
-				135988, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [51]
-			{
-				236206, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [52]
-			{
-				135833, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				236214, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [54]
-			{
-				429386, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [55]
-			{
-				135845, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				135849, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [57]
-			{
-				430840, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [58]
-			{
-				135852, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [59]
-			{
-				135861, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [60]
-			{
-				135859, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [61]
-		},
 		["Player-4476-05973846"] = {
 			{
 				136006, -- [1]
@@ -15274,7501 +8291,15 @@ _detalhes_database = {
 				2, -- [7]
 			}, -- [63]
 		},
-		["Player-4476-05915437"] = {
-			{
-				135969, -- [1]
-				3, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				256, -- [6]
-				3, -- [7]
-			}, -- [1]
-			{
-				135926, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				256, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				135863, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				256, -- [6]
-				1, -- [7]
-			}, -- [3]
-			{
-				135895, -- [1]
-				1, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				256, -- [6]
-				2, -- [7]
-			}, -- [4]
-			{
-				132156, -- [1]
-				3, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				256, -- [6]
-				3, -- [7]
-			}, -- [5]
-			{
-				253400, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				256, -- [6]
-				1, -- [7]
-			}, -- [6]
-			{
-				458412, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
-				256, -- [6]
-				2, -- [7]
-			}, -- [7]
-			{
-				458722, -- [1]
-				1, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				256, -- [6]
-				2, -- [7]
-			}, -- [8]
-			{
-				237539, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				256, -- [6]
-				3, -- [7]
-			}, -- [9]
-			{
-				135939, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				256, -- [6]
-				1, -- [7]
-			}, -- [10]
-			{
-				237548, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				256, -- [6]
-				3, -- [7]
-			}, -- [11]
-			{
-				458227, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				256, -- [6]
-				2, -- [7]
-			}, -- [12]
-			{
-				135936, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				256, -- [6]
-				1, -- [7]
-			}, -- [13]
-			{
-				237543, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				256, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				135940, -- [1]
-				2, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				256, -- [6]
-				2, -- [7]
-			}, -- [15]
-			{
-				135923, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				256, -- [6]
-				2, -- [7]
-			}, -- [16]
-			{
-				237538, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				256, -- [6]
-				2, -- [7]
-			}, -- [17]
-			{
-				458225, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				256, -- [6]
-				1, -- [7]
-			}, -- [18]
-			{
-				458720, -- [1]
-				1, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				256, -- [6]
-				2, -- [7]
-			}, -- [19]
-			{
-				135871, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				256, -- [6]
-				2, -- [7]
-			}, -- [20]
-			{
-				236225, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				1, -- [5]
-				256, -- [6]
-				2, -- [7]
-			}, -- [21]
-			{
-				135971, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				257, -- [6]
-				3, -- [7]
-			}, -- [22]
-			{
-				135913, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				257, -- [6]
-				3, -- [7]
-			}, -- [23]
-			{
-				135928, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				257, -- [6]
-				2, -- [7]
-			}, -- [24]
-			{
-				237549, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				257, -- [6]
-				2, -- [7]
-			}, -- [25]
-			{
-				135905, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				257, -- [6]
-				2, -- [7]
-			}, -- [26]
-			{
-				135982, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				257, -- [6]
-				2, -- [7]
-			}, -- [27]
-			{
-				236254, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				257, -- [6]
-				2, -- [7]
-			}, -- [28]
-			{
-				135887, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				257, -- [6]
-				1, -- [7]
-			}, -- [29]
-			{
-				237550, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				257, -- [6]
-				3, -- [7]
-			}, -- [30]
-			{
-				237542, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				257, -- [6]
-				1, -- [7]
-			}, -- [31]
-			{
-				135953, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				257, -- [6]
-				2, -- [7]
-			}, -- [32]
-			{
-				135980, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				257, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				521584, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				257, -- [6]
-				1, -- [7]
-			}, -- [34]
-			{
-				458228, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				2, -- [5]
-				257, -- [6]
-				2, -- [7]
-			}, -- [35]
-			{
-				135954, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				257, -- [6]
-				1, -- [7]
-			}, -- [36]
-			{
-				132864, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				257, -- [6]
-				1, -- [7]
-			}, -- [37]
-			{
-				135878, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-				257, -- [6]
-				2, -- [7]
-			}, -- [38]
-			{
-				458721, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				257, -- [6]
-				1, -- [7]
-			}, -- [39]
-			{
-				135981, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				257, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				133739, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
-				257, -- [6]
-				2, -- [7]
-			}, -- [41]
-			{
-				236249, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				257, -- [6]
-				1, -- [7]
-			}, -- [42]
-			{
-				458226, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				258, -- [6]
-				3, -- [7]
-			}, -- [43]
-			{
-				136207, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				258, -- [6]
-				2, -- [7]
-			}, -- [44]
-			{
-				136184, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				258, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				136224, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				258, -- [6]
-				3, -- [7]
-			}, -- [46]
-			{
-				135994, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				258, -- [6]
-				2, -- [7]
-			}, -- [47]
-			{
-				458230, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				258, -- [6]
-				1, -- [7]
-			}, -- [48]
-			{
-				136230, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				258, -- [6]
-				1, -- [7]
-			}, -- [49]
-			{
-				237569, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				258, -- [6]
-				2, -- [7]
-			}, -- [50]
-			{
-				252996, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				258, -- [6]
-				2, -- [7]
-			}, -- [51]
-			{
-				136200, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				258, -- [6]
-				1, -- [7]
-			}, -- [52]
-			{
-				237570, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				258, -- [6]
-				2, -- [7]
-			}, -- [53]
-			{
-				458229, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				258, -- [6]
-				3, -- [7]
-			}, -- [54]
-			{
-				237568, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				3, -- [5]
-				258, -- [6]
-				1, -- [7]
-			}, -- [55]
-			{
-				135978, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				258, -- [6]
-				1, -- [7]
-			}, -- [56]
-			{
-				237567, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				258, -- [6]
-				2, -- [7]
-			}, -- [57]
-			{
-				237563, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				258, -- [6]
-				1, -- [7]
-			}, -- [58]
-			{
-				135945, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				3, -- [5]
-				258, -- [6]
-				2, -- [7]
-			}, -- [59]
-			{
-				134336, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				258, -- [6]
-				2, -- [7]
-			}, -- [60]
-			{
-				132299, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				258, -- [6]
-				2, -- [7]
-			}, -- [61]
-			{
-				237566, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				258, -- [6]
-				2, -- [7]
-			}, -- [62]
-			{
-				136176, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				258, -- [6]
-				2, -- [7]
-			}, -- [63]
-		},
-		["Player-4454-0597565B"] = {
-			{
-				136071, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [1]
-			{
-				136170, -- [1]
-				2, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				135856, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				135737, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [4]
-			{
-				135736, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [5]
-			{
-				136031, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [6]
-			{
-				135752, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				135732, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [8]
-			{
-				136048, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [9]
-			{
-				236219, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [10]
-			{
-				236223, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [11]
-			{
-				134104, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [12]
-			{
-				136091, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [13]
-			{
-				236221, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				236222, -- [1]
-				3, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [15]
-			{
-				135754, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				429382, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [17]
-			{
-				136096, -- [1]
-				2, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				429383, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [19]
-			{
-				135735, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [20]
-			{
-				136116, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [21]
-			{
-				135807, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				135818, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [23]
-			{
-				429590, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [24]
-			{
-				135821, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [25]
-			{
-				136115, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [26]
-			{
-				135806, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [27]
-			{
-				135820, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [28]
-			{
-				135827, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [29]
-			{
-				135903, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [30]
-			{
-				135788, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [31]
-			{
-				135789, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [32]
-			{
-				135824, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				135822, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [34]
-			{
-				134153, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [35]
-			{
-				236218, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [36]
-			{
-				236220, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [37]
-			{
-				135826, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [38]
-			{
-				236216, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [39]
-			{
-				252268, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				135817, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [41]
-			{
-				236218, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [42]
-			{
-				135854, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [43]
-			{
-				135864, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [44]
-			{
-				135838, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [45]
-			{
-				429385, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [46]
-			{
-				135837, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [47]
-			{
-				135865, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [48]
-			{
-				236227, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [49]
-			{
-				236209, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [50]
-			{
-				135988, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [51]
-			{
-				236206, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [52]
-			{
-				135833, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				236214, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [54]
-			{
-				429386, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [55]
-			{
-				135845, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				135849, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [57]
-			{
-				430840, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [58]
-			{
-				135852, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [59]
-			{
-				135861, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [60]
-			{
-				135859, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [61]
-		},
-		["Player-4678-05974B71"] = {
-			{
-				135921, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				[7] = 2,
-			}, -- [1]
-			{
-				135917, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				[7] = 2,
-			}, -- [2]
-			{
-				135903, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				[7] = 2,
-			}, -- [3]
-			{
-				236251, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				[7] = 2,
-			}, -- [4]
-			{
-				135872, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				[7] = 1,
-			}, -- [5]
-			{
-				135876, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				[7] = 2,
-			}, -- [6]
-			{
-				236261, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
-				[7] = 1,
-			}, -- [7]
-			{
-				236256, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				[7] = 3,
-			}, -- [8]
-			{
-				236254, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				[7] = 2,
-			}, -- [9]
-			{
-				236247, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				[7] = 1,
-			}, -- [10]
-			{
-				236394, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				1, -- [5]
-				[7] = 3,
-			}, -- [11]
-			{
-				135895, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				[7] = 1,
-			}, -- [12]
-			{
-				461859, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				[7] = 1,
-			}, -- [13]
-			{
-				461857, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				[7] = 3,
-			}, -- [14]
-			{
-				460953, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				[7] = 3,
-			}, -- [15]
-			{
-				134909, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				[7] = 2,
-			}, -- [16]
-			{
-				460689, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				[7] = 3,
-			}, -- [17]
-			{
-				135920, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				[7] = 2,
-			}, -- [18]
-			{
-				135875, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				1, -- [5]
-				[7] = 2,
-			}, -- [19]
-			{
-				460690, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				[7] = 3,
-			}, -- [20]
-			{
-				133526, -- [1]
-				2, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [21]
-			{
-				135892, -- [1]
-				3, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				[7] = 3,
-			}, -- [22]
-			{
-				253400, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-				[7] = 1,
-			}, -- [23]
-			{
-				135963, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [24]
-			{
-				236264, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				[7] = 3,
-			}, -- [25]
-			{
-				135926, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [26]
-			{
-				136051, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				[7] = 3,
-			}, -- [27]
-			{
-				135870, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				[7] = 1,
-			}, -- [28]
-			{
-				135880, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				[7] = 1,
-			}, -- [29]
-			{
-				135896, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [30]
-			{
-				236259, -- [1]
-				2, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [31]
-			{
-				236253, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				[7] = 1,
-			}, -- [32]
-			{
-				135985, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				[7] = 1,
-			}, -- [33]
-			{
-				133562, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [34]
-			{
-				135882, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [35]
-			{
-				133176, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [36]
-			{
-				236252, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [37]
-			{
-				236265, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				[7] = 1,
-			}, -- [38]
-			{
-				135433, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [39]
-			{
-				135883, -- [1]
-				3, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				[7] = 3,
-			}, -- [40]
-			{
-				135897, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				[7] = 2,
-			}, -- [41]
-			{
-				132347, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				[7] = 1,
-			}, -- [42]
-			{
-				135904, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				[7] = 2,
-			}, -- [43]
-			{
-				135889, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				[7] = 3,
-			}, -- [44]
-			{
-				236246, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				[7] = 3,
-			}, -- [45]
-			{
-				135942, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				[7] = 1,
-			}, -- [46]
-			{
-				236257, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				[7] = 1,
-			}, -- [47]
-			{
-				236262, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				[7] = 3,
-			}, -- [48]
-			{
-				236260, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				3, -- [5]
-				[7] = 3,
-			}, -- [49]
-			{
-				236250, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				[7] = 1,
-			}, -- [50]
-			{
-				236249, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				[7] = 1,
-			}, -- [51]
-			{
-				236248, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				[7] = 2,
-			}, -- [52]
-			{
-				237547, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				[7] = 1,
-			}, -- [53]
-			{
-				134916, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				[7] = 3,
-			}, -- [54]
-			{
-				252269, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				[7] = 2,
-			}, -- [55]
-			{
-				237486, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				[7] = 1,
-			}, -- [56]
-			{
-				236258, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				[7] = 2,
-			}, -- [57]
-			{
-				135937, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				[7] = 2,
-			}, -- [58]
-			{
-				236255, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				[7] = 2,
-			}, -- [59]
-			{
-				135964, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				[7] = 2,
-			}, -- [60]
-		},
-		["Player-4465-04A97C91"] = {
-			{
-				136139, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				265, -- [6]
-				2, -- [7]
-			}, -- [1]
-			{
-				136118, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				265, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				136126, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				265, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				460700, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				265, -- [6]
-				2, -- [7]
-			}, -- [4]
-			{
-				136183, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				265, -- [6]
-				2, -- [7]
-			}, -- [5]
-			{
-				136223, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				265, -- [6]
-				2, -- [7]
-			}, -- [6]
-			{
-				136198, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				265, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				136162, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				265, -- [6]
-				1, -- [7]
-			}, -- [8]
-			{
-				236295, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				265, -- [6]
-				3, -- [7]
-			}, -- [9]
-			{
-				136147, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				265, -- [6]
-				2, -- [7]
-			}, -- [10]
-			{
-				237557, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				265, -- [6]
-				3, -- [7]
-			}, -- [11]
-			{
-				236296, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				1, -- [5]
-				265, -- [6]
-				3, -- [7]
-			}, -- [12]
-			{
-				236298, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				265, -- [6]
-				1, -- [7]
-			}, -- [13]
-			{
-				136166, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				265, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				460699, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				265, -- [6]
-				2, -- [7]
-			}, -- [15]
-			{
-				460857, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				265, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				136193, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				265, -- [6]
-				1, -- [7]
-			}, -- [17]
-			{
-				136188, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				265, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				460697, -- [1]
-				2, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				266, -- [6]
-				3, -- [7]
-			}, -- [19]
-			{
-				136172, -- [1]
-				3, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				266, -- [6]
-				3, -- [7]
-			}, -- [20]
-			{
-				136168, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				266, -- [6]
-				2, -- [7]
-			}, -- [21]
-			{
-				136164, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				266, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				136171, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				266, -- [6]
-				2, -- [7]
-			}, -- [23]
-			{
-				236301, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				266, -- [6]
-				3, -- [7]
-			}, -- [24]
-			{
-				135808, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				266, -- [6]
-				2, -- [7]
-			}, -- [25]
-			{
-				237562, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				266, -- [6]
-				1, -- [7]
-			}, -- [26]
-			{
-				237558, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				266, -- [6]
-				1, -- [7]
-			}, -- [27]
-			{
-				236292, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				266, -- [6]
-				1, -- [7]
-			}, -- [28]
-			{
-				460694, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				266, -- [6]
-				2, -- [7]
-			}, -- [29]
-			{
-				460698, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				266, -- [6]
-				1, -- [7]
-			}, -- [30]
-			{
-				136185, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				266, -- [6]
-				2, -- [7]
-			}, -- [31]
-			{
-				136082, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				266, -- [6]
-				3, -- [7]
-			}, -- [32]
-			{
-				460696, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				2, -- [5]
-				266, -- [6]
-				2, -- [7]
-			}, -- [33]
-			{
-				135265, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				266, -- [6]
-				1, -- [7]
-			}, -- [34]
-			{
-				237564, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				266, -- [6]
-				2, -- [7]
-			}, -- [35]
-			{
-				136150, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				266, -- [6]
-				2, -- [7]
-			}, -- [36]
-			{
-				136192, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				266, -- [6]
-				2, -- [7]
-			}, -- [37]
-			{
-				136196, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				267, -- [6]
-				3, -- [7]
-			}, -- [38]
-			{
-				136146, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				267, -- [6]
-				3, -- [7]
-			}, -- [39]
-			{
-				135808, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				267, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				136191, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				267, -- [6]
-				1, -- [7]
-			}, -- [41]
-			{
-				135823, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				267, -- [6]
-				3, -- [7]
-			}, -- [42]
-			{
-				135817, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				267, -- [6]
-				2, -- [7]
-			}, -- [43]
-			{
-				460695, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				267, -- [6]
-				1, -- [7]
-			}, -- [44]
-			{
-				136178, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				3, -- [5]
-				267, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				136214, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				267, -- [6]
-				2, -- [7]
-			}, -- [46]
-			{
-				236290, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				267, -- [6]
-				3, -- [7]
-			}, -- [47]
-			{
-				136201, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				267, -- [6]
-				1, -- [7]
-			}, -- [48]
-			{
-				236294, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				3, -- [5]
-				267, -- [6]
-				2, -- [7]
-			}, -- [49]
-			{
-				236297, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				267, -- [6]
-				3, -- [7]
-			}, -- [50]
-			{
-				236291, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				267, -- [6]
-				1, -- [7]
-			}, -- [51]
-			{
-				135826, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				267, -- [6]
-				2, -- [7]
-			}, -- [52]
-			{
-				460952, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				267, -- [6]
-				2, -- [7]
-			}, -- [53]
-			{
-				135827, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				267, -- [6]
-				2, -- [7]
-			}, -- [54]
-			{
-				135805, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				267, -- [6]
-				2, -- [7]
-			}, -- [55]
-			{
-				135796, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				267, -- [6]
-				1, -- [7]
-			}, -- [56]
-		},
-		["Player-4476-0597535C"] = {
-			{
-				132090, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [1]
-			{
-				236397, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [2]
-			{
-				132175, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				132306, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [4]
-			{
-				132364, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [5]
-			{
-				132335, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [6]
-			{
-				132346, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [7]
-			{
-				236303, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [8]
-			{
-				132334, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [9]
-			{
-				458970, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [10]
-			{
-				236317, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [11]
-			{
-				236276, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [12]
-			{
-				458973, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [13]
-			{
-				132312, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				133675, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [15]
-			{
-				133542, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				298660, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [17]
-			{
-				136031, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				132316, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [19]
-			{
-				132340, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [20]
-			{
-				133074, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [21]
-			{
-				132292, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				136218, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [23]
-			{
-				136224, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [24]
-			{
-				136147, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [25]
-			{
-				136075, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [26]
-			{
-				136146, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [27]
-			{
-				236308, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [28]
-			{
-				132152, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [29]
-			{
-				460959, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [30]
-			{
-				135358, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [31]
-			{
-				460958, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [32]
-			{
-				132352, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				236306, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [34]
-			{
-				236316, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [35]
-			{
-				458974, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [36]
-			{
-				458971, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [37]
-			{
-				458975, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [38]
-			{
-				132215, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [39]
-			{
-				135396, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				132339, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [41]
-			{
-				236309, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [42]
-			{
-				134952, -- [1]
-				3, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [43]
-			{
-				132453, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [44]
-			{
-				132353, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				132359, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [46]
-			{
-				135892, -- [1]
-				3, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [47]
-			{
-				132325, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [48]
-			{
-				460957, -- [1]
-				2, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [49]
-			{
-				135871, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [50]
-			{
-				134947, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [51]
-			{
-				135291, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [52]
-			{
-				458976, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [53]
-			{
-				236311, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [54]
-			{
-				236318, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [55]
-			{
-				236319, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [56]
-			{
-				236315, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [57]
-			{
-				236312, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [58]
-			{
-				132110, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [59]
-			{
-				236351, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [60]
-			{
-				132342, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [61]
-		},
-		["Player-4453-0597287B"] = {
-			{
-				132090, -- [1]
-				3, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [1]
-			{
-				236397, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [2]
-			{
-				132175, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				132306, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [4]
-			{
-				132364, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [5]
-			{
-				132335, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [6]
-			{
-				132346, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [7]
-			{
-				236303, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [8]
-			{
-				132334, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [9]
-			{
-				458970, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [10]
-			{
-				236317, -- [1]
-				3, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [11]
-			{
-				236276, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [12]
-			{
-				458973, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [13]
-			{
-				132312, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				133675, -- [1]
-				2, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [15]
-			{
-				133542, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				298660, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [17]
-			{
-				136031, -- [1]
-				2, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				132316, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [19]
-			{
-				132340, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [20]
-			{
-				133074, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [21]
-			{
-				132292, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				136218, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [23]
-			{
-				136224, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [24]
-			{
-				136147, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [25]
-			{
-				136075, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [26]
-			{
-				136146, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [27]
-			{
-				236308, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [28]
-			{
-				132152, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [29]
-			{
-				460959, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [30]
-			{
-				135358, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [31]
-			{
-				460958, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [32]
-			{
-				132352, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				236306, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [34]
-			{
-				236316, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [35]
-			{
-				458974, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [36]
-			{
-				458971, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [37]
-			{
-				458975, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [38]
-			{
-				132215, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [39]
-			{
-				135396, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				132339, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [41]
-			{
-				236309, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [42]
-			{
-				134952, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [43]
-			{
-				132453, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [44]
-			{
-				132353, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				132359, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [46]
-			{
-				135892, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [47]
-			{
-				132325, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [48]
-			{
-				460957, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [49]
-			{
-				135871, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [50]
-			{
-				134947, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [51]
-			{
-				135291, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [52]
-			{
-				458976, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [53]
-			{
-				236311, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [54]
-			{
-				236318, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [55]
-			{
-				236319, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [56]
-			{
-				236315, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [57]
-			{
-				236312, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [58]
-			{
-				132110, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [59]
-			{
-				236351, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [60]
-			{
-				132342, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [61]
-		},
-		["Player-4476-059708DC"] = {
-			{
-				461117, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [1]
-			{
-				461112, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				132210, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				461118, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [4]
-			{
-				132160, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [5]
-			{
-				132179, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [6]
-			{
-				134296, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				132121, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [8]
-			{
-				132173, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [9]
-			{
-				461846, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [10]
-			{
-				236184, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [11]
-			{
-				132127, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [12]
-			{
-				236357, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [13]
-			{
-				236177, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [14]
-			{
-				236186, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [15]
-			{
-				132166, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				236202, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [17]
-			{
-				236175, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [18]
-			{
-				236190, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [19]
-			{
-				132205, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [20]
-			{
-				236179, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				3, -- [7]
-			}, -- [21]
-			{
-				132174, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				461121, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [23]
-			{
-				132217, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [24]
-			{
-				236182, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				3, -- [7]
-			}, -- [25]
-			{
-				132206, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-				254, -- [6]
-				1, -- [7]
-			}, -- [26]
-			{
-				461115, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [27]
-			{
-				132222, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [28]
-			{
-				132329, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				1, -- [7]
-			}, -- [29]
-			{
-				132345, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [30]
-			{
-				132177, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				3, -- [7]
-			}, -- [31]
-			{
-				461120, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [32]
-			{
-				236201, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [33]
-			{
-				132323, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				1, -- [7]
-			}, -- [34]
-			{
-				461119, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [35]
-			{
-				236173, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [36]
-			{
-				236176, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				1, -- [7]
-			}, -- [37]
-			{
-				236198, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				3, -- [7]
-			}, -- [38]
-			{
-				236183, -- [1]
-				3, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [39]
-			{
-				136100, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				236180, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [41]
-			{
-				132293, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [42]
-			{
-				132336, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				1, -- [7]
-			}, -- [43]
-			{
-				132204, -- [1]
-				2, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [44]
-			{
-				236185, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				132207, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [46]
-			{
-				133713, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [47]
-			{
-				132378, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [48]
-			{
-				135125, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				1, -- [7]
-			}, -- [49]
-			{
-				236199, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [50]
-			{
-				236200, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [51]
-			{
-				236181, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				3, -- [5]
-				255, -- [6]
-				1, -- [7]
-			}, -- [52]
-			{
-				236187, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				136181, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				1, -- [7]
-			}, -- [54]
-			{
-				304583, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [55]
-			{
-				132216, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				132149, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [57]
-			{
-				132209, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [58]
-		},
-		["Player-4464-04A84F31"] = {
-			{
-				132090, -- [1]
-				2, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [1]
-			{
-				236397, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [2]
-			{
-				132175, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				132306, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [4]
-			{
-				132364, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [5]
-			{
-				132335, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [6]
-			{
-				132346, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [7]
-			{
-				236303, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [8]
-			{
-				132334, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [9]
-			{
-				458970, -- [1]
-				2, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [10]
-			{
-				236317, -- [1]
-				3, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [11]
-			{
-				236276, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [12]
-			{
-				458973, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [13]
-			{
-				132312, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				133675, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [15]
-			{
-				133542, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				298660, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [17]
-			{
-				136031, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				132316, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [19]
-			{
-				132340, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [20]
-			{
-				133074, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [21]
-			{
-				132292, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				136218, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [23]
-			{
-				136224, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [24]
-			{
-				136147, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [25]
-			{
-				136075, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [26]
-			{
-				136146, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [27]
-			{
-				236308, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [28]
-			{
-				132152, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [29]
-			{
-				460959, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [30]
-			{
-				135358, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [31]
-			{
-				460958, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [32]
-			{
-				132352, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				236306, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [34]
-			{
-				236316, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [35]
-			{
-				458974, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [36]
-			{
-				458971, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [37]
-			{
-				458975, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [38]
-			{
-				132215, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [39]
-			{
-				135396, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				132339, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [41]
-			{
-				236309, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [42]
-			{
-				134952, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [43]
-			{
-				132453, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [44]
-			{
-				132353, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				132359, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [46]
-			{
-				135892, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [47]
-			{
-				132325, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [48]
-			{
-				460957, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [49]
-			{
-				135871, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [50]
-			{
-				134947, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [51]
-			{
-				135291, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [52]
-			{
-				458976, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [53]
-			{
-				236311, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [54]
-			{
-				236318, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [55]
-			{
-				236319, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [56]
-			{
-				236315, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [57]
-			{
-				236312, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [58]
-			{
-				132110, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [59]
-			{
-				236351, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [60]
-			{
-				132342, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [61]
-		},
-		["Player-4440-04A9C874"] = {
-			{
-				136071, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [1]
-			{
-				136170, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				135856, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				135737, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [4]
-			{
-				135736, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [5]
-			{
-				136031, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [6]
-			{
-				135752, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				135732, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [8]
-			{
-				136048, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [9]
-			{
-				236219, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [10]
-			{
-				236223, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [11]
-			{
-				134104, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [12]
-			{
-				136091, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [13]
-			{
-				236221, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				236222, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [15]
-			{
-				135754, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				429382, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [17]
-			{
-				136096, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				429383, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [19]
-			{
-				135735, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [20]
-			{
-				136116, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [21]
-			{
-				135807, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				135818, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [23]
-			{
-				429590, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [24]
-			{
-				135821, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [25]
-			{
-				136115, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [26]
-			{
-				135806, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [27]
-			{
-				135820, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [28]
-			{
-				135827, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [29]
-			{
-				135903, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [30]
-			{
-				135788, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [31]
-			{
-				135789, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [32]
-			{
-				135824, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				135822, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [34]
-			{
-				134153, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [35]
-			{
-				236218, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [36]
-			{
-				236220, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [37]
-			{
-				135826, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [38]
-			{
-				236216, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [39]
-			{
-				252268, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				135817, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [41]
-			{
-				236218, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [42]
-			{
-				135854, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [43]
-			{
-				135864, -- [1]
-				1, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [44]
-			{
-				135838, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [45]
-			{
-				429385, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [46]
-			{
-				135837, -- [1]
-				2, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [47]
-			{
-				135865, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [48]
-			{
-				236227, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [49]
-			{
-				236209, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [50]
-			{
-				135988, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [51]
-			{
-				236206, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [52]
-			{
-				135833, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				236214, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [54]
-			{
-				429386, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [55]
-			{
-				135845, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				135849, -- [1]
-				2, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [57]
-			{
-				430840, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [58]
-			{
-				135852, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [59]
-			{
-				135861, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [60]
-			{
-				135859, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [61]
-		},
-		["Player-4467-04AAE3AE"] = {
-			{
-				135817, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [1]
-			{
-				135807, -- [1]
-				2, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				262, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				459025, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				136115, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				1, -- [7]
-			}, -- [4]
-			{
-				136170, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				1, -- [7]
-			}, -- [5]
-			{
-				135850, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [6]
-			{
-				136094, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				136099, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [8]
-			{
-				136028, -- [1]
-				2, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				262, -- [6]
-				3, -- [7]
-			}, -- [9]
-			{
-				451165, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				1, -- [7]
-			}, -- [10]
-			{
-				237576, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [11]
-			{
-				237583, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				262, -- [6]
-				3, -- [7]
-			}, -- [12]
-			{
-				135829, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				1, -- [5]
-				262, -- [6]
-				1, -- [7]
-			}, -- [13]
-			{
-				451169, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				136011, -- [1]
-				3, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				262, -- [6]
-				3, -- [7]
-			}, -- [15]
-			{
-				252174, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				1, -- [5]
-				262, -- [6]
-				3, -- [7]
-			}, -- [16]
-			{
-				136014, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [17]
-			{
-				136100, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				262, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				136111, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				262, -- [6]
-				1, -- [7]
-			}, -- [19]
-			{
-				132152, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [20]
-			{
-				348567, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [21]
-			{
-				136051, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [22]
-			{
-				135814, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [23]
-			{
-				135892, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [24]
-			{
-				132314, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				1, -- [7]
-			}, -- [25]
-			{
-				136110, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [26]
-			{
-				136088, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				1, -- [7]
-			}, -- [27]
-			{
-				237587, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [28]
-			{
-				136024, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [29]
-			{
-				237584, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [30]
-			{
-				237577, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				1, -- [7]
-			}, -- [31]
-			{
-				135825, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [32]
-			{
-				451166, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [33]
-			{
-				451168, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [34]
-			{
-				135791, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				263, -- [6]
-				3, -- [7]
-			}, -- [35]
-			{
-				135776, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [36]
-			{
-				136008, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [37]
-			{
-				136027, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				263, -- [6]
-				2, -- [7]
-			}, -- [38]
-			{
-				136109, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [39]
-			{
-				132315, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				136037, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [41]
-			{
-				135861, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				1, -- [7]
-			}, -- [42]
-			{
-				136076, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				1, -- [7]
-			}, -- [43]
-			{
-				135859, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [44]
-			{
-				136057, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				136059, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [46]
-			{
-				136060, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [47]
-			{
-				237573, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [48]
-			{
-				237571, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [49]
-			{
-				237590, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [50]
-			{
-				252995, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				264, -- [6]
-				1, -- [7]
-			}, -- [51]
-			{
-				236288, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				264, -- [6]
-				1, -- [7]
-			}, -- [52]
-			{
-				462651, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				252271, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [54]
-			{
-				135990, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [55]
-			{
-				237556, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				264, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				136079, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				264, -- [6]
-				2, -- [7]
-			}, -- [57]
-			{
-				237586, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				3, -- [5]
-				264, -- [6]
-				1, -- [7]
-			}, -- [58]
-		},
-		["Player-4442-04A8608A"] = {
-			{
-				136071, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [1]
-			{
-				136170, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				135856, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				135737, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [4]
-			{
-				135736, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [5]
-			{
-				136031, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [6]
-			{
-				135752, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				135732, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [8]
-			{
-				136048, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [9]
-			{
-				236219, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [10]
-			{
-				236223, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [11]
-			{
-				134104, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [12]
-			{
-				136091, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [13]
-			{
-				236221, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				236222, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				3, -- [7]
-			}, -- [15]
-			{
-				135754, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				429382, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				1, -- [7]
-			}, -- [17]
-			{
-				136096, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				429383, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [19]
-			{
-				135735, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [20]
-			{
-				136116, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
-				62, -- [6]
-				2, -- [7]
-			}, -- [21]
-			{
-				135807, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				135818, -- [1]
-				1, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [23]
-			{
-				429590, -- [1]
-				2, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [24]
-			{
-				135821, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [25]
-			{
-				136115, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [26]
-			{
-				135806, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [27]
-			{
-				135820, -- [1]
-				2, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [28]
-			{
-				135827, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [29]
-			{
-				135903, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [30]
-			{
-				135788, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [31]
-			{
-				135789, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [32]
-			{
-				135824, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				135822, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [34]
-			{
-				134153, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [35]
-			{
-				236218, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [36]
-			{
-				236220, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [37]
-			{
-				135826, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [38]
-			{
-				236216, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				63, -- [6]
-				1, -- [7]
-			}, -- [39]
-			{
-				252268, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				135817, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				63, -- [6]
-				3, -- [7]
-			}, -- [41]
-			{
-				236218, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				63, -- [6]
-				2, -- [7]
-			}, -- [42]
-			{
-				135854, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [43]
-			{
-				135864, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [44]
-			{
-				135838, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [45]
-			{
-				429385, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [46]
-			{
-				135837, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [47]
-			{
-				135865, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [48]
-			{
-				236227, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [49]
-			{
-				236209, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [50]
-			{
-				135988, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [51]
-			{
-				236206, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [52]
-			{
-				135833, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				236214, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				1, -- [7]
-			}, -- [54]
-			{
-				429386, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [55]
-			{
-				135845, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				135849, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [57]
-			{
-				430840, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [58]
-			{
-				135852, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [59]
-			{
-				135861, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				64, -- [6]
-				3, -- [7]
-			}, -- [60]
-			{
-				135859, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				64, -- [6]
-				2, -- [7]
-			}, -- [61]
-		},
-		["Player-4476-059741C0"] = {
-			{
-				135921, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				[7] = 2,
-			}, -- [1]
-			{
-				135917, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				[7] = 2,
-			}, -- [2]
-			{
-				135903, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				[7] = 2,
-			}, -- [3]
-			{
-				236251, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				[7] = 2,
-			}, -- [4]
-			{
-				135872, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				[7] = 1,
-			}, -- [5]
-			{
-				135876, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				[7] = 2,
-			}, -- [6]
-			{
-				236261, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
-				[7] = 1,
-			}, -- [7]
-			{
-				236256, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				[7] = 3,
-			}, -- [8]
-			{
-				236254, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				[7] = 2,
-			}, -- [9]
-			{
-				236247, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				[7] = 1,
-			}, -- [10]
-			{
-				236394, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				1, -- [5]
-				[7] = 3,
-			}, -- [11]
-			{
-				135895, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				[7] = 1,
-			}, -- [12]
-			{
-				461859, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				[7] = 1,
-			}, -- [13]
-			{
-				461857, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				[7] = 3,
-			}, -- [14]
-			{
-				460953, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				[7] = 3,
-			}, -- [15]
-			{
-				134909, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				[7] = 2,
-			}, -- [16]
-			{
-				460689, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				[7] = 3,
-			}, -- [17]
-			{
-				135920, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				[7] = 2,
-			}, -- [18]
-			{
-				135875, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				1, -- [5]
-				[7] = 2,
-			}, -- [19]
-			{
-				460690, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				[7] = 3,
-			}, -- [20]
-			{
-				133526, -- [1]
-				2, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [21]
-			{
-				135892, -- [1]
-				3, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				[7] = 3,
-			}, -- [22]
-			{
-				253400, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-				[7] = 1,
-			}, -- [23]
-			{
-				135963, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [24]
-			{
-				236264, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				[7] = 3,
-			}, -- [25]
-			{
-				135926, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [26]
-			{
-				136051, -- [1]
-				1, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				[7] = 3,
-			}, -- [27]
-			{
-				135870, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				[7] = 1,
-			}, -- [28]
-			{
-				135880, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				[7] = 1,
-			}, -- [29]
-			{
-				135896, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [30]
-			{
-				236259, -- [1]
-				2, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [31]
-			{
-				236253, -- [1]
-				1, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				[7] = 1,
-			}, -- [32]
-			{
-				135985, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				[7] = 1,
-			}, -- [33]
-			{
-				133562, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [34]
-			{
-				135882, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [35]
-			{
-				133176, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [36]
-			{
-				236252, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [37]
-			{
-				236265, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				[7] = 1,
-			}, -- [38]
-			{
-				135433, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				[7] = 2,
-			}, -- [39]
-			{
-				135883, -- [1]
-				3, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				[7] = 3,
-			}, -- [40]
-			{
-				135897, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				[7] = 2,
-			}, -- [41]
-			{
-				132347, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				[7] = 1,
-			}, -- [42]
-			{
-				135904, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				[7] = 2,
-			}, -- [43]
-			{
-				135889, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				[7] = 3,
-			}, -- [44]
-			{
-				236246, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				[7] = 3,
-			}, -- [45]
-			{
-				135942, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				[7] = 1,
-			}, -- [46]
-			{
-				236257, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				[7] = 1,
-			}, -- [47]
-			{
-				236262, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				[7] = 3,
-			}, -- [48]
-			{
-				236260, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				3, -- [5]
-				[7] = 3,
-			}, -- [49]
-			{
-				236250, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				[7] = 1,
-			}, -- [50]
-			{
-				236249, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				[7] = 1,
-			}, -- [51]
-			{
-				236248, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				[7] = 2,
-			}, -- [52]
-			{
-				237547, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				[7] = 1,
-			}, -- [53]
-			{
-				134916, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				[7] = 3,
-			}, -- [54]
-			{
-				252269, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				[7] = 2,
-			}, -- [55]
-			{
-				237486, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				[7] = 1,
-			}, -- [56]
-			{
-				236258, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				[7] = 2,
-			}, -- [57]
-			{
-				135937, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				[7] = 2,
-			}, -- [58]
-			{
-				236255, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				[7] = 2,
-			}, -- [59]
-			{
-				135964, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				[7] = 2,
-			}, -- [60]
-		},
-		["Player-4465-04AA5A5A"] = {
-			{
-				461117, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [1]
-			{
-				461112, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				132210, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				461118, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [4]
-			{
-				132160, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [5]
-			{
-				132179, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [6]
-			{
-				134296, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				132121, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [8]
-			{
-				132173, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [9]
-			{
-				461846, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [10]
-			{
-				236184, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [11]
-			{
-				132127, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [12]
-			{
-				236357, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [13]
-			{
-				236177, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [14]
-			{
-				236186, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				3, -- [7]
-			}, -- [15]
-			{
-				132166, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				236202, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [17]
-			{
-				236175, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				253, -- [6]
-				1, -- [7]
-			}, -- [18]
-			{
-				236190, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				253, -- [6]
-				2, -- [7]
-			}, -- [19]
-			{
-				132205, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [20]
-			{
-				236179, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				3, -- [7]
-			}, -- [21]
-			{
-				132174, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				461121, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [23]
-			{
-				132217, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [24]
-			{
-				236182, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				3, -- [7]
-			}, -- [25]
-			{
-				132206, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-				254, -- [6]
-				1, -- [7]
-			}, -- [26]
-			{
-				461115, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [27]
-			{
-				132222, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [28]
-			{
-				132329, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				1, -- [7]
-			}, -- [29]
-			{
-				132345, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [30]
-			{
-				132177, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				3, -- [7]
-			}, -- [31]
-			{
-				461120, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [32]
-			{
-				236201, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [33]
-			{
-				132323, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				1, -- [7]
-			}, -- [34]
-			{
-				461119, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [35]
-			{
-				236173, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				2, -- [7]
-			}, -- [36]
-			{
-				236176, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				254, -- [6]
-				1, -- [7]
-			}, -- [37]
-			{
-				236198, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				254, -- [6]
-				3, -- [7]
-			}, -- [38]
-			{
-				236183, -- [1]
-				3, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [39]
-			{
-				136100, -- [1]
-				2, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				236180, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [41]
-			{
-				132293, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [42]
-			{
-				132336, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				1, -- [7]
-			}, -- [43]
-			{
-				132204, -- [1]
-				2, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [44]
-			{
-				236185, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				132207, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [46]
-			{
-				133713, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [47]
-			{
-				132378, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [48]
-			{
-				135125, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				1, -- [7]
-			}, -- [49]
-			{
-				236199, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [50]
-			{
-				236200, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [51]
-			{
-				236181, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				3, -- [5]
-				255, -- [6]
-				1, -- [7]
-			}, -- [52]
-			{
-				236187, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				136181, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				1, -- [7]
-			}, -- [54]
-			{
-				304583, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [55]
-			{
-				132216, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				132149, -- [1]
-				3, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				255, -- [6]
-				3, -- [7]
-			}, -- [57]
-			{
-				132209, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				255, -- [6]
-				2, -- [7]
-			}, -- [58]
-		},
-		["Player-4476-05829483"] = {
-			{
-				136006, -- [1]
-				3, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				102, -- [6]
-				3, -- [7]
-			}, -- [1]
-			{
-				136087, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				102, -- [6]
-				3, -- [7]
-			}, -- [2]
-			{
-				136062, -- [1]
-				3, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				102, -- [6]
-				3, -- [7]
-			}, -- [3]
-			{
-				252188, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
-				102, -- [6]
-				1, -- [7]
-			}, -- [4]
-			{
-				236154, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				102, -- [6]
-				2, -- [7]
-			}, -- [5]
-			{
-				236205, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				102, -- [6]
-				2, -- [7]
-			}, -- [6]
-			{
-				132113, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				102, -- [6]
-				2, -- [7]
-			}, -- [7]
-			{
-				341763, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				102, -- [6]
-				2, -- [7]
-			}, -- [8]
-			{
-				236163, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				102, -- [6]
-				3, -- [7]
-			}, -- [9]
-			{
-				236704, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				102, -- [6]
-				3, -- [7]
-			}, -- [10]
-			{
-				132129, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				102, -- [6]
-				1, -- [7]
-			}, -- [11]
-			{
-				132371, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				1, -- [5]
-				102, -- [6]
-				2, -- [7]
-			}, -- [12]
-			{
-				236168, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				102, -- [6]
-				1, -- [7]
-			}, -- [13]
-			{
-				236150, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				1, -- [5]
-				102, -- [6]
-				1, -- [7]
-			}, -- [14]
-			{
-				136036, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				102, -- [6]
-				1, -- [7]
-			}, -- [15]
-			{
-				135138, -- [1]
-				2, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				102, -- [6]
-				2, -- [7]
-			}, -- [16]
-			{
-				236170, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				102, -- [6]
-				1, -- [7]
-			}, -- [17]
-			{
-				135730, -- [1]
-				1, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				102, -- [6]
-				3, -- [7]
-			}, -- [18]
-			{
-				132123, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				102, -- [6]
-				2, -- [7]
-			}, -- [19]
-			{
-				236216, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				102, -- [6]
-				1, -- [7]
-			}, -- [20]
-			{
-				134355, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
-				103, -- [6]
-				3, -- [7]
-			}, -- [21]
-			{
-				136095, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				132183, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				103, -- [6]
-				1, -- [7]
-			}, -- [23]
-			{
-				304501, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [24]
-			{
-				132130, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [25]
-			{
-				132134, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				103, -- [6]
-				3, -- [7]
-			}, -- [26]
-			{
-				132114, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [27]
-			{
-				236169, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				103, -- [6]
-				1, -- [7]
-			}, -- [28]
-			{
-				132318, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				103, -- [6]
-				1, -- [7]
-			}, -- [29]
-			{
-				236159, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				103, -- [6]
-				3, -- [7]
-			}, -- [30]
-			{
-				136112, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				103, -- [6]
-				1, -- [7]
-			}, -- [31]
-			{
-				132242, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [32]
-			{
-				237347, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [33]
-			{
-				236164, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				2, -- [5]
-				103, -- [6]
-				3, -- [7]
-			}, -- [34]
-			{
-				236149, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				103, -- [6]
-				1, -- [7]
-			}, -- [35]
-			{
-				132091, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [36]
-			{
-				237513, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [37]
-			{
-				236158, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [38]
-			{
-				132278, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [39]
-			{
-				132185, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				132121, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [41]
-			{
-				135881, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				103, -- [6]
-				3, -- [7]
-			}, -- [42]
-			{
-				237586, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				105, -- [6]
-				2, -- [7]
-			}, -- [43]
-			{
-				136116, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				105, -- [6]
-				2, -- [7]
-			}, -- [44]
-			{
-				136081, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				105, -- [6]
-				3, -- [7]
-			}, -- [45]
-			{
-				136076, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				105, -- [6]
-				1, -- [7]
-			}, -- [46]
-			{
-				236155, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				105, -- [6]
-				3, -- [7]
-			}, -- [47]
-			{
-				136085, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				105, -- [6]
-				3, -- [7]
-			}, -- [48]
-			{
-				134222, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				105, -- [6]
-				3, -- [7]
-			}, -- [49]
-			{
-				132124, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				105, -- [6]
-				1, -- [7]
-			}, -- [50]
-			{
-				132137, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				3, -- [5]
-				105, -- [6]
-				2, -- [7]
-			}, -- [51]
-			{
-				236166, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				105, -- [6]
-				2, -- [7]
-			}, -- [52]
-			{
-				132145, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				105, -- [6]
-				1, -- [7]
-			}, -- [53]
-			{
-				236161, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				105, -- [6]
-				1, -- [7]
-			}, -- [54]
-			{
-				236153, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				105, -- [6]
-				1, -- [7]
-			}, -- [55]
-			{
-				132125, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				105, -- [6]
-				2, -- [7]
-			}, -- [56]
-			{
-				236288, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				105, -- [6]
-				1, -- [7]
-			}, -- [57]
-			{
-				236740, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				105, -- [6]
-				3, -- [7]
-			}, -- [58]
-			{
-				236160, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				3, -- [5]
-				105, -- [6]
-				3, -- [7]
-			}, -- [59]
-			{
-				136041, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				105, -- [6]
-				2, -- [7]
-			}, -- [60]
-			{
-				237472, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				105, -- [6]
-				2, -- [7]
-			}, -- [61]
-			{
-				135879, -- [1]
-				0, -- [2]
-				1, -- [3]
-				4, -- [4]
-				3, -- [5]
-				105, -- [6]
-				3, -- [7]
-			}, -- [62]
-			{
-				237578, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				105, -- [6]
-				2, -- [7]
-			}, -- [63]
-		},
 	},
 	["last_instance_id"] = 189,
 	["data_harvest_for_charsts"] = {
 		["players"] = {
 			{
-				["playerKey"] = "total",
-				["combatObjectContainer"] = 1,
 				["name"] = "Damage of Each Individual Player",
 				["playerOnly"] = true,
+				["playerKey"] = "total",
+				["combatObjectContainer"] = 1,
 			}, -- [1]
 		},
 		["totals"] = {
@@ -22807,171 +8338,68 @@ _detalhes_database = {
 		["frame"] = {
 		},
 	},
-	["data_harvested_for_charts"] = {
-	},
 	["combat_log"] = {
 		["inverse_deathlog_overalldata"] = false,
-		["merge_gemstones_1007"] = false,
 		["track_hunter_frenzy"] = false,
+		["merge_gemstones_1007"] = false,
 		["merge_critical_heals"] = false,
 		["inverse_deathlog_raid"] = false,
 		["calc_evoker_damage"] = true,
 		["evoker_show_realtimedps"] = false,
 		["inverse_deathlog_mplus"] = false,
 	},
+	["last_realversion"] = 160,
 	["mythic_plus_log"] = {
 	},
-	["announce_damagerecord"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
-	},
-	["combat_counter"] = 1299,
-	["last_realversion"] = 160,
 	["on_death_menu"] = false,
+	["cached_roles"] = {
+		["Player-4467-04A7248B"] = "DAMAGER",
+		["Player-4476-05974417"] = "DAMAGER",
+		["Player-4441-04A7AFA5"] = "DAMAGER",
+		["Player-4476-0590F420"] = "DAMAGER",
+		["Player-4465-04AAB41A"] = "DAMAGER",
+		["Player-4465-04A95917"] = "DAMAGER",
+		["Player-4476-0597290A"] = "DAMAGER",
+		["Player-4441-04AABDFA"] = "DAMAGER",
+		["Player-4465-04AAC9E7"] = "DAMAGER",
+		["Player-4477-05968FAE"] = "DAMAGER",
+		["Player-4476-04F3D80B"] = "DAMAGER",
+		["Player-4476-0597277A"] = "DAMAGER",
+		["Player-4454-0597565B"] = "DAMAGER",
+		["Player-4476-05973846"] = "HEALER",
+		["Player-4476-05915437"] = "HEALER",
+		["Player-4476-037E0C8B"] = "DAMAGER",
+		["Player-4678-05974B71"] = "NONE",
+		["Player-4465-04A97C91"] = "DAMAGER",
+		["Player-4476-0597535C"] = "TANK",
+		["Player-4453-0597287B"] = "DAMAGER",
+		["Player-4476-059708DC"] = "DAMAGER",
+		["Player-4464-04A84F31"] = "DAMAGER",
+		["Player-4440-04A9C874"] = "DAMAGER",
+		["Player-4467-04AAE3AE"] = "DAMAGER",
+		["Player-4442-04A8608A"] = "DAMAGER",
+		["Player-4476-059741C0"] = "NONE",
+		["Player-4465-04AA5A5A"] = "DAMAGER",
+		["Player-4476-05829483"] = "DAMAGER",
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1726330427,
+		["last_version"] = 16,
+	},
 	["ignore_nicktag"] = false,
-	["plugin_database"] = {
-		["DETAILS_PLUGIN_TINY_THREAT"] = {
-			["enabled"] = true,
-			["animate"] = false,
-			["hide_pull_bar"] = false,
-			["author"] = "Terciob",
-			["playercolor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-			},
-			["usefocus"] = false,
-			["updatespeed"] = 1,
-			["useclasscolors"] = false,
-			["showamount"] = false,
-			["useplayercolor"] = false,
-			["absolute_mode"] = false,
-			["playSound"] = false,
-			["playSoundFile"] = "Details Threat Warning Volume 3",
-			["disable_gouge"] = false,
-		},
-		["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
-			["enabled"] = true,
-			["author"] = "Terciob",
-			["max_compares"] = 4,
-			["compare_type"] = 1,
-		},
-		["DETAILS_PLUGIN_VANGUARD"] = {
-			["tank_block_size_height"] = 50,
-			["show_power_bar"] = false,
-			["first_run"] = false,
-			["aura_timer_text_size"] = 14,
-			["tank_block_castbar_size_height"] = 16,
-			["show_health_bar"] = true,
-			["aura_offset_y"] = 0,
-			["enabled"] = true,
-			["show_cast_bar"] = false,
-			["author"] = "Terciob",
-			["tank_block_size"] = 150,
-			["bar_height"] = 24,
-			["tank_block_texture"] = "Details Serenity",
-			["show_inc_bars"] = true,
-			["tank_block_powerbar_size_height"] = 10,
-			["tank_block_height"] = 40,
-			["tank_block_color"] = {
-				0.074509, -- [1]
-				0.035294, -- [2]
-				0.035294, -- [3]
-				0.832845, -- [4]
-			},
-		},
-		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
-			["enabled"] = true,
-			["encounter_timers_bw"] = {
-			},
-			["max_emote_segments"] = 3,
-			["last_section_selected"] = "main",
-			["author"] = "Terciob",
-			["window_scale"] = 1,
-			["encounter_timers_dbm"] = {
-			},
-			["show_icon"] = 5,
-			["opened"] = 0,
-			["hide_on_combat"] = false,
-		},
-		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
-			["use_square_mode"] = false,
-			["is_first_run"] = false,
-			["arrow_color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.5, -- [4]
-			},
-			["arrow_anchor_y"] = 0,
-			["main_frame_size"] = {
-				300, -- [1]
-				500.0000305175781, -- [2]
-			},
-			["minimap"] = {
-				["minimapPos"] = 160,
-				["radius"] = 160,
-				["hide"] = false,
-			},
-			["main_frame_locked"] = false,
-			["arrow_anchor_x"] = 0,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
-			["row_texture"] = "Details Serenity",
-			["square_grow_direction"] = "right",
-			["use_spark"] = true,
-			["author"] = "Terciob",
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
-			["y"] = -1.52587890625e-05,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
-			["per_second"] = {
-				["enabled"] = false,
-				["point"] = "CENTER",
-				["scale"] = 1,
-				["font_shadow"] = true,
-				["y"] = -1.52587890625e-05,
-				["x"] = -6.103515625e-05,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.05,
-				["size"] = 32,
-			},
-			["x"] = 3.0517578125e-05,
-			["font_face"] = "Friz Quadrata TT",
-			["square_size"] = 32,
-			["point"] = "CENTER",
-			["font_color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["row_height"] = 20,
-			["scale"] = 1,
-		},
+	["data_harvested_for_charts"] = {
+	},
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
 	},
 	["last_instance_time"] = 1725132614,
 	["combat_id"] = 1096,
 	["savedStyles"] = {
 	},
 	["character_data"] = {
-		["logons"] = 52,
+		["logons"] = 127,
 	},
-	["last_day"] = "31",
+	["last_day"] = "01",
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -22986,14 +8414,13 @@ _detalhes_database = {
 					["flag_original"] = 1298,
 					["pets"] = {
 					},
-					["classe"] = "WARRIOR",
+					["aID"] = "4453-0597287B",
 					["total_without_pet"] = 64916.07150400001,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 64916.07150400001,
 					["spec"] = 71,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Player-4453-0597287B",
 					["damage_from"] = {
@@ -23021,15 +8448,15 @@ _detalhes_database = {
 					},
 					["end_time"] = 1725128157,
 					["totalabsorbed"] = 0.071504,
-					["aID"] = "4453-0597287B",
+					["classe"] = "WARRIOR",
 					["nome"] = "Banctbc-PyrewoodVillage",
 					["spells"] = {
 						["_ActorTable"] = {
 							{
-								["DODGE"] = 5,
+								["c_amt"] = 8,
 								["b_amt"] = 5,
 								["g_amt"] = 5,
-								["b_dmg"] = 662,
+								["n_max"] = 278,
 								["targets"] = {
 									["Scarlet Scryer"] = 1867,
 									["Bloodmage Thalnos"] = 835,
@@ -23041,14 +8468,14 @@ _detalhes_database = {
 									["Interrogator Vishas"] = 1723,
 								},
 								["n_total"] = 13236,
-								["g_dmg"] = 1004,
-								["n_min"] = 0,
 								["MISS"] = 2,
+								["n_min"] = 0,
+								["g_dmg"] = 1004,
 								["counter"] = 94,
 								["a_amt"] = 0,
 								["r_amt"] = 0,
 								["c_max"] = 477,
-								["c_amt"] = 8,
+								["DODGE"] = 5,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["spellschool"] = 1,
@@ -23060,19 +8487,19 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 2854,
 								["n_amt"] = 69,
+								["b_dmg"] = 662,
 								["total"] = 17094,
-								["n_max"] = 278,
 							}, -- [1]
 							[7384] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 225,
 								["targets"] = {
 									["Unfettered Spirit"] = 332,
 									["Scarlet Scryer"] = 225,
-									["Haunting Phantasm"] = 128,
 									["Anguished Dead"] = 1044,
+									["Haunting Phantasm"] = 128,
 									["Interrogator Vishas"] = 341,
 								},
 								["n_total"] = 2070,
@@ -23092,14 +8519,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 12,
-								["n_max"] = 225,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 							[78] = {
 								["c_amt"] = 1,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 221,
 								["targets"] = {
 									["Bloodmage Thalnos"] = 142,
 									["Anguished Dead"] = 1539,
@@ -23122,19 +8549,19 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 278,
 								["n_amt"] = 10,
-								["n_max"] = 221,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 							[413764] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 29,
 								["targets"] = {
-									["Anguished Dead"] = 371,
+									["Haunting Phantasm"] = 261,
 									["Unfettered Spirit"] = 615,
 									["Scarlet Scryer"] = 285,
-									["Haunting Phantasm"] = 261,
+									["Anguished Dead"] = 371,
 									["Scarlet Torturer"] = 314,
 									["Interrogator Vishas"] = 292,
 								},
@@ -23155,14 +8582,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 88,
-								["n_max"] = 29,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 							[94009] = {
 								["c_amt"] = 3,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 97,
 								["targets"] = {
 									["Bloodmage Thalnos"] = 332,
 									["Anguished Dead"] = 1355,
@@ -23185,21 +8612,21 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 496,
 								["n_amt"] = 22,
-								["n_max"] = 97,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 							[34428] = {
 								["c_amt"] = 1,
 								["b_amt"] = 1,
 								["g_amt"] = 0,
-								["b_dmg"] = 287,
+								["n_max"] = 411,
 								["targets"] = {
 									["Illusionary Phantasm"] = 0,
 									["Bloodmage Thalnos"] = 260,
 									["Unfettered Spirit"] = 3804,
 									["Scarlet Torturer"] = 365,
-									["Anguished Dead"] = 2405,
 									["Haunting Phantasm"] = 462,
+									["Anguished Dead"] = 2405,
 									["Interrogator Vishas"] = 290,
 								},
 								["n_total"] = 7157,
@@ -23207,12 +8634,12 @@ _detalhes_database = {
 								["g_dmg"] = 0,
 								["counter"] = 29,
 								["MISS"] = 1,
-								["r_amt"] = 0,
-								["spellschool"] = 1,
+								["total"] = 7586,
+								["c_max"] = 429,
 								["DODGE"] = 1,
 								["id"] = 34428,
 								["r_dmg"] = 0,
-								["c_max"] = 429,
+								["spellschool"] = 1,
 								["extra"] = {
 								},
 								["a_dmg"] = 0,
@@ -23221,14 +8648,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 429,
 								["n_amt"] = 26,
-								["n_max"] = 411,
-								["total"] = 7586,
+								["b_dmg"] = 287,
+								["r_amt"] = 0,
 							},
 							[772] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 0,
 								["targets"] = {
 									["Haunting Phantasm"] = 0,
 								},
@@ -23250,111 +8677,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 0,
-								["n_max"] = 0,
-								["r_amt"] = 0,
-							},
-							[57755] = {
-								["c_amt"] = 1,
-								["b_amt"] = 0,
-								["g_amt"] = 0,
 								["b_dmg"] = 0,
-								["targets"] = {
-									["Scarlet Scryer"] = 296,
-									["Haunting Phantasm"] = 517,
-									["Anguished Dead"] = 1488,
-								},
-								["n_total"] = 1721,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 7,
-								["total"] = 2301,
-								["c_max"] = 580,
-								["id"] = 57755,
-								["r_dmg"] = 0,
-								["spellschool"] = 1,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["c_total"] = 580,
-								["n_amt"] = 6,
-								["n_max"] = 392,
-								["r_amt"] = 0,
-							},
-							[12294] = {
-								["c_amt"] = 1,
-								["b_amt"] = 3,
-								["g_amt"] = 0,
-								["b_dmg"] = 621,
-								["targets"] = {
-									["Bloodmage Thalnos"] = 330,
-									["Anguished Dead"] = 4498,
-									["Unfettered Spirit"] = 1512,
-									["Scarlet Torturer"] = 364,
-									["Haunting Phantasm"] = 664,
-									["Scarlet Scryer"] = 631,
-									["Interrogator Vishas"] = 592,
-								},
-								["n_total"] = 8289,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 34,
-								["a_amt"] = 0,
-								["r_amt"] = 0,
-								["spellschool"] = 1,
-								["DODGE"] = 2,
-								["id"] = 12294,
-								["r_dmg"] = 0,
-								["c_max"] = 302,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["PARRY"] = 2,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["c_total"] = 302,
-								["n_amt"] = 29,
-								["n_max"] = 364,
-								["total"] = 8591,
-							},
-							[6343] = {
-								["c_amt"] = 5,
-								["b_amt"] = 0,
-								["g_amt"] = 0,
-								["b_dmg"] = 0,
-								["targets"] = {
-									["Anguished Dead"] = 687,
-									["Haunting Phantasm"] = 620,
-									["Illusionary Phantasm <Haunting Phantasm>"] = 226,
-									["Unfettered Spirit"] = 2129,
-								},
-								["n_total"] = 2756,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 29,
-								["total"] = 3662,
-								["c_max"] = 257,
-								["id"] = 6343,
-								["r_dmg"] = 0,
-								["spellschool"] = 1,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["c_total"] = 906,
-								["n_amt"] = 24,
-								["n_max"] = 147,
 								["r_amt"] = 0,
 							},
 							[5308] = {
 								["c_amt"] = 3,
 								["b_amt"] = 1,
 								["g_amt"] = 0,
-								["b_dmg"] = 212,
+								["n_max"] = 452,
 								["targets"] = {
 									["Bloodmage Thalnos"] = 948,
 									["Haunting Phantasm"] = 587,
@@ -23379,14 +8709,111 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 749,
 								["n_amt"] = 18,
-								["n_max"] = 452,
+								["b_dmg"] = 212,
+								["r_amt"] = 0,
+							},
+							[6343] = {
+								["c_amt"] = 5,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 147,
+								["targets"] = {
+									["Anguished Dead"] = 687,
+									["Haunting Phantasm"] = 620,
+									["Illusionary Phantasm <Haunting Phantasm>"] = 226,
+									["Unfettered Spirit"] = 2129,
+								},
+								["n_total"] = 2756,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 29,
+								["total"] = 3662,
+								["c_max"] = 257,
+								["id"] = 6343,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 906,
+								["n_amt"] = 24,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[12294] = {
+								["c_amt"] = 1,
+								["b_amt"] = 3,
+								["g_amt"] = 0,
+								["n_max"] = 364,
+								["targets"] = {
+									["Bloodmage Thalnos"] = 330,
+									["Haunting Phantasm"] = 664,
+									["Unfettered Spirit"] = 1512,
+									["Scarlet Torturer"] = 364,
+									["Anguished Dead"] = 4498,
+									["Scarlet Scryer"] = 631,
+									["Interrogator Vishas"] = 592,
+								},
+								["n_total"] = 8289,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 34,
+								["a_amt"] = 0,
+								["total"] = 8591,
+								["c_max"] = 302,
+								["DODGE"] = 2,
+								["id"] = 12294,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["PARRY"] = 2,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 302,
+								["n_amt"] = 29,
+								["b_dmg"] = 621,
+								["r_amt"] = 0,
+							},
+							[57755] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 392,
+								["targets"] = {
+									["Scarlet Scryer"] = 296,
+									["Haunting Phantasm"] = 517,
+									["Anguished Dead"] = 1488,
+								},
+								["n_total"] = 1721,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 2301,
+								["c_max"] = 580,
+								["id"] = 57755,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 580,
+								["n_amt"] = 6,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 							[69041] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 188,
 								["targets"] = {
 									["Anguished Dead"] = 188,
 								},
@@ -23407,14 +8834,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 1,
-								["n_max"] = 188,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 							[845] = {
 								["c_amt"] = 9,
 								["b_amt"] = 4,
 								["g_amt"] = 0,
-								["b_dmg"] = 710,
+								["n_max"] = 249,
 								["targets"] = {
 									["Scarlet Torturer"] = 2494,
 									["Bloodmage Thalnos"] = 249,
@@ -23430,12 +8857,12 @@ _detalhes_database = {
 								["g_dmg"] = 0,
 								["counter"] = 72,
 								["a_amt"] = 0,
-								["r_amt"] = 0,
-								["spellschool"] = 1,
+								["total"] = 13516,
+								["c_max"] = 490,
 								["DODGE"] = 5,
 								["id"] = 845,
 								["r_dmg"] = 0,
-								["c_max"] = 490,
+								["spellschool"] = 1,
 								["extra"] = {
 								},
 								["a_dmg"] = 0,
@@ -23444,14 +8871,15 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 3330,
 								["n_amt"] = 57,
-								["n_max"] = 249,
-								["total"] = 13516,
+								["b_dmg"] = 710,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["grupo"] = true,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["tipo"] = 1,
 					["custom"] = 0,
 					["last_event"] = 0,
@@ -23467,7 +8895,7 @@ _detalhes_database = {
 					["classe"] = "UNKNOW",
 					["total_without_pet"] = 2438.019026,
 					["last_dps_realtime"] = 0,
-					["monster"] = true,
+					["dps_started"] = false,
 					["total"] = 2438.019026,
 					["friendlyfire"] = {
 					},
@@ -23501,7 +8929,7 @@ _detalhes_database = {
 								["c_amt"] = 0,
 								["b_amt"] = 1,
 								["g_amt"] = 0,
-								["b_dmg"] = 48,
+								["n_max"] = 96,
 								["targets"] = {
 									["Banctbc-PyrewoodVillage"] = 96,
 									["Annyar"] = 1348,
@@ -23524,14 +8952,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 18,
-								["n_max"] = 96,
+								["b_dmg"] = 48,
 								["r_amt"] = 0,
 							}, -- [1]
 							[9613] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 60,
 								["targets"] = {
 									["Annyar"] = 835,
 									["Raptor <Razhihunt-Golemagg>"] = 99,
@@ -23554,14 +8982,14 @@ _detalhes_database = {
 								["successful_casted"] = 21,
 								["c_total"] = 0,
 								["n_amt"] = 20,
-								["n_max"] = 60,
+								["b_dmg"] = 0,
 								["r_amt"] = 18,
 							},
 							[77773] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 0,
 								["targets"] = {
 								},
 								["n_total"] = 0,
@@ -23580,13 +9008,13 @@ _detalhes_database = {
 								["successful_casted"] = 4,
 								["c_total"] = 0,
 								["n_amt"] = 0,
-								["n_max"] = 0,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["dps_started"] = false,
+					["monster"] = true,
 					["tipo"] = 1,
 					["custom"] = 0,
 					["last_event"] = 0,
@@ -23602,7 +9030,7 @@ _detalhes_database = {
 					["classe"] = "UNKNOW",
 					["total_without_pet"] = 3899.016452,
 					["last_dps_realtime"] = 0,
-					["monster"] = true,
+					["dps_started"] = false,
 					["total"] = 3899.016452,
 					["friendlyfire"] = {
 					},
@@ -23640,7 +9068,7 @@ _detalhes_database = {
 								["c_amt"] = 3,
 								["b_amt"] = 4,
 								["g_amt"] = 0,
-								["b_dmg"] = 212,
+								["n_max"] = 131,
 								["targets"] = {
 									["Annyar"] = 1900,
 									["Raptor <Razhihunt-Golemagg>"] = 102,
@@ -23654,12 +9082,12 @@ _detalhes_database = {
 								["g_dmg"] = 0,
 								["counter"] = 44,
 								["a_amt"] = 0,
-								["r_amt"] = 0,
-								["spellschool"] = 1,
+								["total"] = 3321,
+								["c_max"] = 205,
 								["MISS"] = 1,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["c_max"] = 205,
+								["spellschool"] = 1,
 								["extra"] = {
 								},
 								["a_dmg"] = 0,
@@ -23668,14 +9096,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 551,
 								["n_amt"] = 32,
-								["n_max"] = 131,
-								["total"] = 3321,
+								["b_dmg"] = 212,
+								["r_amt"] = 0,
 							}, -- [1]
 							[9275] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 55,
 								["targets"] = {
 									["Annyar"] = 308,
 									["Banctbc-PyrewoodVillage"] = 135,
@@ -23698,13 +9126,13 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 27,
-								["n_max"] = 55,
+								["b_dmg"] = 0,
 								["r_amt"] = 6,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["dps_started"] = false,
+					["monster"] = true,
 					["tipo"] = 1,
 					["custom"] = 0,
 					["last_event"] = 0,
@@ -23717,14 +9145,13 @@ _detalhes_database = {
 					["flag_original"] = 66834,
 					["pets"] = {
 					},
-					["classe"] = "PALADIN",
+					["aID"] = "4476-059741C0",
 					["total_without_pet"] = 54043.03194,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 54043.03194,
 					["spec"] = 66,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Player-4476-059741C0",
 					["damage_from"] = {
@@ -23753,7 +9180,7 @@ _detalhes_database = {
 					},
 					["end_time"] = 1725128157,
 					["totalabsorbed"] = 0.03194,
-					["aID"] = "4476-059741C0",
+					["classe"] = "PALADIN",
 					["nome"] = "Annyar",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -23761,13 +9188,13 @@ _detalhes_database = {
 								["c_amt"] = 6,
 								["b_amt"] = 2,
 								["g_amt"] = 4,
-								["b_dmg"] = 174,
+								["n_max"] = 163,
 								["targets"] = {
 									["Bloodmage Thalnos"] = 1674,
-									["Anguished Dead"] = 2182,
+									["Haunting Phantasm"] = 1518,
 									["Unfettered Spirit"] = 953,
 									["Scarlet Scryer"] = 1274,
-									["Haunting Phantasm"] = 1518,
+									["Anguished Dead"] = 2182,
 									["Scarlet Torturer"] = 1166,
 									["Interrogator Vishas"] = 1836,
 								},
@@ -23776,12 +9203,12 @@ _detalhes_database = {
 								["g_dmg"] = 541,
 								["counter"] = 92,
 								["MISS"] = 4,
-								["r_amt"] = 0,
-								["spellschool"] = 1,
+								["total"] = 10603,
+								["c_max"] = 330,
 								["DODGE"] = 4,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["c_max"] = 330,
+								["spellschool"] = 1,
 								["extra"] = {
 								},
 								["a_dmg"] = 0,
@@ -23790,19 +9217,19 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 1411,
 								["n_amt"] = 74,
-								["n_max"] = 163,
-								["total"] = 10603,
+								["b_dmg"] = 174,
+								["r_amt"] = 0,
 							}, -- [1]
 							[2812] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 84,
 								["targets"] = {
 									["Unfettered Spirit"] = 351,
-									["Bloodmage Thalnos"] = 51,
-									["Anguished Dead"] = 153,
 									["Scarlet Torturer"] = 168,
+									["Anguished Dead"] = 153,
+									["Bloodmage Thalnos"] = 51,
 									["Interrogator Vishas"] = 84,
 								},
 								["n_total"] = 807,
@@ -23822,14 +9249,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 14,
-								["n_max"] = 84,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 							[88263] = {
 								["c_amt"] = 5,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 236,
 								["targets"] = {
 									["Scarlet Scryer"] = 2712,
 									["Haunting Phantasm"] = 3903,
@@ -23858,32 +9285,32 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 1422,
 								["n_amt"] = 101,
-								["n_max"] = 236,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 							[53595] = {
 								["c_amt"] = 0,
 								["b_amt"] = 1,
 								["g_amt"] = 0,
-								["b_dmg"] = 32,
+								["n_max"] = 51,
 								["targets"] = {
 									["Bloodmage Thalnos"] = 92,
-									["Anguished Dead"] = 268,
+									["Haunting Phantasm"] = 242,
 									["Unfettered Spirit"] = 127,
 									["Scarlet Scryer"] = 192,
-									["Haunting Phantasm"] = 242,
+									["Anguished Dead"] = 268,
 									["Scarlet Torturer"] = 224,
 									["Interrogator Vishas"] = 128,
 								},
 								["n_total"] = 1273,
 								["DODGE"] = 2,
 								["n_min"] = 0,
-								["g_dmg"] = 0,
+								["MISS"] = 3,
 								["counter"] = 40,
 								["a_amt"] = 0,
-								["r_amt"] = 0,
+								["total"] = 1273,
 								["c_max"] = 0,
-								["n_max"] = 51,
+								["b_dmg"] = 32,
 								["id"] = 53595,
 								["r_dmg"] = 0,
 								["spellschool"] = 1,
@@ -23895,20 +9322,20 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 33,
-								["total"] = 1273,
-								["MISS"] = 3,
+								["r_amt"] = 0,
+								["g_dmg"] = 0,
 							},
 							[25742] = {
 								["c_amt"] = 3,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 36,
 								["targets"] = {
 									["Bloodmage Thalnos"] = 515,
-									["Anguished Dead"] = 673,
+									["Haunting Phantasm"] = 507,
 									["Unfettered Spirit"] = 236,
 									["Scarlet Scryer"] = 415,
-									["Haunting Phantasm"] = 507,
+									["Anguished Dead"] = 673,
 									["Scarlet Torturer"] = 321,
 									["Interrogator Vishas"] = 636,
 								},
@@ -23929,20 +9356,20 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 139,
 								["n_amt"] = 121,
-								["n_max"] = 36,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 							[31935] = {
 								["c_amt"] = 1,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 525,
 								["targets"] = {
 									["Bloodmage Thalnos"] = 377,
-									["Haunting Phantasm"] = 1575,
+									["Anguished Dead"] = 1887,
 									["Unfettered Spirit"] = 715,
 									["Scarlet Scryer"] = 2225,
-									["Anguished Dead"] = 1887,
+									["Haunting Phantasm"] = 1575,
 									["Scarlet Torturer"] = 1783,
 									["Interrogator Vishas"] = 387,
 								},
@@ -23963,20 +9390,20 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 715,
 								["n_amt"] = 21,
-								["n_max"] = 525,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 							[20187] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 226,
 								["targets"] = {
 									["Bloodmage Thalnos"] = 681,
-									["Anguished Dead"] = 536,
+									["Haunting Phantasm"] = 581,
 									["Unfettered Spirit"] = 111,
 									["Scarlet Scryer"] = 146,
-									["Haunting Phantasm"] = 581,
+									["Anguished Dead"] = 536,
 									["Scarlet Torturer"] = 559,
 									["Interrogator Vishas"] = 670,
 								},
@@ -23997,14 +9424,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 20,
-								["n_max"] = 226,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 							[81297] = {
 								["c_amt"] = 11,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 35,
 								["targets"] = {
 									["Bloodmage Thalnos"] = 295,
 									["Scarlet Torturer"] = 486,
@@ -24032,19 +9459,19 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 472,
 								["n_amt"] = 136,
-								["n_max"] = 35,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 							[35395] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 213,
 								["targets"] = {
-									["Scarlet Torturer"] = 207,
+									["Bloodmage Thalnos"] = 915,
 									["Scarlet Scryer"] = 317,
 									["Anguished Dead"] = 158,
-									["Bloodmage Thalnos"] = 915,
+									["Scarlet Torturer"] = 207,
 									["Interrogator Vishas"] = 573,
 								},
 								["n_total"] = 2170,
@@ -24064,14 +9491,15 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 13,
-								["n_max"] = 213,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["grupo"] = true,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["tipo"] = 1,
 					["custom"] = 0,
 					["last_event"] = 0,
@@ -24085,14 +9513,13 @@ _detalhes_database = {
 					["pets"] = {
 						"Raptor <Razhihunt-Golemagg>", -- [1]
 					},
-					["classe"] = "HUNTER",
+					["aID"] = "4465-04A95917",
 					["total_without_pet"] = 30871.030741,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 36375.03074100001,
 					["spec"] = 255,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Player-4465-04A95917",
 					["damage_from"] = {
@@ -24101,10 +9528,10 @@ _detalhes_database = {
 					},
 					["targets"] = {
 						["Bloodmage Thalnos"] = 8339,
-						["Anguished Dead"] = 4004,
+						["Haunting Phantasm"] = 2561,
 						["Unfettered Spirit"] = 5527,
 						["Scarlet Scryer"] = 4497,
-						["Haunting Phantasm"] = 2561,
+						["Anguished Dead"] = 4004,
 						["Scarlet Torturer"] = 7742,
 						["Interrogator Vishas"] = 3705,
 					},
@@ -24113,7 +9540,7 @@ _detalhes_database = {
 					},
 					["end_time"] = 1725128157,
 					["totalabsorbed"] = 0.030741,
-					["aID"] = "4465-04A95917",
+					["classe"] = "HUNTER",
 					["nome"] = "Razhihunt-Golemagg",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -24121,7 +9548,7 @@ _detalhes_database = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 61,
 								["targets"] = {
 									["Scarlet Torturer"] = 61,
 								},
@@ -24142,14 +9569,42 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 1,
-								["n_max"] = 61,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							}, -- [1]
+							[19503] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Unfettered Spirit"] = 106,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 106,
+								["c_max"] = 106,
+								["id"] = 19503,
+								["r_dmg"] = 0,
+								["spellschool"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 106,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
 							[3044] = {
 								["c_amt"] = 1,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 189,
 								["targets"] = {
 									["Bloodmage Thalnos"] = 189,
 									["Haunting Phantasm"] = 169,
@@ -24172,42 +9627,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 308,
 								["n_amt"] = 4,
-								["n_max"] = 189,
-								["r_amt"] = 0,
-							},
-							[19503] = {
-								["c_amt"] = 1,
-								["b_amt"] = 0,
-								["g_amt"] = 0,
 								["b_dmg"] = 0,
-								["targets"] = {
-									["Unfettered Spirit"] = 106,
-								},
-								["n_total"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 106,
-								["c_max"] = 106,
-								["id"] = 19503,
-								["r_dmg"] = 0,
-								["spellschool"] = 1,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["c_total"] = 106,
-								["n_amt"] = 0,
-								["n_max"] = 0,
 								["r_amt"] = 0,
 							},
 							[53301] = {
 								["c_amt"] = 6,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 178,
 								["targets"] = {
 									["Scarlet Torturer"] = 425,
 									["Anguished Dead"] = 757,
@@ -24231,14 +9658,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 1738,
 								["n_amt"] = 16,
-								["n_max"] = 178,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 							[83077] = {
 								["c_amt"] = 2,
 								["b_amt"] = 2,
 								["g_amt"] = 0,
-								["b_dmg"] = 203,
+								["n_max"] = 99,
 								["targets"] = {
 									["Unfettered Spirit"] = 194,
 									["Scarlet Scryer"] = 129,
@@ -24263,20 +9690,20 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 323,
 								["n_amt"] = 4,
-								["n_max"] = 99,
+								["b_dmg"] = 203,
 								["r_amt"] = 0,
 							},
 							[56641] = {
 								["c_amt"] = 2,
 								["b_amt"] = 1,
 								["g_amt"] = 0,
-								["b_dmg"] = 109,
+								["n_max"] = 153,
 								["targets"] = {
 									["Bloodmage Thalnos"] = 1624,
-									["Anguished Dead"] = 821,
+									["Haunting Phantasm"] = 340,
 									["Unfettered Spirit"] = 290,
 									["Scarlet Scryer"] = 799,
-									["Haunting Phantasm"] = 340,
+									["Anguished Dead"] = 821,
 									["Scarlet Torturer"] = 1514,
 									["Interrogator Vishas"] = 785,
 								},
@@ -24297,20 +9724,20 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 465,
 								["n_amt"] = 49,
-								["n_max"] = 153,
+								["b_dmg"] = 109,
 								["r_amt"] = 0,
 							},
 							[2643] = {
 								["c_amt"] = 10,
 								["b_amt"] = 3,
 								["g_amt"] = 0,
-								["b_dmg"] = 218,
+								["n_max"] = 168,
 								["targets"] = {
 									["Bloodmage Thalnos"] = 123,
-									["Anguished Dead"] = 1118,
+									["Haunting Phantasm"] = 882,
 									["Unfettered Spirit"] = 2174,
 									["Scarlet Scryer"] = 1040,
-									["Haunting Phantasm"] = 882,
+									["Anguished Dead"] = 1118,
 									["Scarlet Torturer"] = 1820,
 									["Interrogator Vishas"] = 487,
 								},
@@ -24331,17 +9758,17 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 2051,
 								["n_amt"] = 53,
-								["n_max"] = 168,
+								["b_dmg"] = 218,
 								["r_amt"] = 0,
 							},
 							[1978] = {
 								["c_amt"] = 7,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 70,
 								["targets"] = {
-									["Bloodmage Thalnos"] = 457,
 									["Scarlet Torturer"] = 339,
+									["Bloodmage Thalnos"] = 457,
 									["Interrogator Vishas"] = 330,
 								},
 								["n_total"] = 413,
@@ -24361,20 +9788,20 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 713,
 								["n_amt"] = 7,
-								["n_max"] = 70,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 							[75] = {
 								["c_amt"] = 6,
 								["b_amt"] = 3,
 								["g_amt"] = 0,
-								["b_dmg"] = 323,
+								["n_max"] = 190,
 								["targets"] = {
 									["Bloodmage Thalnos"] = 2258,
-									["Anguished Dead"] = 835,
+									["Haunting Phantasm"] = 759,
 									["Unfettered Spirit"] = 1300,
 									["Scarlet Scryer"] = 1211,
-									["Haunting Phantasm"] = 759,
+									["Anguished Dead"] = 835,
 									["Scarlet Torturer"] = 2312,
 									["Interrogator Vishas"] = 1061,
 								},
@@ -24395,14 +9822,15 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 1494,
 								["n_amt"] = 62,
-								["n_max"] = 190,
+								["b_dmg"] = 323,
 								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["grupo"] = true,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["tipo"] = 1,
 					["custom"] = 0,
 					["last_event"] = 0,
@@ -24415,35 +9843,34 @@ _detalhes_database = {
 					["flag_original"] = 4370,
 					["pets"] = {
 					},
-					["classe"] = "PET",
+					["aID"] = "Pet-0-4469-1-4-3255-010096CF39",
 					["total_without_pet"] = 5504.055031,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 5504.055031,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Pet-0-4469-1-4-3255-010096CF39",
 					["damage_from"] = {
 						["Unfettered Spirit"] = true,
-						["Scarlet Scryer"] = true,
+						["Scarlet Torturer"] = true,
 						["Anguished Dead"] = true,
 						["Bloodmage Thalnos"] = true,
-						["Scarlet Torturer"] = true,
+						["Scarlet Scryer"] = true,
 					},
 					["targets"] = {
 						["Bloodmage Thalnos"] = 1215,
-						["Anguished Dead"] = 473,
+						["Haunting Phantasm"] = 411,
 						["Unfettered Spirit"] = 900,
 						["Scarlet Scryer"] = 1318,
-						["Haunting Phantasm"] = 411,
+						["Anguished Dead"] = 473,
 						["Scarlet Torturer"] = 1073,
 						["Interrogator Vishas"] = 114,
 					},
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
-					["aID"] = "Pet-0-4469-1-4-3255-010096CF39",
+					["classe"] = "PET",
 					["end_time"] = 1725128157,
 					["totalabsorbed"] = 0.055031,
 					["ownerName"] = "Razhihunt-Golemagg",
@@ -24454,13 +9881,13 @@ _detalhes_database = {
 								["c_amt"] = 10,
 								["b_amt"] = 1,
 								["g_amt"] = 10,
-								["b_dmg"] = 24,
+								["n_max"] = 49,
 								["targets"] = {
 									["Bloodmage Thalnos"] = 797,
-									["Anguished Dead"] = 295,
+									["Haunting Phantasm"] = 328,
 									["Unfettered Spirit"] = 548,
 									["Scarlet Scryer"] = 849,
-									["Haunting Phantasm"] = 328,
+									["Anguished Dead"] = 295,
 									["Scarlet Torturer"] = 662,
 									["Interrogator Vishas"] = 78,
 								},
@@ -24481,20 +9908,20 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 743,
 								["n_amt"] = 68,
-								["n_max"] = 49,
+								["b_dmg"] = 24,
 								["r_amt"] = 0,
 							}, -- [1]
 							[16827] = {
 								["c_amt"] = 7,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 46,
 								["targets"] = {
 									["Bloodmage Thalnos"] = 418,
-									["Anguished Dead"] = 178,
+									["Haunting Phantasm"] = 83,
 									["Unfettered Spirit"] = 352,
 									["Scarlet Scryer"] = 469,
-									["Haunting Phantasm"] = 83,
+									["Anguished Dead"] = 178,
 									["Scarlet Torturer"] = 411,
 									["Interrogator Vishas"] = 36,
 								},
@@ -24515,13 +9942,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 558,
 								["n_amt"] = 39,
-								["n_max"] = 46,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["tipo"] = 1,
 					["custom"] = 0,
 					["last_event"] = 0,
@@ -24534,13 +9962,12 @@ _detalhes_database = {
 					["flag_original"] = 2600,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
+					["aID"] = "4075",
 					["total_without_pet"] = 0.015012,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 0.015012,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Creature-0-4457-189-18230-4075-0003D35D55",
 					["damage_from"] = {
@@ -24551,7 +9978,7 @@ _detalhes_database = {
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
-					["aID"] = "4075",
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["end_time"] = 1725128157,
 					["totalabsorbed"] = 0.015012,
@@ -24561,7 +9988,8 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["tipo"] = 1,
 					["custom"] = 0,
 					["last_event"] = 0,
@@ -24580,8 +10008,7 @@ _detalhes_database = {
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 16699.025318,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Player-4454-05964527",
 					["damage_from"] = {
@@ -24591,10 +10018,10 @@ _detalhes_database = {
 					},
 					["targets"] = {
 						["Bloodmage Thalnos"] = 4729,
-						["Anguished Dead"] = 2772,
+						["Haunting Phantasm"] = 171,
 						["Unfettered Spirit"] = 825,
 						["Scarlet Scryer"] = 1580,
-						["Haunting Phantasm"] = 171,
+						["Anguished Dead"] = 2772,
 						["Scarlet Torturer"] = 3462,
 						["Interrogator Vishas"] = 3160,
 					},
@@ -24611,13 +10038,13 @@ _detalhes_database = {
 								["c_amt"] = 2,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 53,
 								["targets"] = {
 									["Unfettered Spirit"] = 473,
-									["Scarlet Scryer"] = 106,
+									["Scarlet Torturer"] = 53,
 									["Anguished Dead"] = 261,
 									["Haunting Phantasm"] = 53,
-									["Scarlet Torturer"] = 53,
+									["Scarlet Scryer"] = 106,
 								},
 								["n_total"] = 736,
 								["n_min"] = 0,
@@ -24636,18 +10063,18 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 210,
 								["n_amt"] = 15,
-								["n_max"] = 53,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 							[116] = {
 								["c_amt"] = 9,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 265,
 								["targets"] = {
-									["Scarlet Scryer"] = 810,
-									["Unfettered Spirit"] = 258,
 									["Bloodmage Thalnos"] = 4406,
+									["Unfettered Spirit"] = 258,
+									["Scarlet Scryer"] = 810,
 									["Anguished Dead"] = 1662,
 									["Scarlet Torturer"] = 2803,
 									["Interrogator Vishas"] = 3042,
@@ -24670,19 +10097,19 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 4491,
 								["n_amt"] = 34,
-								["n_max"] = 265,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 							[120] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 118,
 								["targets"] = {
-									["Anguished Dead"] = 336,
-									["Scarlet Torturer"] = 231,
 									["Haunting Phantasm"] = 118,
 									["Scarlet Scryer"] = 112,
+									["Anguished Dead"] = 336,
+									["Scarlet Torturer"] = 231,
 									["Interrogator Vishas"] = 118,
 								},
 								["n_total"] = 915,
@@ -24702,14 +10129,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 8,
-								["n_max"] = 118,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 							[2136] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 145,
 								["targets"] = {
 									["Scarlet Torturer"] = 145,
 									["Anguished Dead"] = 139,
@@ -24731,14 +10158,15 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 2,
-								["n_max"] = 145,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["grupo"] = true,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["tipo"] = 1,
 					["custom"] = 0,
 					["last_event"] = 0,
@@ -24751,14 +10179,13 @@ _detalhes_database = {
 					["flag_original"] = 1297,
 					["pets"] = {
 					},
-					["classe"] = "DRUID",
+					["aID"] = "4476-05973846",
 					["total_without_pet"] = 0.021046,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 0.021046,
 					["spec"] = 105,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Player-4476-05973846",
 					["damage_from"] = {
@@ -24773,7 +10200,7 @@ _detalhes_database = {
 					},
 					["end_time"] = 1725128157,
 					["totalabsorbed"] = 0.021046,
-					["aID"] = "4476-05973846",
+					["classe"] = "DRUID",
 					["nome"] = "Raynna",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -24781,7 +10208,8 @@ _detalhes_database = {
 						["tipo"] = 2,
 					},
 					["grupo"] = true,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["tipo"] = 1,
 					["custom"] = 0,
 					["last_event"] = 0,
@@ -24794,28 +10222,27 @@ _detalhes_database = {
 					["flag_original"] = 4370,
 					["pets"] = {
 					},
-					["classe"] = "PET",
+					["aID"] = "Pet-0-4448-0-94-510-050093503F",
 					["total_without_pet"] = 1573.036538,
 					["last_dps_realtime"] = 0,
 					["dps_started"] = false,
 					["total"] = 1573.036538,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total_extra"] = 0,
 					["serial"] = "Pet-0-4448-0-94-510-050093503F",
 					["damage_from"] = {
 					},
 					["targets"] = {
 						["Unfettered Spirit"] = 94,
-						["Bloodmage Thalnos"] = 323,
+						["Scarlet Torturer"] = 230,
 						["Anguished Dead"] = 374,
 						["Scarlet Scryer"] = 552,
-						["Scarlet Torturer"] = 230,
+						["Bloodmage Thalnos"] = 323,
 					},
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
-					["aID"] = "Pet-0-4448-0-94-510-050093503F",
+					["classe"] = "PET",
 					["end_time"] = 1725128157,
 					["totalabsorbed"] = 0.036538,
 					["ownerName"] = "Brunela-MirageRaceway",
@@ -24826,13 +10253,13 @@ _detalhes_database = {
 								["c_amt"] = 3,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 48,
 								["targets"] = {
 									["Unfettered Spirit"] = 94,
-									["Bloodmage Thalnos"] = 323,
+									["Scarlet Torturer"] = 230,
 									["Anguished Dead"] = 374,
 									["Scarlet Scryer"] = 552,
-									["Scarlet Torturer"] = 230,
+									["Bloodmage Thalnos"] = 323,
 								},
 								["n_total"] = 1294,
 								["n_min"] = 0,
@@ -24852,13 +10279,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 279,
 								["n_amt"] = 28,
-								["n_max"] = 48,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["tipo"] = 1,
 					["custom"] = 0,
 					["last_event"] = 0,
@@ -24874,7 +10302,7 @@ _detalhes_database = {
 					["classe"] = "UNKNOW",
 					["total_without_pet"] = 3192.014445,
 					["last_dps_realtime"] = 0,
-					["monster"] = true,
+					["dps_started"] = false,
 					["total"] = 3192.014445,
 					["friendlyfire"] = {
 					},
@@ -24904,23 +10332,23 @@ _detalhes_database = {
 					["spells"] = {
 						["_ActorTable"] = {
 							{
-								["DODGE"] = 3,
+								["c_amt"] = 2,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 218,
 								["targets"] = {
 									["Raynna"] = 318,
 									["Annyar"] = 2129,
 								},
 								["n_total"] = 1987,
-								["g_dmg"] = 0,
-								["n_min"] = 0,
 								["a_amt"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
 								["counter"] = 34,
 								["MISS"] = 6,
 								["r_amt"] = 0,
 								["c_max"] = 306,
-								["c_amt"] = 2,
+								["DODGE"] = 3,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["spellschool"] = 1,
@@ -24932,14 +10360,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 460,
 								["n_amt"] = 18,
+								["b_dmg"] = 0,
 								["total"] = 2447,
-								["n_max"] = 218,
 							}, -- [1]
 							[9034] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 116,
 								["targets"] = {
 									["Raynna"] = 266,
 									["Annyar"] = 243,
@@ -24961,14 +10389,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 12,
-								["n_max"] = 116,
+								["b_dmg"] = 0,
 								["r_amt"] = 1,
 							},
 							[14032] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 10,
 								["targets"] = {
 									["Annyar"] = 99,
 									["Raynna"] = 99,
@@ -24990,13 +10418,13 @@ _detalhes_database = {
 								["successful_casted"] = 5,
 								["c_total"] = 0,
 								["n_amt"] = 24,
-								["n_max"] = 10,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["dps_started"] = false,
+					["monster"] = true,
 					["tipo"] = 1,
 					["custom"] = 0,
 					["last_event"] = 0,
@@ -25012,7 +10440,7 @@ _detalhes_database = {
 					["classe"] = "UNKNOW",
 					["total_without_pet"] = 2807.046785,
 					["last_dps_realtime"] = 0,
-					["monster"] = true,
+					["dps_started"] = false,
 					["total"] = 2807.046785,
 					["friendlyfire"] = {
 					},
@@ -25045,10 +10473,10 @@ _detalhes_database = {
 					["spells"] = {
 						["_ActorTable"] = {
 							{
-								["DODGE"] = 6,
+								["c_amt"] = 7,
 								["b_amt"] = 4,
 								["g_amt"] = 0,
-								["b_dmg"] = 71,
+								["n_max"] = 40,
 								["targets"] = {
 									["Annyar"] = 1267,
 									["Raptor <Razhihunt-Golemagg>"] = 122,
@@ -25057,14 +10485,14 @@ _detalhes_database = {
 									["Brunela-MirageRaceway"] = 40,
 								},
 								["n_total"] = 2391,
-								["g_dmg"] = 0,
-								["n_min"] = 0,
 								["MISS"] = 4,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
 								["counter"] = 109,
 								["a_amt"] = 0,
 								["r_amt"] = 0,
 								["c_max"] = 70,
-								["c_amt"] = 7,
+								["DODGE"] = 6,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["spellschool"] = 1,
@@ -25076,13 +10504,13 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 416,
 								["n_amt"] = 83,
+								["b_dmg"] = 71,
 								["total"] = 2807,
-								["n_max"] = 40,
 							}, -- [1]
 						},
 						["tipo"] = 2,
 					},
-					["dps_started"] = false,
+					["monster"] = true,
 					["tipo"] = 1,
 					["custom"] = 0,
 					["last_event"] = 0,
@@ -25098,7 +10526,7 @@ _detalhes_database = {
 					["classe"] = "UNKNOW",
 					["total_without_pet"] = 6098.035078999999,
 					["last_dps_realtime"] = 0,
-					["monster"] = true,
+					["dps_started"] = false,
 					["total"] = 6098.035078999999,
 					["friendlyfire"] = {
 					},
@@ -25136,7 +10564,7 @@ _detalhes_database = {
 								["c_amt"] = 3,
 								["b_amt"] = 1,
 								["g_amt"] = 0,
-								["b_dmg"] = 56,
+								["n_max"] = 148,
 								["targets"] = {
 									["Annyar"] = 1960,
 									["Raptor <Razhihunt-Golemagg>"] = 253,
@@ -25148,12 +10576,12 @@ _detalhes_database = {
 								["n_total"] = 5560,
 								["DODGE"] = 6,
 								["n_min"] = 0,
-								["g_dmg"] = 0,
+								["a_amt"] = 0,
 								["counter"] = 82,
 								["MISS"] = 5,
-								["r_amt"] = 0,
+								["total"] = 6098,
 								["c_max"] = 206,
-								["n_max"] = 148,
+								["b_dmg"] = 56,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["spellschool"] = 1,
@@ -25165,14 +10593,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 538,
 								["n_amt"] = 60,
-								["total"] = 6098,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
+								["g_dmg"] = 0,
 							}, -- [1]
 							[7068] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 0,
 								["targets"] = {
 									["Annyar"] = 0,
 								},
@@ -25193,13 +10621,13 @@ _detalhes_database = {
 								["successful_casted"] = 11,
 								["c_total"] = 0,
 								["n_amt"] = 0,
-								["n_max"] = 0,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["dps_started"] = false,
+					["monster"] = true,
 					["tipo"] = 1,
 					["custom"] = 0,
 					["last_event"] = 0,
@@ -25216,7 +10644,7 @@ _detalhes_database = {
 					["classe"] = "UNKNOW",
 					["total_without_pet"] = 2977.027486999999,
 					["last_dps_realtime"] = 0,
-					["monster"] = true,
+					["dps_started"] = false,
 					["total"] = 3364.027486999999,
 					["friendlyfire"] = {
 					},
@@ -25248,7 +10676,7 @@ _detalhes_database = {
 								["c_amt"] = 1,
 								["b_amt"] = 2,
 								["g_amt"] = 0,
-								["b_dmg"] = 117,
+								["n_max"] = 106,
 								["targets"] = {
 									["Banctbc-PyrewoodVillage"] = 661,
 									["Annyar"] = 2316,
@@ -25258,12 +10686,12 @@ _detalhes_database = {
 								["g_dmg"] = 0,
 								["counter"] = 41,
 								["a_amt"] = 0,
-								["r_amt"] = 0,
-								["spellschool"] = 1,
+								["total"] = 2977,
+								["c_max"] = 142,
 								["DODGE"] = 3,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["c_max"] = 142,
+								["spellschool"] = 1,
 								["extra"] = {
 								},
 								["a_dmg"] = 0,
@@ -25272,14 +10700,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 142,
 								["n_amt"] = 34,
-								["n_max"] = 106,
-								["total"] = 2977,
+								["b_dmg"] = 117,
+								["r_amt"] = 0,
 							}, -- [1]
 							[8986] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 0,
 								["targets"] = {
 								},
 								["n_total"] = 0,
@@ -25298,13 +10726,13 @@ _detalhes_database = {
 								["successful_casted"] = 6,
 								["c_total"] = 0,
 								["n_amt"] = 0,
-								["n_max"] = 0,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["dps_started"] = false,
+					["monster"] = true,
 					["tipo"] = 1,
 					["custom"] = 0,
 					["last_event"] = 0,
@@ -25321,7 +10749,7 @@ _detalhes_database = {
 					["classe"] = "UNKNOW",
 					["total_without_pet"] = 387.01769,
 					["last_dps_realtime"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["total"] = 387.01769,
 					["friendlyfire"] = {
 					},
@@ -25350,7 +10778,7 @@ _detalhes_database = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 113,
 								["targets"] = {
 									["Banctbc-PyrewoodVillage"] = 215,
 									["Annyar"] = 172,
@@ -25372,14 +10800,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 0,
 								["n_amt"] = 4,
-								["n_max"] = 113,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							}, -- [1]
 						},
 						["tipo"] = 2,
 					},
 					["tipo"] = 1,
-					["monster"] = true,
+					["dps_started"] = false,
 					["custom"] = 0,
 					["last_event"] = 0,
 					["damage_taken"] = 957.01769,
@@ -25394,7 +10822,7 @@ _detalhes_database = {
 					["classe"] = "UNKNOW",
 					["total_without_pet"] = 1910.007988,
 					["last_dps_realtime"] = 0,
-					["monster"] = true,
+					["dps_started"] = false,
 					["total"] = 1910.007988,
 					["friendlyfire"] = {
 					},
@@ -25428,7 +10856,7 @@ _detalhes_database = {
 								["c_amt"] = 1,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 156,
 								["targets"] = {
 									["Annyar"] = 829,
 								},
@@ -25450,14 +10878,14 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 248,
 								["n_amt"] = 4,
-								["n_max"] = 156,
+								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							}, -- [1]
 							[20825] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 125,
 								["targets"] = {
 									["Annyar"] = 320,
 								},
@@ -25477,14 +10905,14 @@ _detalhes_database = {
 								["successful_casted"] = 3,
 								["c_total"] = 0,
 								["n_amt"] = 3,
-								["n_max"] = 125,
+								["b_dmg"] = 0,
 								["r_amt"] = 2,
 							},
 							[12470] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 85,
 								["targets"] = {
 									["Annyar"] = 70,
 									["Raptor <Razhihunt-Golemagg>"] = 4,
@@ -25506,14 +10934,14 @@ _detalhes_database = {
 								["successful_casted"] = 1,
 								["c_total"] = 0,
 								["n_amt"] = 3,
-								["n_max"] = 85,
+								["b_dmg"] = 0,
 								["r_amt"] = 2,
 							},
 							[23038] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 50,
 								["targets"] = {
 									["Annyar"] = 174,
 								},
@@ -25533,14 +10961,14 @@ _detalhes_database = {
 								["successful_casted"] = 3,
 								["c_total"] = 0,
 								["n_amt"] = 10,
-								["n_max"] = 50,
+								["b_dmg"] = 0,
 								["r_amt"] = 2,
 							},
 							[8814] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
-								["b_dmg"] = 0,
+								["n_max"] = 198,
 								["targets"] = {
 									["Raptor <Razhihunt-Golemagg>"] = 4,
 									["Banctbc-PyrewoodVillage"] = 424,
@@ -25561,13 +10989,13 @@ _detalhes_database = {
 								["successful_casted"] = 1,
 								["c_total"] = 0,
 								["n_amt"] = 5,
-								["n_max"] = 198,
+								["b_dmg"] = 0,
 								["r_amt"] = 1,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["dps_started"] = false,
+					["monster"] = true,
 					["tipo"] = 1,
 					["custom"] = 0,
 					["last_event"] = 0,
@@ -25583,16 +11011,13 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["targets_overheal"] = {
-						["Banctbc-PyrewoodVillage"] = 225,
-						["Annyar"] = 3642,
-						["Raynna"] = 1034,
-						["Brunela-MirageRaceway"] = 785,
+					["healing_from"] = {
+						["Raynna"] = true,
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["classe"] = "DRUID",
 					["totalover"] = 5686.042696,
 					["total_without_pet"] = 14132.042696,
 					["total"] = 14132.042696,
@@ -25615,8 +11040,11 @@ _detalhes_database = {
 					["healing_taken"] = 1644.042696,
 					["fight_component"] = true,
 					["end_time"] = 1725128157,
-					["healing_from"] = {
-						["Raynna"] = true,
+					["targets_overheal"] = {
+						["Banctbc-PyrewoodVillage"] = 225,
+						["Annyar"] = 3642,
+						["Raynna"] = 1034,
+						["Brunela-MirageRaceway"] = 785,
 					},
 					["spec"] = 105,
 					["nome"] = "Raynna",
@@ -25636,12 +11064,12 @@ _detalhes_database = {
 								["counter"] = 1,
 								["overheal"] = 0,
 								["total"] = 68,
-								["spellschool"] = 8,
+								["c_max"] = 0,
 								["id"] = 48503,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
-								["c_max"] = 0,
+								["spellschool"] = 8,
 								["c_total"] = 0,
 								["totaldenied"] = 0,
 								["n_amt"] = 1,
@@ -25664,12 +11092,12 @@ _detalhes_database = {
 								["counter"] = 34,
 								["overheal"] = 594,
 								["total"] = 3927,
-								["spellschool"] = 8,
+								["c_max"] = 74,
 								["id"] = 8936,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
-								["c_max"] = 74,
+								["spellschool"] = 8,
 								["c_total"] = 243,
 								["totaldenied"] = 0,
 								["n_amt"] = 30,
@@ -25696,12 +11124,12 @@ _detalhes_database = {
 								["counter"] = 87,
 								["overheal"] = 4606,
 								["total"] = 10066,
-								["spellschool"] = 8,
+								["c_max"] = 263,
 								["id"] = 774,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
-								["c_max"] = 263,
+								["spellschool"] = 8,
 								["c_total"] = 677,
 								["totaldenied"] = 0,
 								["n_amt"] = 80,
@@ -25722,12 +11150,12 @@ _detalhes_database = {
 								["counter"] = 1,
 								["overheal"] = 486,
 								["total"] = 71,
-								["spellschool"] = 8,
+								["c_max"] = 71,
 								["id"] = 50464,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
-								["c_max"] = 71,
+								["spellschool"] = 8,
 								["c_total"] = 71,
 								["totaldenied"] = 0,
 								["n_amt"] = 0,
@@ -25743,17 +11171,18 @@ _detalhes_database = {
 					["tipo"] = 2,
 					["totaldenied"] = 0.042696,
 					["delay"] = 0,
-					["classe"] = "DRUID",
+					["heal_enemy_amt"] = 0,
 				}, -- [1]
 				{
 					["flag_original"] = 66834,
-					["targets_overheal"] = {
-						["Annyar"] = 487,
+					["healing_from"] = {
+						["Annyar"] = true,
+						["Raynna"] = true,
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["classe"] = "PALADIN",
 					["totalover"] = 487.0355509999999,
 					["total_without_pet"] = 2674.035551,
 					["total"] = 2674.035551,
@@ -25773,9 +11202,8 @@ _detalhes_database = {
 					["healing_taken"] = 13554.035551,
 					["fight_component"] = true,
 					["end_time"] = 1725128157,
-					["healing_from"] = {
-						["Annyar"] = true,
-						["Raynna"] = true,
+					["targets_overheal"] = {
+						["Annyar"] = 487,
 					},
 					["spec"] = 66,
 					["nome"] = "Annyar",
@@ -25796,12 +11224,12 @@ _detalhes_database = {
 								["counter"] = 6,
 								["overheal"] = 94,
 								["total"] = 553,
-								["spellschool"] = 1,
+								["c_max"] = 0,
 								["id"] = 20007,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
-								["c_max"] = 0,
+								["spellschool"] = 1,
 								["c_total"] = 0,
 								["totaldenied"] = 0,
 								["n_amt"] = 6,
@@ -25822,12 +11250,12 @@ _detalhes_database = {
 								["counter"] = 2,
 								["overheal"] = 217,
 								["total"] = 1395,
-								["spellschool"] = 2,
+								["c_max"] = 0,
 								["id"] = 85673,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
-								["c_max"] = 0,
+								["spellschool"] = 2,
 								["c_total"] = 0,
 								["totaldenied"] = 0,
 								["n_amt"] = 2,
@@ -25848,12 +11276,12 @@ _detalhes_database = {
 								["counter"] = 22,
 								["overheal"] = 176,
 								["total"] = 726,
-								["spellschool"] = 1,
+								["c_max"] = 0,
 								["id"] = 59913,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
-								["c_max"] = 0,
+								["spellschool"] = 1,
 								["c_total"] = 0,
 								["totaldenied"] = 0,
 								["n_amt"] = 22,
@@ -25869,17 +11297,18 @@ _detalhes_database = {
 					["tipo"] = 2,
 					["totaldenied"] = 0.035551,
 					["delay"] = 0,
-					["classe"] = "PALADIN",
+					["heal_enemy_amt"] = 0,
 				}, -- [2]
 				{
 					["flag_original"] = 1298,
-					["targets_overheal"] = {
-						["Banctbc-PyrewoodVillage"] = 15565,
+					["healing_from"] = {
+						["Raynna"] = true,
+						["Banctbc-PyrewoodVillage"] = true,
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["classe"] = "WARRIOR",
 					["totalover"] = 15565.067985,
 					["total_without_pet"] = 4161.067985,
 					["total"] = 4161.067985,
@@ -25899,9 +11328,8 @@ _detalhes_database = {
 					["healing_taken"] = 5119.067985000001,
 					["fight_component"] = true,
 					["end_time"] = 1725128157,
-					["healing_from"] = {
-						["Raynna"] = true,
-						["Banctbc-PyrewoodVillage"] = true,
+					["targets_overheal"] = {
+						["Banctbc-PyrewoodVillage"] = 15565,
 					},
 					["spec"] = 71,
 					["nome"] = "Banctbc-PyrewoodVillage",
@@ -25922,12 +11350,12 @@ _detalhes_database = {
 								["counter"] = 16,
 								["overheal"] = 1562,
 								["total"] = 819,
-								["spellschool"] = 1,
+								["c_max"] = 235,
 								["id"] = 20007,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
-								["c_max"] = 235,
+								["spellschool"] = 1,
 								["c_total"] = 377,
 								["totaldenied"] = 0,
 								["n_amt"] = 11,
@@ -25948,12 +11376,12 @@ _detalhes_database = {
 								["counter"] = 28,
 								["overheal"] = 12127,
 								["total"] = 2389,
-								["spellschool"] = 1,
+								["c_max"] = 0,
 								["id"] = 34428,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
-								["c_max"] = 0,
+								["spellschool"] = 1,
 								["c_total"] = 0,
 								["totaldenied"] = 0,
 								["n_amt"] = 28,
@@ -25974,12 +11402,12 @@ _detalhes_database = {
 								["counter"] = 66,
 								["overheal"] = 1876,
 								["total"] = 953,
-								["spellschool"] = 1,
+								["c_max"] = 0,
 								["id"] = 59913,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
-								["c_max"] = 0,
+								["spellschool"] = 1,
 								["c_total"] = 0,
 								["totaldenied"] = 0,
 								["n_amt"] = 66,
@@ -25995,12 +11423,11 @@ _detalhes_database = {
 					["tipo"] = 2,
 					["totaldenied"] = 0.06798500000000002,
 					["delay"] = 0,
-					["classe"] = "WARRIOR",
+					["heal_enemy_amt"] = 0,
 				}, -- [3]
 				{
 					["flag_original"] = 1298,
-					["healing_from"] = {
-						["Raynna"] = true,
+					["targets_overheal"] = {
 					},
 					["pets"] = {
 					},
@@ -26024,7 +11451,8 @@ _detalhes_database = {
 					["healing_taken"] = 650.008212,
 					["fight_component"] = true,
 					["end_time"] = 1725128157,
-					["targets_overheal"] = {
+					["healing_from"] = {
+						["Raynna"] = true,
 					},
 					["nome"] = "Brunela-MirageRaceway",
 					["spells"] = {
@@ -26048,11 +11476,11 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 66834,
-					["resource"] = 21.108065,
+					["resource"] = 322.59599,
 					["pets"] = {
 					},
-					["classe"] = "PALADIN",
-					["passiveover"] = 0.004396,
+					["aID"] = "4476-059741C0",
+					["totalover"] = 0.004396,
 					["total"] = 3772.048548000001,
 					["spec"] = 66,
 					["serial"] = "Player-4476-059741C0",
@@ -26068,8 +11496,8 @@ _detalhes_database = {
 						["_ActorTable"] = {
 							[31930] = {
 								["total"] = 3772,
-								["totalover"] = 0,
 								["id"] = 31930,
+								["totalover"] = 0,
 								["targets"] = {
 									["Annyar"] = 0,
 								},
@@ -26079,8 +11507,8 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["aID"] = "4476-059741C0",
-					["totalover"] = 0.004396,
+					["classe"] = "PALADIN",
+					["passiveover"] = 0.004396,
 					["tipo"] = 3,
 					["fight_component"] = true,
 					["resource_type"] = 9,
@@ -26090,8 +11518,8 @@ _detalhes_database = {
 					["resource"] = 0.019148,
 					["pets"] = {
 					},
-					["classe"] = "DRUID",
-					["passiveover"] = 0.008398,
+					["aID"] = "4476-05973846",
+					["totalover"] = 0.008398,
 					["total"] = 1146.019148,
 					["spec"] = 105,
 					["serial"] = "Player-4476-05973846",
@@ -26106,8 +11534,8 @@ _detalhes_database = {
 						["_ActorTable"] = {
 							[2023] = {
 								["total"] = 1146,
-								["totalover"] = 0,
 								["id"] = 2023,
+								["totalover"] = 0,
 								["targets"] = {
 									["Raynna"] = 1146,
 								},
@@ -26117,8 +11545,8 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["totalover"] = 0.008398,
-					["aID"] = "4476-05973846",
+					["passiveover"] = 0.008398,
+					["classe"] = "DRUID",
 					["tipo"] = 3,
 					["fight_component"] = true,
 					["last_event"] = 0,
@@ -26128,8 +11556,8 @@ _detalhes_database = {
 					["resource"] = 0.003174,
 					["pets"] = {
 					},
-					["aID"] = "4454-05964527",
-					["passiveover"] = 0.00166,
+					["classe"] = "MAGE",
+					["totalover"] = 0.00166,
 					["total"] = 1322.003174,
 					["serial"] = "Player-4454-05964527",
 					["received"] = 1322.003174,
@@ -26143,8 +11571,8 @@ _detalhes_database = {
 						["_ActorTable"] = {
 							[12051] = {
 								["total"] = 1322,
-								["totalover"] = 0,
 								["id"] = 12051,
+								["totalover"] = 0,
 								["targets"] = {
 									["Brunela-MirageRaceway"] = 1322,
 								},
@@ -26154,10 +11582,10 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["classe"] = "MAGE",
-					["totalover"] = 0.00166,
-					["last_event"] = 0,
+					["aID"] = "4454-05964527",
+					["passiveover"] = 0.00166,
 					["tipo"] = 3,
+					["last_event"] = 0,
 					["fight_component"] = true,
 				}, -- [3]
 			},
@@ -26222,7 +11650,8 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["buff_uptime"] = 853,
+					["pets"] = {
+					},
 					["classe"] = "WARRIOR",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -26303,19 +11732,18 @@ _detalhes_database = {
 					},
 					["fight_component"] = true,
 					["debuff_uptime"] = 366,
-					["debuff_uptime_targets"] = {
+					["buff_uptime_targets"] = {
 					},
 					["spec"] = 71,
 					["grupo"] = true,
-					["pets"] = {
-					},
+					["buff_uptime"] = 853,
 					["aID"] = "4453-0597287B",
+					["tipo"] = 4,
 					["last_event"] = 0,
-					["nome"] = "Banctbc-PyrewoodVillage",
-					["buff_uptime_targets"] = {
+					["debuff_uptime_targets"] = {
 					},
 					["serial"] = "Player-4453-0597287B",
-					["tipo"] = 4,
+					["nome"] = "Banctbc-PyrewoodVillage",
 				}, -- [1]
 				{
 					["flag_original"] = 1047,
@@ -26366,7 +11794,7 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["classe"] = "PALADIN",
+					["aID"] = "4476-059741C0",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
 							[26573] = {
@@ -26464,10 +11892,10 @@ _detalhes_database = {
 					["spec"] = 66,
 					["cc_done_targets"] = {
 						["Tower Warden"] = 0,
-						["Haunting Phantasm"] = 4,
+						["Anguished Dead"] = 4,
 						["Unfettered Spirit"] = 1,
 						["Scarlet Scryer"] = 5,
-						["Anguished Dead"] = 4,
+						["Haunting Phantasm"] = 4,
 						["Scarlet Torturer"] = 4,
 						["Interrogator Vishas"] = 1,
 					},
@@ -26479,10 +11907,10 @@ _detalhes_database = {
 								["id"] = 31935,
 								["targets"] = {
 									["Tower Warden"] = 0,
-									["Haunting Phantasm"] = 4,
+									["Anguished Dead"] = 4,
 									["Unfettered Spirit"] = 1,
 									["Scarlet Scryer"] = 5,
-									["Anguished Dead"] = 4,
+									["Haunting Phantasm"] = 4,
 									["Scarlet Torturer"] = 4,
 									["Interrogator Vishas"] = 1,
 								},
@@ -26495,7 +11923,7 @@ _detalhes_database = {
 					["nome"] = "Annyar",
 					["grupo"] = true,
 					["last_event"] = 0,
-					["aID"] = "4476-059741C0",
+					["classe"] = "PALADIN",
 					["tipo"] = 4,
 					["fight_component"] = true,
 					["debuff_uptime_targets"] = {
@@ -26558,9 +11986,7 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["pets"] = {
-						"Raptor <Razhihunt-Golemagg>", -- [1]
-					},
+					["buff_uptime"] = 855,
 					["classe"] = "HUNTER",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -26600,13 +12026,15 @@ _detalhes_database = {
 					["debuff_uptime"] = 99,
 					["debuff_uptime_targets"] = {
 					},
-					["buff_uptime"] = 855,
+					["pets"] = {
+						"Raptor <Razhihunt-Golemagg>", -- [1]
+					},
 					["buff_uptime_targets"] = {
 					},
 					["spec"] = 255,
 					["grupo"] = true,
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
 					["nome"] = "Razhihunt-Golemagg",
 					["serial"] = "Player-4465-04A95917",
 					["aID"] = "4465-04A95917",
@@ -26618,7 +12046,7 @@ _detalhes_database = {
 					["pets"] = {
 						"Unknown <Brunela-MirageRaceway>", -- [1]
 					},
-					["aID"] = "4454-05964527",
+					["classe"] = "MAGE",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
 							[19705] = {
@@ -26676,13 +12104,13 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["fight_component"] = true,
-					["classe"] = "MAGE",
+					["buff_uptime"] = 550,
 					["nome"] = "Brunela-MirageRaceway",
 					["grupo"] = true,
 					["last_event"] = 0,
-					["buff_uptime"] = 550,
-					["serial"] = "Player-4454-05964527",
 					["tipo"] = 4,
+					["serial"] = "Player-4454-05964527",
+					["aID"] = "4454-05964527",
 				}, -- [4]
 				{
 					["flag_original"] = 1047,
@@ -26709,7 +12137,8 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["buff_uptime"] = 428,
+					["pets"] = {
+					},
 					["aID"] = "4476-05973846",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -26772,19 +12201,18 @@ _detalhes_database = {
 					},
 					["fight_component"] = true,
 					["debuff_uptime"] = 0,
-					["buff_uptime_targets"] = {
+					["debuff_uptime_targets"] = {
 					},
 					["spec"] = 105,
 					["grupo"] = true,
-					["pets"] = {
-					},
+					["buff_uptime"] = 428,
 					["classe"] = "DRUID",
+					["tipo"] = 4,
 					["last_event"] = 0,
-					["nome"] = "Raynna",
-					["debuff_uptime_targets"] = {
+					["buff_uptime_targets"] = {
 					},
 					["serial"] = "Player-4476-05973846",
-					["tipo"] = 4,
+					["nome"] = "Raynna",
 				}, -- [5]
 				{
 					["flag_original"] = 4370,
@@ -26793,8 +12221,8 @@ _detalhes_database = {
 					["classe"] = "PET",
 					["ownerName"] = "Razhihunt-Golemagg",
 					["nome"] = "Raptor <Razhihunt-Golemagg>",
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Pet-0-4469-1-4-3255-010096CF39",
 					["aID"] = "Pet-0-4469-1-4-3255-010096CF39",
 				}, -- [6]
@@ -26802,14 +12230,14 @@ _detalhes_database = {
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "4293",
-					["fight_component"] = true,
-					["nome"] = "Scarlet Scryer",
-					["monster"] = true,
-					["tipo"] = 4,
-					["last_event"] = 0,
-					["serial"] = "Creature-0-4457-189-18230-4293-0001D35D55",
 					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["nome"] = "Scarlet Scryer",
+					["fight_component"] = true,
+					["tipo"] = 4,
+					["aID"] = "4293",
+					["serial"] = "Creature-0-4457-189-18230-4293-0001D35D55",
+					["last_event"] = 0,
 				}, -- [7]
 				{
 					["flag_original"] = 4370,
@@ -26818,8 +12246,8 @@ _detalhes_database = {
 					["classe"] = "PET",
 					["ownerName"] = "Brunela-MirageRaceway",
 					["nome"] = "Unknown <Brunela-MirageRaceway>",
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Pet-0-4448-0-94-510-050093503F",
 					["aID"] = "Pet-0-4448-0-94-510-050093503F",
 				}, -- [8]
@@ -26827,58 +12255,57 @@ _detalhes_database = {
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "3983",
-					["monster"] = true,
-					["nome"] = "Interrogator Vishas",
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["tipo"] = 4,
-					["serial"] = "Creature-0-4457-189-18230-3983-0000535D55",
 					["classe"] = "UNKNOW",
+					["fight_component"] = true,
+					["nome"] = "Interrogator Vishas",
+					["monster"] = true,
+					["last_event"] = 0,
+					["aID"] = "3983",
+					["serial"] = "Creature-0-4457-189-18230-3983-0000535D55",
+					["tipo"] = 4,
 				}, -- [9]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "6426",
-					["monster"] = true,
-					["nome"] = "Anguished Dead",
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["tipo"] = 4,
-					["serial"] = "Creature-0-4457-189-18230-6426-0002535D55",
 					["classe"] = "UNKNOW",
+					["fight_component"] = true,
+					["nome"] = "Anguished Dead",
+					["monster"] = true,
+					["last_event"] = 0,
+					["aID"] = "6426",
+					["serial"] = "Creature-0-4457-189-18230-6426-0002535D55",
+					["tipo"] = 4,
 				}, -- [10]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "6427",
-					["fight_component"] = true,
-					["nome"] = "Haunting Phantasm",
-					["monster"] = true,
-					["tipo"] = 4,
-					["last_event"] = 0,
-					["serial"] = "Creature-0-4457-189-18230-6427-0001D35D55",
 					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["nome"] = "Haunting Phantasm",
+					["fight_component"] = true,
+					["tipo"] = 4,
+					["aID"] = "6427",
+					["serial"] = "Creature-0-4457-189-18230-6427-0001D35D55",
+					["last_event"] = 0,
 				}, -- [11]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
-					["aID"] = "4543",
-					["monster"] = true,
-					["nome"] = "Bloodmage Thalnos",
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["tipo"] = 4,
-					["serial"] = "Creature-0-4457-189-18230-4543-0000535D55",
 					["classe"] = "UNKNOW",
+					["fight_component"] = true,
+					["nome"] = "Bloodmage Thalnos",
+					["monster"] = true,
+					["last_event"] = 0,
+					["aID"] = "4543",
+					["serial"] = "Creature-0-4457-189-18230-4543-0000535D55",
+					["tipo"] = 4,
 				}, -- [12]
 				{
 					["flag_original"] = 1047,
-					["pets"] = {
-					},
+					["buff_uptime"] = 0,
 					["buff_uptime_targets"] = {
 					},
 					["aID"] = "4440-04AAD9B8",
@@ -26895,7 +12322,8 @@ _detalhes_database = {
 					},
 					["nome"] = "Bangdasul-Everlook",
 					["grupo"] = true,
-					["buff_uptime"] = 0,
+					["pets"] = {
+					},
 					["last_event"] = 0,
 					["classe"] = "MAGE",
 					["serial"] = "Player-4440-04AAD9B8",
@@ -26906,52 +12334,52 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["classe"] = "UNKNOW",
-					["fight_component"] = true,
-					["nome"] = "Riverpaw Shaman",
 					["monster"] = true,
-					["last_event"] = 0,
-					["aID"] = "46252",
-					["serial"] = "Creature-0-4448-34-7800-46252-00025357E2",
+					["nome"] = "Riverpaw Shaman",
+					["fight_component"] = true,
 					["tipo"] = 4,
+					["last_event"] = 0,
+					["serial"] = "Creature-0-4448-34-7800-46252-00025357E2",
+					["aID"] = "46252",
 				}, -- [14]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
 					["classe"] = "UNKNOW",
-					["fight_component"] = true,
-					["nome"] = "Riverpaw Basher",
 					["monster"] = true,
-					["last_event"] = 0,
-					["aID"] = "46248",
-					["serial"] = "Creature-0-4448-34-7800-46248-00005357E3",
+					["nome"] = "Riverpaw Basher",
+					["fight_component"] = true,
 					["tipo"] = 4,
+					["last_event"] = 0,
+					["serial"] = "Creature-0-4448-34-7800-46248-00005357E3",
+					["aID"] = "46248",
 				}, -- [15]
 				{
 					["flag_original"] = 68168,
 					["pets"] = {
 					},
 					["classe"] = "UNKNOW",
-					["fight_component"] = true,
-					["nome"] = "Captain Peake",
 					["monster"] = true,
-					["last_event"] = 0,
-					["aID"] = "37157",
-					["serial"] = "Creature-0-4469-1-102-37157-0000534A49",
+					["nome"] = "Captain Peake",
+					["fight_component"] = true,
 					["tipo"] = 4,
+					["last_event"] = 0,
+					["serial"] = "Creature-0-4469-1-102-37157-0000534A49",
+					["aID"] = "37157",
 				}, -- [16]
 				{
 					["flag_original"] = 2632,
 					["pets"] = {
 					},
 					["classe"] = "UNKNOW",
-					["fight_component"] = true,
-					["nome"] = "Tower Warden",
 					["monster"] = true,
-					["last_event"] = 0,
-					["aID"] = "37160",
-					["serial"] = "Creature-0-4469-1-102-37160-0000534A7F",
+					["nome"] = "Tower Warden",
+					["fight_component"] = true,
 					["tipo"] = 4,
+					["last_event"] = 0,
+					["serial"] = "Creature-0-4469-1-102-37160-0000534A7F",
+					["aID"] = "37160",
 				}, -- [17]
 			},
 		}, -- [4]
@@ -26960,7 +12388,8 @@ _detalhes_database = {
 			["_ActorTable"] = {
 			},
 		}, -- [5]
-		["boss_hp"] = 1,
+		["raid_roster"] = {
+		},
 		["tempo_start"] = 1725128041,
 		["cleu_timeline"] = {
 		},
@@ -27017,8 +12446,7 @@ _detalhes_database = {
 				["dead"] = 0,
 			}, -- [4]
 		},
-		["raid_roster"] = {
-		},
+		["boss_hp"] = 1,
 		["frags_need_refresh"] = false,
 		["aura_timeline"] = {
 		},
@@ -27133,11 +12561,11 @@ _detalhes_database = {
 				["clock"] = "20:14:40",
 			}, -- [14]
 		},
-		["frags"] = {
+		["spells_cast_timeline"] = {
 		},
 		["data_fim"] = "20:24:40",
 		["overall_enemy_name"] = "-- x -- x --",
-		["spells_cast_timeline"] = {
+		["frags"] = {
 		},
 		["data_inicio"] = "20:14:40",
 		["start_time"] = 21421.136,
@@ -27151,18 +12579,18 @@ _detalhes_database = {
 				["Hammer of the Righteous"] = 73,
 				["Seal of Righteousness"] = 1,
 				["Consecration"] = 4,
-				["Crusader Strike"] = 13,
 				["Avenger's Shield"] = 7,
+				["Crusader Strike"] = 13,
 				["Holy Wrath"] = 3,
 			},
 			["Banctbc-PyrewoodVillage"] = {
 				["Cleave"] = 32,
 				["Execute"] = 22,
 				["Rend"] = 7,
-				["Thunder Clap"] = 7,
+				["Rocket Barrage"] = 1,
 				["Battle Stance"] = 26,
 				["Mortal Strike"] = 34,
-				["Rocket Barrage"] = 1,
+				["Thunder Clap"] = 7,
 				["Rocket Jump"] = 1,
 				["Berserker Stance"] = 26,
 				["Victory Rush"] = 28,
@@ -27180,16 +12608,8 @@ _detalhes_database = {
 			["Unknown <Brunela-MirageRaceway>"] = {
 				["Waterbolt"] = 6,
 			},
-			["Razhihunt-Golemagg"] = {
-				["Auto Shot"] = 71,
-				["Serpent Sting"] = 6,
-				["Steady Shot"] = 52,
-				["Scatter Shot"] = 1,
-				["Explosive Shot"] = 11,
-				["Hunter's Mark"] = 1,
-				["Concussive Shot"] = 1,
-				["Multi-Shot"] = 21,
-				["Arcane Shot"] = 6,
+			["Interrogator Vishas"] = {
+				["Shadow Word: Pain"] = 5,
 			},
 			["Anguished Dead"] = {
 				["Veil of Shadow"] = 11,
@@ -27201,11 +12621,14 @@ _detalhes_database = {
 				["Dash"] = 4,
 				["Claw"] = 3,
 			},
-			["Raynna"] = {
-				["Nourish"] = 1,
-				["Rejuvenation"] = 25,
-				["Restore Mana"] = 2,
-				["Regrowth"] = 11,
+			["Brunela-MirageRaceway"] = {
+				["Blink"] = 1,
+				["Wisdom"] = 1,
+				["Arcane Explosion"] = 6,
+				["Evocation"] = 1,
+				["Frostbolt"] = 44,
+				["Cone of Cold"] = 2,
+				["Fire Blast"] = 2,
 			},
 			["Bloodmage Thalnos"] = {
 				["Fire Nova"] = 1,
@@ -27219,35 +12642,169 @@ _detalhes_database = {
 				["Claw"] = 43,
 				["Dash"] = 2,
 			},
-			["Brunela-MirageRaceway"] = {
-				["Blink"] = 1,
-				["Wisdom"] = 1,
-				["Arcane Explosion"] = 6,
-				["Evocation"] = 1,
-				["Frostbolt"] = 44,
-				["Cone of Cold"] = 2,
-				["Fire Blast"] = 2,
+			["Raynna"] = {
+				["Nourish"] = 1,
+				["Rejuvenation"] = 25,
+				["Restore Mana"] = 2,
+				["Regrowth"] = 11,
 			},
-			["Interrogator Vishas"] = {
-				["Shadow Word: Pain"] = 5,
+			["Razhihunt-Golemagg"] = {
+				["Auto Shot"] = 71,
+				["Serpent Sting"] = 6,
+				["Explosive Shot"] = 11,
+				["Scatter Shot"] = 1,
+				["Steady Shot"] = 52,
+				["Hunter's Mark"] = 1,
+				["Concussive Shot"] = 1,
+				["Multi-Shot"] = 21,
+				["Arcane Shot"] = 6,
 			},
 		},
 	},
-	["SoloTablesSaved"] = {
-		["Mode"] = 1,
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["enabled"] = true,
+			["animate"] = false,
+			["hide_pull_bar"] = false,
+			["author"] = "Terciob",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["usefocus"] = false,
+			["updatespeed"] = 1,
+			["disable_gouge"] = false,
+			["showamount"] = false,
+			["useplayercolor"] = false,
+			["absolute_mode"] = false,
+			["playSound"] = false,
+			["playSoundFile"] = "Details Threat Warning Volume 3",
+			["useclasscolors"] = false,
+		},
+		["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
+			["enabled"] = true,
+			["author"] = "Terciob",
+			["max_compares"] = 4,
+			["compare_type"] = 1,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["tank_block_size_height"] = 50,
+			["show_power_bar"] = false,
+			["first_run"] = false,
+			["aura_timer_text_size"] = 14,
+			["tank_block_castbar_size_height"] = 16,
+			["show_health_bar"] = true,
+			["aura_offset_y"] = 0,
+			["enabled"] = true,
+			["show_cast_bar"] = false,
+			["author"] = "Terciob",
+			["tank_block_size"] = 150,
+			["bar_height"] = 24,
+			["tank_block_texture"] = "Details Serenity",
+			["tank_block_color"] = {
+				0.074509, -- [1]
+				0.035294, -- [2]
+				0.035294, -- [3]
+				0.832845, -- [4]
+			},
+			["tank_block_height"] = 40,
+			["tank_block_powerbar_size_height"] = 10,
+			["show_inc_bars"] = true,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["last_section_selected"] = "main",
+			["author"] = "Terciob",
+			["window_scale"] = 1,
+			["hide_on_combat"] = false,
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["encounter_timers_dbm"] = {
+			},
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["use_square_mode"] = false,
+			["is_first_run"] = false,
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["scale"] = 1,
+			["main_frame_size"] = {
+				300, -- [1]
+				500.0000305175781, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 160,
+				["radius"] = 160,
+				["hide"] = false,
+			},
+			["row_height"] = 20,
+			["arrow_anchor_x"] = 0,
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["row_texture"] = "Details Serenity",
+			["square_grow_direction"] = "right",
+			["point"] = "CENTER",
+			["main_frame_strata"] = "LOW",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["use_spark"] = true,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["author"] = "Terciob",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
+			["y"] = -1.52587890625e-05,
+			["x"] = 3.0517578125e-05,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = -1.52587890625e-05,
+				["x"] = -6.103515625e-05,
+				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
+			},
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
+		},
 	},
+	["combat_counter"] = 1299,
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["nick_tag_cache"] = {
-		["nextreset"] = 1726330427,
-		["last_version"] = 16,
-	},
 	["announce_cooldowns"] = {
+		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
-		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
@@ -27255,35 +12812,9 @@ _detalhes_database = {
 		["last_difficulty"] = 15,
 		["last_raid"] = "",
 	},
-	["cached_roles"] = {
-		["Player-4467-04A7248B"] = "DAMAGER",
-		["Player-4476-05974417"] = "DAMAGER",
-		["Player-4441-04A7AFA5"] = "DAMAGER",
-		["Player-4476-0590F420"] = "DAMAGER",
-		["Player-4465-04AAB41A"] = "DAMAGER",
-		["Player-4477-05968FAE"] = "DAMAGER",
-		["Player-4476-0597290A"] = "DAMAGER",
-		["Player-4441-04AABDFA"] = "DAMAGER",
-		["Player-4465-04AAC9E7"] = "DAMAGER",
-		["Player-4465-04A95917"] = "DAMAGER",
-		["Player-4476-04F3D80B"] = "DAMAGER",
-		["Player-4476-0597277A"] = "DAMAGER",
-		["Player-4476-037E0C8B"] = "DAMAGER",
-		["Player-4476-05973846"] = "HEALER",
-		["Player-4476-05915437"] = "HEALER",
-		["Player-4454-0597565B"] = "DAMAGER",
-		["Player-4678-05974B71"] = "NONE",
-		["Player-4465-04A97C91"] = "DAMAGER",
-		["Player-4476-0597535C"] = "TANK",
-		["Player-4453-0597287B"] = "DAMAGER",
-		["Player-4476-059708DC"] = "DAMAGER",
-		["Player-4464-04A84F31"] = "DAMAGER",
-		["Player-4440-04A9C874"] = "DAMAGER",
-		["Player-4467-04AAE3AE"] = "DAMAGER",
-		["Player-4442-04A8608A"] = "DAMAGER",
-		["Player-4476-059741C0"] = "NONE",
-		["Player-4465-04AA5A5A"] = "DAMAGER",
-		["Player-4476-05829483"] = "DAMAGER",
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
 		["Player-4476-05973846"] = 105,

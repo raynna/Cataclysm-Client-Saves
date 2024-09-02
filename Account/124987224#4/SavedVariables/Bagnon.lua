@@ -22,7 +22,37 @@ Bagnon_Sets = {
 	},
 	["enchantColor"] = {
 	},
-	["normalColor"] = {
+	["color"] = {
+		["quiver"] = {
+		},
+		["account"] = {
+		},
+		["enchant"] = {
+		},
+		["soul"] = {
+		},
+		["fridge"] = {
+		},
+		["mine"] = {
+		},
+		["engineer"] = {
+		},
+		["leather"] = {
+		},
+		["reagent"] = {
+		},
+		["gem"] = {
+		},
+		["key"] = {
+		},
+		["tackle"] = {
+		},
+		["inscribe"] = {
+		},
+		["normal"] = {
+		},
+		["herb"] = {
+		},
 	},
 	["keyColor"] = {
 	},
@@ -33,7 +63,11 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["latest"] = {
+	["locked"] = false,
+	["leatherColor"] = {
+	},
+	["slotBackground"] = 1,
+	["display"] = {
 	},
 	["global"] = {
 		["inventory"] = {
@@ -51,21 +85,6 @@ Bagnon_Sets = {
 			["enabled"] = true,
 			["reverseBags"] = false,
 			["options"] = true,
-			["borderColor"] = {
-			},
-			["y"] = -141.0655643048692,
-			["x"] = -10.1813645367813,
-			["broker"] = true,
-			["showBags"] = true,
-			["reverseSlots"] = false,
-			["color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.5, -- [4]
-			},
-			["lockedSlots"] = {
-			},
 			["rules"] = {
 				"all", -- [1]
 				"all/normal", -- [2]
@@ -90,6 +109,21 @@ Bagnon_Sets = {
 				"all/souls", -- [21]
 				"equip/ammo", -- [22]
 				"contain", -- [23]
+			},
+			["y"] = -141.0655643048692,
+			["x"] = -10.1813645367813,
+			["lockedSlots"] = {
+			},
+			["showBags"] = true,
+			["reverseSlots"] = false,
+			["color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.5, -- [4]
+			},
+			["broker"] = true,
+			["borderColor"] = {
 			},
 		},
 		["vault"] = {
@@ -119,9 +153,9 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
-			["lockedSlots"] = {
-			},
 			["borderColor"] = {
+			},
+			["lockedSlots"] = {
 			},
 		},
 		["guild"] = {
@@ -156,11 +190,11 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
-			["lockedSlots"] = {
-			},
+			["x"] = -478.5185546875,
 			["borderColor"] = {
 			},
-			["x"] = -478.5185546875,
+			["lockedSlots"] = {
+			},
 		},
 		["bank"] = {
 			["rules"] = {
@@ -197,49 +231,15 @@ Bagnon_Sets = {
 			["x"] = 95.00000762939453,
 			["borderColor"] = {
 			},
-			["showBags"] = true,
 			["hiddenBags"] = {
 				[5] = false,
 				[6] = false,
 			},
+			["showBags"] = true,
 		},
 	},
-	["display"] = {
+	["latest"] = {
 	},
-	["slotBackground"] = 1,
-	["leatherColor"] = {
-	},
-	["locked"] = false,
-	["color"] = {
-		["quiver"] = {
-		},
-		["herb"] = {
-		},
-		["normal"] = {
-		},
-		["soul"] = {
-		},
-		["inscribe"] = {
-		},
-		["mine"] = {
-		},
-		["gem"] = {
-		},
-		["leather"] = {
-		},
-		["fridge"] = {
-		},
-		["engineer"] = {
-		},
-		["key"] = {
-		},
-		["tackle"] = {
-		},
-		["reagent"] = {
-		},
-		["enchant"] = {
-		},
-		["account"] = {
-		},
+	["normalColor"] = {
 	},
 }

@@ -24,8 +24,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -34,8 +34,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -91,12 +91,12 @@ Bartender4DB = {
 									["font"] = "FORCED SQUARE",
 								},
 								["hotkey"] = {
-									["textOffsetY"] = 2,
-									["fontSize"] = 16,
 									["textJustifyH"] = "CENTER",
-									["textAnchor"] = "CENTER",
-									["textOffsetX"] = 2,
+									["fontSize"] = 16,
+									["textOffsetY"] = 2,
 									["font"] = "FORCED SQUARE",
+									["textOffsetX"] = 2,
+									["textAnchor"] = "CENTER",
 								},
 								["count"] = {
 									["font"] = "FORCED SQUARE",
@@ -115,12 +115,12 @@ Bartender4DB = {
 							["rows"] = 2,
 							["elements"] = {
 								["hotkey"] = {
-									["textOffsetY"] = 2,
-									["fontSize"] = 16,
 									["textJustifyH"] = "CENTER",
-									["textAnchor"] = "CENTER",
-									["textOffsetX"] = 2,
+									["fontSize"] = 16,
+									["textOffsetY"] = 2,
 									["font"] = "FORCED SQUARE",
+									["textOffsetX"] = 2,
+									["textAnchor"] = "CENTER",
 								},
 							},
 							["version"] = 3,
@@ -136,12 +136,12 @@ Bartender4DB = {
 							["rows"] = 2,
 							["elements"] = {
 								["hotkey"] = {
-									["textOffsetY"] = 2,
-									["fontSize"] = 16,
 									["textJustifyH"] = "CENTER",
-									["textAnchor"] = "CENTER",
-									["textOffsetX"] = 2,
+									["fontSize"] = 16,
+									["textOffsetY"] = 2,
 									["font"] = "FORCED SQUARE",
+									["textOffsetX"] = 2,
+									["textAnchor"] = "CENTER",
 								},
 							},
 							["version"] = 3,
@@ -155,12 +155,12 @@ Bartender4DB = {
 						{
 							["elements"] = {
 								["hotkey"] = {
-									["textOffsetY"] = 2,
-									["fontSize"] = 16,
 									["textJustifyH"] = "CENTER",
-									["textAnchor"] = "CENTER",
-									["textOffsetX"] = 2,
+									["fontSize"] = 16,
+									["textOffsetY"] = 2,
 									["font"] = "FORCED SQUARE",
+									["textOffsetX"] = 2,
+									["textAnchor"] = "CENTER",
 								},
 							},
 							["showgrid"] = true,
@@ -309,35 +309,15 @@ Bartender4DB = {
 					["version"] = 3,
 					["visibility"] = {
 						["combat"] = false,
-						["possess"] = false,
+						["always"] = false,
 						["overridebar"] = false,
 						["nocombat"] = false,
 						["nopet"] = false,
-						["always"] = false,
+						["possess"] = false,
 						["vehicle"] = false,
 						["pet"] = false,
 					},
 					["fadeoutalpha"] = 1,
-				},
-			},
-		},
-		["Vehicle"] = {
-			["profiles"] = {
-				["Raynna - Gehennas"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.49996948242188,
-						["x"] = 104.5001220703125,
-						["point"] = "CENTER",
-					},
-				},
-				["Ráynna - Firemaw"] = {
-					["position"] = {
-						["y"] = 42.49996948242188,
-						["x"] = 104.5001220703125,
-						["point"] = "CENTER",
-					},
-					["version"] = 3,
 				},
 			},
 		},
@@ -358,8 +338,28 @@ Bartender4DB = {
 						["point"] = "LEFT",
 						["scale"] = 1,
 					},
-					["version"] = 3,
 					["hidehotkey"] = false,
+					["version"] = 3,
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Raynna - Gehennas"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.49996948242188,
+						["x"] = 104.5001220703125,
+						["point"] = "CENTER",
+					},
+				},
+				["Ráynna - Firemaw"] = {
+					["position"] = {
+						["y"] = 42.49996948242188,
+						["x"] = 104.5001220703125,
+						["point"] = "CENTER",
+					},
+					["version"] = 3,
 				},
 			},
 		},
@@ -417,9 +417,9 @@ Bartender4DB = {
 		},
 		["Ráynna - Firemaw"] = {
 			["blizzardVehicle"] = true,
-			["snapping"] = false,
-			["buttonlock"] = false,
 			["focuscastmodifier"] = false,
+			["buttonlock"] = false,
+			["snapping"] = false,
 			["minimapIcon"] = {
 				["minimapPos"] = 245.3312677462801,
 				["hide"] = false,
