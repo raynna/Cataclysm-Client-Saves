@@ -17,32 +17,32 @@ HealBot_Config = {
 	["CurrentLoadout"] = 0,
 	["SkinSpecEnabled"] = {
 	},
-	["SpecProfAtSave"] = "1:3",
+	["ClassicAbsorbsFilter"] = 0,
 	["MacroUse10"] = false,
-	["Spec"] = "Restoration",
+	["LastAutoSkinChangeType"] = "None",
 	["KnownLoadouts"] = {
 	},
 	["EnableHealthy"] = true,
 	["Profile"] = 1,
-	["ClassicAbsorbsFilter"] = 0,
+	["Spec"] = "Feral",
 	["SkinZoneEnabled"] = {
 	},
-	["LastAutoSkinChangeType"] = "None",
+	["SpecProfAtSave"] = "1:2",
 	["DisableSolo"] = false,
-	["CurrentSpec"] = 3,
+	["CurrentSpec"] = 2,
 	["DisableHealBot"] = false,
 	["DisabledNow"] = 0,
 }
 HealBot_Config_Spells = {
 	["EnabledSpellTarget"] = {
+		["CtrlRight"] = true,
+		["Middle"] = true,
+		["CtrlLeft"] = true,
+		["ShiftMiddle"] = true,
+		["ShiftRight"] = true,
 		["Right"] = true,
 		["Left"] = true,
 		["ShiftLeft"] = true,
-		["ShiftMiddle"] = true,
-		["ShiftRight"] = true,
-		["CtrlLeft"] = true,
-		["Middle"] = true,
-		["CtrlRight"] = true,
 	},
 	["EnabledSpellTrinket1"] = {
 	},
@@ -64,28 +64,27 @@ HealBot_Config_Spells = {
 	},
 	["EmergAvoidBlueCursor"] = {
 	},
+	["EnemyKeyCombo"] = {
+	},
 	["EmergSpellTarget"] = {
 	},
-	["ButtonCastMethod"] = 2,
 	["EnabledKeyCombo"] = {
-		["CtrlRight"] = "S:20484",
-		["Left"] = "S:774",
-		["ShiftLeft"] = "S:18562",
+		["Right"] = "S:8936:Regrowth",
+		["Middle"] = "S:1126:Mark of the Wild",
 		["ShiftRight"] = "S:50464",
-		["Right"] = "S:8936",
-		["Middle"] = "S:1126",
+		["CtrlRight"] = "S:20484",
+		["Left"] = "S:774:Rejuvenation",
 		["CtrlLeft"] = "S:50769",
 	},
-	["EnemySpellTarget"] = {
-	},
+	["SpellsReset"] = true,
 	["SpellTargetLastTarget"] = {
 		["Enabled"] = true,
 	},
 	["EnabledAvoidBlueCursor"] = {
 	},
-	["SpellsReset"] = true,
-	["EnemyKeyCombo"] = {
+	["EnemySpellTarget"] = {
 	},
+	["ButtonCastMethod"] = 2,
 }
 HealBot_Config_Buffs = {
 	["ExtraBuffsOnlyInInstance"] = false,
@@ -106,34 +105,22 @@ HealBot_Config_Buffs = {
 	["BackupWellFedItem"] = "",
 	["ManaDrinkItem"] = "",
 	["WellFedItem"] = "",
+	["BuffWatchWhenGrouped"] = false,
 	["AutoBuffCastBy"] = 1,
-	["ShowBuffWarning"] = false,
 	["SoundBuffPlay"] = "Elf Bell Toll",
-	["CBshownHB"] = true,
-	["BuffWatch"] = true,
-	["ListSortFilterTag"] = "",
-	["WarnRange_Bar"] = 2,
-	["BuffCustomWatchInCombat"] = true,
-	["ListSortOrder"] = 1,
-	["LongBuffTimer"] = 120,
-	["BuffWatchInCombat"] = false,
-	["ListSortFilter"] = 1,
-	["EnableBar"] = true,
-	["CustomBuffCheck"] = {
-		false, -- [1]
-		false, -- [2]
-		false, -- [3]
-	},
-	["CustomItemName"] = {
+	["AlwaysShowSelf"] = false,
+	["CustomBuffName"] = {
 		"", -- [1]
 		"", -- [2]
 		"", -- [3]
 		"", -- [4]
 	},
-	["SoundBuffWarning"] = false,
-	["AlwaysShowTimed"] = false,
-	["HealBotBuffColR"] = {
-	},
+	["BuffWatch"] = true,
+	["WarnRange_Bar"] = 2,
+	["BuffCustomWatchInCombat"] = true,
+	["ListSortOrder"] = 1,
+	["LongBuffTimer"] = 120,
+	["BuffWatchInCombat"] = false,
 	["HealBotBuffDropDown"] = {
 		["43"] = 4,
 		["41"] = 4,
@@ -170,48 +157,60 @@ HealBot_Config_Buffs = {
 		["22"] = 4,
 		["32"] = 4,
 	},
-	["CustomBuffName"] = {
+	["HealBotBuffColR"] = {
+	},
+	["AlwaysShowTimed"] = false,
+	["CustomItemName"] = {
 		"", -- [1]
 		"", -- [2]
 		"", -- [3]
 		"", -- [4]
 	},
-	["AlwaysShowSelf"] = false,
+	["SoundBuffWarning"] = false,
+	["CustomBuffCheck"] = {
+		false, -- [1]
+		false, -- [2]
+		false, -- [3]
+	},
+	["EnableBar"] = true,
+	["ListSortFilter"] = 1,
+	["ListSortFilterTag"] = "",
+	["CBshownHB"] = true,
 	["HealBotBuffText"] = {
 		["42"] = "None",
 		["43"] = "None",
-		["32"] = "None",
+		["23"] = "None",
 		["41"] = "None",
 		["47"] = "None",
 		["46"] = "None",
 		["34"] = "None",
 		["44"] = "None",
 		["48"] = "None",
-		["11"] = "None",
+		["33"] = "None",
 		["28"] = "None",
 		["38"] = "None",
-		["21"] = "None",
-		["31"] = "None",
-		["26"] = "None",
-		["16"] = "None",
-		["24"] = "None",
-		["14"] = "None",
-		["22"] = "None",
-		["36"] = "None",
+		["12"] = "None",
+		["13"] = "None",
+		["17"] = "None",
+		["27"] = "None",
+		["15"] = "None",
+		["25"] = "None",
+		["35"] = "None",
+		["45"] = "None",
 		["37"] = "None",
 		["18"] = "None",
-		["45"] = "None",
-		["35"] = "None",
-		["25"] = "None",
-		["15"] = "None",
-		["27"] = "None",
-		["17"] = "None",
-		["13"] = "None",
-		["12"] = "None",
-		["33"] = "None",
-		["23"] = "None",
+		["36"] = "None",
+		["22"] = "None",
+		["14"] = "None",
+		["24"] = "None",
+		["16"] = "None",
+		["26"] = "None",
+		["31"] = "None",
+		["21"] = "None",
+		["11"] = "None",
+		["32"] = "None",
 	},
-	["BuffWatchWhenGrouped"] = false,
+	["ShowBuffWarning"] = false,
 	["AutoBuff"] = 1,
 }
 HealBot_Config_Cures = {
@@ -219,16 +218,16 @@ HealBot_Config_Cures = {
 	["SoundDebuffPlay"] = "Elf Bell Toll",
 	["WarnRange_Sound"] = 3,
 	["IgnoreFastDurDebuffs"] = true,
-	["ListSortFilter"] = 1,
+	["AlwaysShowTimed"] = false,
 	["ShowDebuffWarning"] = true,
 	["DebuffWatchWhenMounted"] = false,
 	["DebuffWatchInCombat"] = true,
-	["DebuffWatch"] = true,
+	["ListSortFilter"] = 1,
 	["ListSortFilterTag"] = "",
-	["ShowTimeMaxDuration"] = 31,
-	["IgnoreCannotDispell"] = false,
+	["WarnRange_Bar"] = 2,
+	["IgnoreFriendDebuffs"] = false,
 	["ListSortOrder"] = 1,
-	["IgnoreFastDurDebuffsSecs"] = 2,
+	["ShowTimeMaxDuration"] = 31,
 	["HealBot_Custom_Debuffs_All"] = {
 		["Disease"] = false,
 		["Bleed"] = false,
@@ -236,42 +235,9 @@ HealBot_Config_Cures = {
 		["Magic"] = false,
 		["Curse"] = false,
 	},
-	["HealBotDebuffDropDown"] = {
-		1, -- [1]
-		1, -- [2]
-		1, -- [3]
-		1, -- [4]
-		1, -- [5]
-		["42"] = 1,
-		["43"] = 1,
-		["41"] = 1,
-		["93"] = 1,
-		["92"] = 1,
-		["34"] = 1,
-		["44"] = 1,
-		["32"] = 1,
-		["11"] = 1,
-		["21"] = 1,
-		["31"] = 1,
-		["22"] = 1,
-		["94"] = 1,
-		["24"] = 1,
-		["91"] = 1,
-		["14"] = 1,
-		["15"] = 1,
-		["35"] = 1,
-		["95"] = 1,
-		["13"] = 1,
-		["12"] = 1,
-		["33"] = 1,
-		["23"] = 1,
-	},
+	["IgnoreFastDurDebuffsSecs"] = 2,
+	["DebuffWatch"] = true,
 	["DebuffWatchWhenGrouped"] = false,
-	["WarnRange_Screen"] = 2,
-	["WarnRange_Bar"] = 2,
-	["SoundDebuffWarning"] = false,
-	["AlwaysShowTimed"] = false,
-	["IgnoreFriendDebuffs"] = false,
 	["HealBotDebuffText"] = {
 		"None", -- [1]
 		"None", -- [2]
@@ -285,87 +251,126 @@ HealBot_Config_Cures = {
 		["92"] = "None",
 		["34"] = "None",
 		["44"] = "None",
-		["32"] = "None",
-		["11"] = "None",
-		["21"] = "None",
-		["31"] = "None",
-		["22"] = "None",
-		["94"] = "None",
-		["24"] = "None",
+		["23"] = "None",
+		["33"] = "None",
+		["12"] = "None",
+		["13"] = "None",
+		["95"] = "None",
+		["35"] = "None",
+		["15"] = "None",
+		["25"] = "None",
 		["91"] = "None",
 		["14"] = "None",
-		["15"] = "None",
-		["35"] = "None",
-		["95"] = "None",
-		["13"] = "None",
-		["12"] = "None",
-		["33"] = "None",
-		["23"] = "None",
+		["24"] = "None",
+		["94"] = "None",
+		["22"] = "None",
+		["31"] = "None",
+		["21"] = "None",
+		["11"] = "None",
+		["32"] = "None",
+	},
+	["SoundDebuffWarning"] = false,
+	["WarnRange_Screen"] = 2,
+	["EnableBar"] = true,
+	["HealBotDebuffDropDown"] = {
+		1, -- [1]
+		1, -- [2]
+		1, -- [3]
+		1, -- [4]
+		1, -- [5]
+		["42"] = 1,
+		["43"] = 1,
+		["41"] = 1,
+		["93"] = 1,
+		["92"] = 1,
+		["34"] = 1,
+		["44"] = 1,
+		["23"] = 1,
+		["33"] = 1,
+		["12"] = 1,
+		["13"] = 1,
+		["95"] = 1,
+		["35"] = 1,
+		["15"] = 1,
+		["25"] = 1,
+		["91"] = 1,
+		["14"] = 1,
+		["24"] = 1,
+		["94"] = 1,
+		["22"] = 1,
+		["31"] = 1,
+		["21"] = 1,
+		["11"] = 1,
+		["32"] = 1,
 	},
 	["IgnoreOnCooldownDebuffs"] = false,
-	["EnableBar"] = true,
+	["IgnoreCannotDispell"] = false,
 	["CDCBarColour"] = {
 		["Disease"] = {
-			["R"] = 0.55,
-			["G"] = 0.19,
 			["B"] = 0.7,
+			["G"] = 0.19,
+			["R"] = 0.55,
 		},
 		["Bleed"] = {
-			["R"] = 0.58,
-			["G"] = 0.02,
 			["B"] = 0.02,
+			["G"] = 0.02,
+			["R"] = 0.58,
 		},
 		["Poison"] = {
-			["R"] = 0.12,
-			["G"] = 0.46,
 			["B"] = 0.24,
+			["G"] = 0.46,
+			["R"] = 0.12,
 		},
 		["Magic"] = {
-			["R"] = 0.26,
-			["G"] = 0.33,
 			["B"] = 0.83,
+			["G"] = 0.33,
+			["R"] = 0.26,
 		},
 		["Curse"] = {
-			["R"] = 0.83,
-			["G"] = 0.43,
 			["B"] = 0.09,
+			["G"] = 0.43,
+			["R"] = 0.83,
 		},
 	},
 	["HealBotDebuffPriority"] = {
 		["Disease"] = 7,
 		["Bleed"] = 9,
-		["Curse"] = 6,
-		["Poison"] = 8,
-		["Magic"] = 5,
 		["Custom"] = 15,
+		["Curse"] = 6,
+		["Magic"] = 5,
+		["Poison"] = 8,
 	},
 	["AlwaysShowBoss"] = true,
 }
-HealBot_Config_ActionIcons = {
-}
-HealBot_Config_ActionIconsData = {
-}
 HealBot_ActionIcons_Loadouts = {
 	["Standard:3"] = {
+	},
+	["Standard:2"] = {
+	},
+	["Standard:1"] = {
 	},
 }
 HealBot_ActionIconsData_Loadouts = {
 	["Standard:3"] = {
 	},
+	["Standard:2"] = {
+	},
+	["Standard:1"] = {
+	},
 }
 HealBot_Spell_Loadouts = {
-	[3] = {
+	{
 		["EnabledSpellTarget"] = {
-			["CtrlRight"] = true,
-			["Middle"] = true,
-			["CtrlLeft"] = true,
-			["ShiftMiddle"] = true,
-			["ShiftRight"] = true,
 			["ShiftLeft"] = true,
 			["Left"] = true,
 			["Right"] = true,
+			["ShiftMiddle"] = true,
+			["ShiftRight"] = true,
+			["CtrlLeft"] = true,
+			["Middle"] = true,
+			["CtrlRight"] = true,
 		},
-		["EnabledSpellTrinket1"] = {
+		["EnemyKeyCombo"] = {
 		},
 		["EnemyAvoidBlueCursor"] = {
 		},
@@ -385,27 +390,133 @@ HealBot_Spell_Loadouts = {
 		},
 		["EmergAvoidBlueCursor"] = {
 		},
-		["EnemyKeyCombo"] = {
-		},
 		["ButtonCastMethod"] = 2,
+		["EmergSpellTarget"] = {
+		},
 		["EnabledKeyCombo"] = {
 			["CtrlLeft"] = "S:50769",
+			["Left"] = "S:774",
+			["ShiftRight"] = "S:50464",
+			["CtrlRight"] = "S:20484",
 			["Middle"] = "S:1126",
 			["Right"] = "S:8936",
-			["ShiftRight"] = "S:50464",
-			["ShiftLeft"] = "S:18562",
-			["Left"] = "S:774",
-			["CtrlRight"] = "S:20484",
+		},
+		["EnemySpellTarget"] = {
+		},
+		["EnabledSpellTrinket1"] = {
+		},
+		["EnabledAvoidBlueCursor"] = {
 		},
 		["SpellsReset"] = true,
 		["SpellTargetLastTarget"] = {
 			["Enabled"] = true,
 		},
-		["EnabledAvoidBlueCursor"] = {
+	}, -- [1]
+	{
+		["EnabledSpellTarget"] = {
+			["ShiftLeft"] = true,
+			["Left"] = true,
+			["Right"] = true,
+			["ShiftMiddle"] = true,
+			["ShiftRight"] = true,
+			["CtrlLeft"] = true,
+			["Middle"] = true,
+			["CtrlRight"] = true,
+		},
+		["EnemyKeyCombo"] = {
+		},
+		["EnemyAvoidBlueCursor"] = {
+		},
+		["EnemySpellTrinket2"] = {
+		},
+		["EmergSpellTrinket1"] = {
+		},
+		["EmergKeyCombo"] = {
+		},
+		["Binds"] = {
+		},
+		["EmergSpellTrinket2"] = {
+		},
+		["EnabledSpellTrinket2"] = {
+		},
+		["EnemySpellTrinket1"] = {
+		},
+		["EmergAvoidBlueCursor"] = {
+		},
+		["ButtonCastMethod"] = 2,
+		["EmergSpellTarget"] = {
+		},
+		["EnabledKeyCombo"] = {
+			["CtrlLeft"] = "S:50769",
+			["Left"] = "S:774:Rejuvenation",
+			["ShiftRight"] = "S:50464",
+			["CtrlRight"] = "S:20484",
+			["Middle"] = "S:1126:Mark of the Wild",
+			["Right"] = "S:8936:Regrowth",
 		},
 		["EnemySpellTarget"] = {
 		},
+		["EnabledSpellTrinket1"] = {
+		},
+		["EnabledAvoidBlueCursor"] = {
+		},
+		["SpellsReset"] = true,
+		["SpellTargetLastTarget"] = {
+			["Enabled"] = true,
+		},
+	}, -- [2]
+	{
+		["EnabledSpellTarget"] = {
+			["ShiftLeft"] = true,
+			["Left"] = true,
+			["Right"] = true,
+			["ShiftMiddle"] = true,
+			["ShiftRight"] = true,
+			["CtrlLeft"] = true,
+			["Middle"] = true,
+			["CtrlRight"] = true,
+		},
+		["EnemyKeyCombo"] = {
+		},
+		["EnemyAvoidBlueCursor"] = {
+		},
+		["EnemySpellTrinket2"] = {
+		},
+		["EmergSpellTrinket1"] = {
+		},
+		["EmergKeyCombo"] = {
+		},
+		["Binds"] = {
+		},
+		["EmergSpellTrinket2"] = {
+		},
+		["EnabledSpellTrinket2"] = {
+		},
+		["EnemySpellTrinket1"] = {
+		},
+		["EmergAvoidBlueCursor"] = {
+		},
+		["ButtonCastMethod"] = 2,
 		["EmergSpellTarget"] = {
 		},
-	},
+		["EnabledKeyCombo"] = {
+			["CtrlLeft"] = "S:50769",
+			["Left"] = "S:774",
+			["CtrlRight"] = "S:20484",
+			["ShiftRight"] = "S:50464",
+			["Right"] = "S:8936",
+			["Middle"] = "S:1126",
+			["ShiftLeft"] = "S:18562",
+		},
+		["EnemySpellTarget"] = {
+		},
+		["EnabledSpellTrinket1"] = {
+		},
+		["EnabledAvoidBlueCursor"] = {
+		},
+		["SpellsReset"] = true,
+		["SpellTargetLastTarget"] = {
+			["Enabled"] = false,
+		},
+	}, -- [3]
 }

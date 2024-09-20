@@ -22,69 +22,110 @@ Bagnon_Sets = {
 	},
 	["enchantColor"] = {
 	},
-	["color"] = {
-		["quiver"] = {
-		},
-		["account"] = {
-		},
-		["enchant"] = {
-		},
-		["soul"] = {
-		},
-		["fridge"] = {
-		},
-		["mine"] = {
-		},
-		["engineer"] = {
-		},
-		["leather"] = {
-		},
-		["reagent"] = {
-		},
-		["gem"] = {
-		},
-		["key"] = {
-		},
-		["tackle"] = {
-		},
-		["inscribe"] = {
-		},
-		["normal"] = {
-		},
-		["herb"] = {
-		},
-	},
+	["countCurrency"] = true,
 	["keyColor"] = {
 	},
-	["countCurrency"] = true,
+	["normalColor"] = {
+	},
 	["profiles"] = {
 		["Firemaw"] = {
 		},
 	},
 	["mineColor"] = {
 	},
-	["locked"] = false,
-	["leatherColor"] = {
-	},
-	["slotBackground"] = 1,
-	["display"] = {
+	["latest"] = {
+		["id"] = "11.0.20",
+		["cooldown"] = 1726861246,
+		["who"] = "Healîum-Gehennas",
 	},
 	["global"] = {
 		["inventory"] = {
 			["strata"] = "HIGH",
-			["point"] = "TOPRIGHT",
+			["point"] = "BOTTOMRIGHT",
 			["hiddenBags"] = {
 				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
 				[-2] = false,
-				[4] = false,
+				[0] = false,
 			},
-			["scale"] = 0.91,
+			["scale"] = 1.02,
 			["currency"] = true,
-			["skin"] = "Bagnon",
+			["skin"] = "Panel - Marble",
 			["bagToggle"] = true,
 			["enabled"] = true,
 			["reverseBags"] = false,
 			["options"] = true,
+			["brokerObject"] = "BagnonLauncher",
+			["alpha"] = 1,
+			["borderColor"] = {
+			},
+			["y"] = 80.88025665283203,
+			["x"] = -71.51299120007889,
+			["color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.5, -- [4]
+			},
+			["showBags"] = true,
+			["reverseSlots"] = false,
+			["broker"] = true,
+			["lockedSlots"] = {
+				{
+				}, -- [1]
+				{
+				}, -- [2]
+				{
+					nil, -- [1]
+					nil, -- [2]
+					nil, -- [3]
+					nil, -- [4]
+					nil, -- [5]
+					nil, -- [6]
+					nil, -- [7]
+					nil, -- [8]
+					nil, -- [9]
+					nil, -- [10]
+					true, -- [11]
+					true, -- [12]
+					true, -- [13]
+					true, -- [14]
+					true, -- [15]
+					true, -- [16]
+					true, -- [17]
+					true, -- [18]
+					true, -- [19]
+					true, -- [20]
+					true, -- [21]
+					true, -- [22]
+				}, -- [3]
+				{
+					true, -- [1]
+					true, -- [2]
+					true, -- [3]
+					true, -- [4]
+					true, -- [5]
+					true, -- [6]
+					true, -- [7]
+					true, -- [8]
+					true, -- [9]
+					true, -- [10]
+					true, -- [11]
+					true, -- [12]
+					true, -- [13]
+					true, -- [14]
+					true, -- [15]
+					true, -- [16]
+					true, -- [17]
+					true, -- [18]
+					true, -- [19]
+					true, -- [20]
+					true, -- [21]
+					true, -- [22]
+				}, -- [4]
+			},
 			["rules"] = {
 				"all", -- [1]
 				"all/normal", -- [2]
@@ -109,21 +150,6 @@ Bagnon_Sets = {
 				"all/souls", -- [21]
 				"equip/ammo", -- [22]
 				"contain", -- [23]
-			},
-			["y"] = -141.0655643048692,
-			["x"] = -10.1813645367813,
-			["lockedSlots"] = {
-			},
-			["showBags"] = true,
-			["reverseSlots"] = false,
-			["color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.5, -- [4]
-			},
-			["broker"] = true,
-			["borderColor"] = {
 			},
 		},
 		["vault"] = {
@@ -153,9 +179,9 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
-			["borderColor"] = {
-			},
 			["lockedSlots"] = {
+			},
+			["borderColor"] = {
 			},
 		},
 		["guild"] = {
@@ -190,11 +216,11 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
-			["x"] = -478.5185546875,
-			["borderColor"] = {
-			},
 			["lockedSlots"] = {
 			},
+			["borderColor"] = {
+			},
+			["x"] = -478.5185546875,
 		},
 		["bank"] = {
 			["rules"] = {
@@ -231,15 +257,49 @@ Bagnon_Sets = {
 			["x"] = 95.00000762939453,
 			["borderColor"] = {
 			},
+			["showBags"] = true,
 			["hiddenBags"] = {
 				[5] = false,
 				[6] = false,
 			},
-			["showBags"] = true,
 		},
 	},
-	["latest"] = {
+	["display"] = {
 	},
-	["normalColor"] = {
+	["slotBackground"] = 1,
+	["leatherColor"] = {
+	},
+	["locked"] = false,
+	["color"] = {
+		["quiver"] = {
+		},
+		["herb"] = {
+		},
+		["normal"] = {
+		},
+		["soul"] = {
+		},
+		["leather"] = {
+		},
+		["mine"] = {
+		},
+		["gem"] = {
+		},
+		["inscribe"] = {
+		},
+		["reagent"] = {
+		},
+		["engineer"] = {
+		},
+		["key"] = {
+		},
+		["tackle"] = {
+		},
+		["fridge"] = {
+		},
+		["enchant"] = {
+		},
+		["account"] = {
+		},
 	},
 }

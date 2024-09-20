@@ -2,6 +2,7 @@
 TomTomDB = {
 	["profileKeys"] = {
 		["Raynna - Gehennas"] = "Default",
+		["Raynná - Gehennas"] = "Default",
 		["Ráynna - Firemaw"] = "Default",
 	},
 	["profiles"] = {
@@ -20,8 +21,8 @@ TomTomDB = {
 					"LEFT", -- [1]
 					nil, -- [2]
 					"LEFT", -- [3]
-					0.5679582357406616, -- [4]
-					-167.160400390625, -- [5]
+					2.938328981399536, -- [4]
+					-64.4443588256836, -- [5]
 				},
 			},
 		},
@@ -31,10 +32,13 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Raynna - Gehennas"] = "Raynna - Gehennas",
+		["Raynná - Gehennas"] = "Raynná - Gehennas",
 		["Ráynna - Firemaw"] = "Ráynna - Firemaw",
 	},
 	["profiles"] = {
 		["Raynna - Gehennas"] = {
+		},
+		["Raynná - Gehennas"] = {
 		},
 		["Ráynna - Firemaw"] = {
 		},
